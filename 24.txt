@@ -1,0 +1,182 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Coraje el Perro Cobarde (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Coraje el Perro Cobarde (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162821
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Dinosaurios (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Dinosaurios (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162822
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Hey Arnold (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Hey Arnold (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162823
+#EXTINF:-1 tvg-id="" tvg-name="24/7 El Pajaro Loco (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 El Pajaro Loco (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162824
+#EXTINF:-1 tvg-id="" tvg-name="24/7 FAMILY GUY (M)(720)" tvg-logo="" group-title="24/7 COMEDIA ANIMADA",24/7 FAMILY GUY (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162828
+#EXTINF:-1 tvg-id="" tvg-name="24/7 RANMA (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 RANMA (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162829
+#EXTINF:-1 tvg-id="" tvg-name="24/7 SAKURA (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 SAKURA (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162831
+#EXTINF:-1 tvg-id="" tvg-name="24/7 CHAPULIN COLORADO (M)(720)" tvg-logo="" group-title="24/7 COMEDIA ANIMADA",24/7 CHAPULIN COLORADO (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162833
+#EXTINF:-1 tvg-id="" tvg-name="24/7 alf (M)(720)" tvg-logo="" group-title="24/7 RETRO",24/7 alf (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162835
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Star Trek (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Star Trek (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162836
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Batman (M)(720)" tvg-logo="" group-title="24/7 RETRO",24/7 Batman (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162837
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Tom y Jerry (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Tom y Jerry (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162845
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Doraemon (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Doraemon (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162846
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Smallville (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Smallville (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162847
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Super Campeones (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Super Campeones (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162848
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Scooby Doo (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Scooby Doo (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162849
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Samurai X (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Samurai X (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162850
+#EXTINF:-1 tvg-id="" tvg-name="24/7 POKEMON (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 POKEMON (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162851
+#EXTINF:-1 tvg-id="" tvg-name="24/7 One Punch Man (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 One Punch Man (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162852
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Yu-Gi-Oh (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Yu-Gi-Oh (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162853
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Los Picapiedra (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Los Picapiedra (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162854
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Naruto (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Naruto (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162855
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Looney Tunes (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Looney Tunes (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162856
+#EXTINF:-1 tvg-id="" tvg-name="24/7 El Principel del Rap (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 El Principel del Rap (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162857
+#EXTINF:-1 tvg-id="" tvg-name="24/7 El Gallo Claudio (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 El Gallo Claudio (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162872
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Los Picapiedra (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Los Picapiedra (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162873
+#EXTINF:-1 tvg-id="" tvg-name="24/7 One Punch Man (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 One Punch Man (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162875
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Pinky y Cerebro (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Pinky y Cerebro (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162876
+#EXTINF:-1 tvg-id="" tvg-name="24/7 TrollHunters (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 TrollHunters (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162878
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Yu-Gi-Oh! (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Yu-Gi-Oh! (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162879
+#EXTINF:-1 tvg-id="" tvg-name="24/7 DR House (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 DR House (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162881
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Alf (M)(720)" tvg-logo="" group-title="24/7 RETRO",24/7 Alf (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162884
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Animaciones (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Animaciones (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162885
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Bob Esponja (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Bob Esponja (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162888
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Coraje Perro Cobarde (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Coraje Perro Cobarde (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162890
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Dinosaurios (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Dinosaurios (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162891
+#EXTINF:-1 tvg-id="" tvg-name="24/7 DraginBall (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 DraginBall (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162893
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Dragon BallGT (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Dragon BallGT (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162894
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Dragon Ball Super (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Dragon Ball Super (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162895
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Dragin Ball Z (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Dragin Ball Z (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162896
+#EXTINF:-1 tvg-id="" tvg-name="24/7 CorreCamino (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 CorreCamino (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162898
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Principe de Bel-air (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Principe de Bel-air (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162899
+#EXTINF:-1 tvg-id="" tvg-name="24/7 One Punch Man (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 One Punch Man (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162900
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Elfen Lied (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Elfen Lied (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162901
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Family Guy (M)(720)" tvg-logo="" group-title="24/7 COMEDIA ANIMADA",24/7 Family Guy (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162902
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Game of Thrones HD (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Game of Thrones HD (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162903
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Hey Arnold! (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Hey Arnold! (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162904
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Hora de Aventura (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Hora de Aventura (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162905
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Las aventuras de Tom Sawyer (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Las aventuras de Tom Sawyer (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162909
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Looney Tunes (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Looney Tunes (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162910
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Los Picapiedra (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Los Picapiedra (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162912
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Los Simpsons (M)(720)" tvg-logo="" group-title="24/7 COMEDIA ANIMADA",24/7 Los Simpsons (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162913
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Naruto (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Naruto (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162914
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Naruto Shippuden (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Naruto Shippuden (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162915
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Pinky y Cerebro (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Pinky y Cerebro (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162932
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Súper Campeones (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Súper Campeones (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162936
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Un Show Más (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Un Show Más (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162938
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Animaniacs [Completo] (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Animaniacs [Completo] (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162939
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Barón Rojo (M)(720)" tvg-logo="" group-title="24/7 RETRO",24/7 Barón Rojo (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162940
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Dinosaurios [Completo] (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Dinosaurios [Completo] (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162943
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Doug (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Doug (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162944
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Ed, Edd y Eddy (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Ed, Edd y Eddy (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162946
+#EXTINF:-1 tvg-id="" tvg-name="24/7 El Coyote y el Correcaminos [Completo] (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 El Coyote y el Correcaminos [Completo] (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162947
+#EXTINF:-1 tvg-id="" tvg-name="24/7 El Laboratorio de Dexter [1 - 4T] (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 El Laboratorio de Dexter [1 - 4T] (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162948
+#EXTINF:-1 tvg-id="" tvg-name="24/7 El Pato Darkwing (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 El Pato Darkwing (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162950
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Elementary (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Elementary (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162951
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Game of Thrones SD (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Game of Thrones SD (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162953
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Garfield y sus amigos (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Garfield y sus amigos (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162954
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Happy Tree Friends (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Happy Tree Friends (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162955
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Hey Arnold! [Completo] (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Hey Arnold! [Completo] (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162956
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Hora de aventura (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Hora de aventura (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162957
+#EXTINF:-1 tvg-id="" tvg-name="24/7 House of Cards (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 House of Cards (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162958
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Hunter x Hunter (M)(720)" tvg-logo="" group-title="24/7 ANIME",24/7 Hunter x Hunter (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162959
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Johnny Bravo (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Johnny Bravo (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162960
+#EXTINF:-1 tvg-id="" tvg-name="24/7 La pantera rosa Show (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 La pantera rosa Show (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162962
+#EXTINF:-1 tvg-id="" tvg-name="24/7 La pantera rosa y sus hijos (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 La pantera rosa y sus hijos (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162963
+#EXTINF:-1 tvg-id="" tvg-name="24/7 La pantera rosa [Completo] (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 La pantera rosa [Completo] (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162964
+#EXTINF:-1 tvg-id="" tvg-name="24/7 La Pequeña Lulú (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 La Pequeña Lulú (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162965
+#EXTINF:-1 tvg-id="" tvg-name="24/7 La vaca y el pollito (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 La vaca y el pollito (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162966
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Las chicas superpoderosas (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Las chicas superpoderosas (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162968
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Las sombrías aventuras de Billy y Mandy (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Las sombrías aventuras de Billy y Mandy (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162970
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Liga De La Justicia Ilimitada (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Liga De La Justicia Ilimitada (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162971
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Loonatics (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Loonatics (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162973
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Los autos locos (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Los autos locos (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162974
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Los años maravillosos (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Los años maravillosos (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162975
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Los chicos del barrio (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Los chicos del barrio (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162977
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Calabozos y dragones (M)(720)" tvg-logo="" group-title="24/7 INFANTIL",24/7 Calabozos y dragones (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162978
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Two and a Half Men [SUB] (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Two and a Half Men [SUB] (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162983
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Sin Senos no hay Paraíso (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Sin Senos no hay Paraíso (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162984
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Sin senos sí hay paraíso (M)(720)" tvg-logo="" group-title="24/7 SERIES",24/7 Sin senos sí hay paraíso (M)(720)
+http://tv.diablotv.net:8080/gonlm/c78b7cc771ec/162985
