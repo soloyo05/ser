@@ -1,236 +1,236 @@
 #EXTINF:-1 tvg-id="" tvg-name="MEX-ADN 40 (W)(720)" tvg-logo="https://i.imgur.com/Og17U9N.png" group-title="MEXICO-LOCAL",MEX-ADN 40 (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164589
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164589
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Alcance TV (W)(720)" tvg-logo="https://i.imgur.com/5nYjRlb.png" group-title="MEXICO-LOCAL",MEX-Alcance TV (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164591
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164591
 #EXTINF:-1 tvg-id="" tvg-name="MEX-AMX Noticias (W)(720)" tvg-logo="https://i.imgur.com/snIU1UA.jpg" group-title="MEXICO-LOCAL",MEX-AMX Noticias (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164592
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164592
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Antena TV (W)(1080)" tvg-logo="https://i.imgur.com/1sAgSME.png" group-title="MEXICO-LOCAL",MEX-Antena TV (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164593
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164593
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Aym Sports (M)(720)" tvg-logo="https://1.bp.blogspot.com/-e9y9a28jbXM/Xg-MrwQCrJI/AAAAAAAAA6I/pOByATddwpU3laULegV5jkTZjwE2gqxIACLcBGAsYHQ/s200/24.png" group-title="MEXICO",MEX-Aym Sports (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87584
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87584
 #EXTINF:-1 tvg-id="" tvg-name="MEX-AZ Cinema (M)(720)" tvg-logo="https://1.bp.blogspot.com/--fcykTIfCuM/Xm5wXqrCohI/AAAAAAAABgo/SG1Fhjw4qfwahRTffNn7aqsPxHr7h8YMwCLcBGAsYHQ/s200/19.png" group-title="MEXICO",MEX-AZ Cinema (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87585
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87585
 #EXTINF:-1 tvg-id="" tvg-name="MEX-AZ Clic (L)(720)" tvg-logo="https://1.bp.blogspot.com/-wEdnDWpnH8s/Xm50SQKAvmI/AAAAAAAABh0/D5VhjaejxVE9xUGTHVw67W54Q7B8OL5VwCLcBGAsYHQ/s200/25.png" group-title="MEXICO",MEX-AZ Clic (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87566
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87566
 #EXTINF:-1 tvg-id="" tvg-name="MEX-AZ Clic (M)(720)" tvg-logo="https://1.bp.blogspot.com/-wEdnDWpnH8s/Xm50SQKAvmI/AAAAAAAABh0/D5VhjaejxVE9xUGTHVw67W54Q7B8OL5VwCLcBGAsYHQ/s200/25.png" group-title="MEXICO",MEX-AZ Clic (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87586
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87586
 #EXTINF:-1 tvg-id="" tvg-name="MEX-AZ Corazon (L)(720)" tvg-logo="https://1.bp.blogspot.com/-zz1_OIGBpiI/Xm7S6119EdI/AAAAAAAABns/OelXG9baVowgd8o_32iLCp4fCFfVnoIowCLcBGAsYHQ/s200/48.png" group-title="MEXICO",MEX-AZ Corazon (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87568
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87568
 #EXTINF:-1 tvg-id="" tvg-name="MEX-AZ Corazón (M)(720)" tvg-logo="https://1.bp.blogspot.com/-zz1_OIGBpiI/Xm7S6119EdI/AAAAAAAABns/OelXG9baVowgd8o_32iLCp4fCFfVnoIowCLcBGAsYHQ/s200/48.png" group-title="MEXICO",MEX-AZ Corazón (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87587
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87587
 #EXTINF:-1 tvg-id="" tvg-name="MEX-AZ Mundo (L)(720)" tvg-logo="https://1.bp.blogspot.com/-aSfRTznx_v8/Xm5mz-FGAgI/AAAAAAAABdU/PnxFmzGDX9sOAjXi_hKnUfL4LNf3jRpYwCLcBGAsYHQ/s200/3.png" group-title="MEXICO",MEX-AZ Mundo (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87589
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87589
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Azteca 7 (L)(720)" tvg-logo="https://1.bp.blogspot.com/-ie8UXB6UqPM/Xm55jaDr75I/AAAAAAAABjI/653qMC9f1pEKsLM1D_PgRVXhJwRFOlpBACLcBGAsYHQ/s200/31.png" group-title="MEXICO",MEX-Azteca 7 (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87572
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87572
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Azteca 7 (L)(SD)" tvg-logo="https://1.bp.blogspot.com/-ie8UXB6UqPM/Xm55jaDr75I/AAAAAAAABjI/653qMC9f1pEKsLM1D_PgRVXhJwRFOlpBACLcBGAsYHQ/s200/31.png" group-title="MEXICO",MEX-Azteca 7 (L)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87571
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87571
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Azteca 7 (M)(720)" tvg-logo="https://1.bp.blogspot.com/-ie8UXB6UqPM/Xm55jaDr75I/AAAAAAAABjI/653qMC9f1pEKsLM1D_PgRVXhJwRFOlpBACLcBGAsYHQ/s200/31.png" group-title="MEXICO",MEX-Azteca 7 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87569
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87569
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Azteca 7 (M)(SD)" tvg-logo="https://1.bp.blogspot.com/-ie8UXB6UqPM/Xm55jaDr75I/AAAAAAAABjI/653qMC9f1pEKsLM1D_PgRVXhJwRFOlpBACLcBGAsYHQ/s200/31.png" group-title="MEXICO",MEX-Azteca 7 (M)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87570
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87570
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Azteca Deportes (L)(720)" tvg-logo="https://i.postimg.cc/sx2Qs4zp/Azteca-Deportes.png" group-title="MEXICO",MEX-Azteca Deportes (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87574
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87574
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Azteca Internacional (W)(1080)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Azteca_Internacional_logo_2023.png" group-title="MEXICO-LOCAL",MEX-Azteca Internacional (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164596
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164596
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Azteca UNO (L)(720)" tvg-logo="https://1.bp.blogspot.com/-rCbIcWgf8KM/Xm54--dqL2I/AAAAAAAABjA/WfovYd6uNOMJFVGwof8uwuxEN4lHorZ_gCLcBGAsYHQ/s200/30.png" group-title="MEXICO",MEX-Azteca UNO (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87576
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87576
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Azteca Uno (M)(720)" tvg-logo="https://1.bp.blogspot.com/-rCbIcWgf8KM/Xm54--dqL2I/AAAAAAAABjA/WfovYd6uNOMJFVGwof8uwuxEN4lHorZ_gCLcBGAsYHQ/s200/30.png" group-title="MEXICO",MEX-Azteca Uno (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87593
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87593
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Azteca UNO -2 Horas (L)(SD)" tvg-logo="https://1.bp.blogspot.com/-rCbIcWgf8KM/Xm54--dqL2I/AAAAAAAABjA/WfovYd6uNOMJFVGwof8uwuxEN4lHorZ_gCLcBGAsYHQ/s200/30.png" group-title="MEXICO",MEX-Azteca UNO -2 Horas (L)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87575
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87575
 #EXTINF:-1 tvg-id="" tvg-name="MEX-B15 Zacatecas (W)(1080)" tvg-logo="https://i.imgur.com/kaUhEQy.png" group-title="MEXICO-LOCAL",MEX-B15 Zacatecas (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164599
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164599
 #EXTINF:-1 tvg-id="" tvg-name="MEX-BAMOS TV (W)(1080)" tvg-logo="https://i.imgur.com/ntK4D64.png" group-title="MEXICO-LOCAL",MEX-BAMOS TV (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164600
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164600
 #EXTINF:-1 tvg-id="" tvg-name="MEX-BitMe (M)(720)" tvg-logo="https://i.postimg.cc/bNyrXTgr/bitme.png" group-title="MEXICO",MEX-BitMe (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87592
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87592
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Bloomberg (M)(SD)" tvg-logo="https://1.bp.blogspot.com/-apx9Di-xHJM/Xm6zVXRpOnI/AAAAAAAABmY/fLo91xzoCjEJf2TdmBIqfwyc0Z-1WBjtgCLcBGAsYHQ/s200/42.png" group-title="MEXICO",MEX-Bloomberg (M)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87577
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87577
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 10 Cancún (W)(720)" tvg-logo="https://i.imgur.com/TvTn3hO.png" group-title="MEXICO-LOCAL",MEX-Canal 10 Cancún (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164604
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164604
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 10 Chiapas (W)(720)" tvg-logo="https://i.imgur.com/dw6puHC.png" group-title="MEXICO-LOCAL",MEX-Canal 10 Chiapas (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164605
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164605
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 10 Durango (W)(1080)" tvg-logo="https://i.imgur.com/H34quHQ.png" group-title="MEXICO-LOCAL",MEX-Canal 10 Durango (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164606
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164606
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 13 Campeche (W)(720)" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="MEXICO-LOCAL",MEX-Canal 13 Campeche (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164608
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164608
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 13 Chiapas (W)(720)" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="MEXICO-LOCAL",MEX-Canal 13 Chiapas (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164609
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164609
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 13 Guadalajara (W)(720)" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="MEXICO-LOCAL",MEX-Canal 13 Guadalajara (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164610
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164610
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 13 Michoacán (W)(720)" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="MEXICO-LOCAL",MEX-Canal 13 Michoacán (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164611
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164611
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 13 Oaxaca (W)(720)" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="MEXICO-LOCAL",MEX-Canal 13 Oaxaca (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164612
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164612
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 13 Puebla (W)(720)" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="MEXICO-LOCAL",MEX-Canal 13 Puebla (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164613
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164613
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 13 Tabasco (W)(720)" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="MEXICO-LOCAL",MEX-Canal 13 Tabasco (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164614
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164614
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 13 Tapachula (W)(720)" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="MEXICO-LOCAL",MEX-Canal 13 Tapachula (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164615
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164615
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 13 Yucatán (W)(720)" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="MEXICO-LOCAL",MEX-Canal 13 Yucatán (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164616
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164616
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 15 ILCE Summa Sabres (W)(720)" tvg-logo="https://i.imgur.com/r7czgOc.png" group-title="MEXICO-LOCAL",MEX-Canal 15 ILCE Summa Sabres (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164617
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164617
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 44 Chihuahua (W)(720)" tvg-logo="https://i.imgur.com/YDp8MlN.png" group-title="MEXICO-LOCAL",MEX-Canal 44 Chihuahua (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164623
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164623
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 44 Ciudad Juárez (W)(720)" tvg-logo="https://i.imgur.com/oRudPXX.png" group-title="MEXICO-LOCAL",MEX-Canal 44 Ciudad Juárez (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164624
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164624
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 5 (L)(720)" tvg-logo="https://1.bp.blogspot.com/-MmJ4TgLhKa0/Xm5o4_B3H8I/AAAAAAAABeQ/b7jztTDAi5g7UDvJLofwH1KNMZmv0OvGwCLcBGAsYHQ/s200/12.png" group-title="MEXICO",MEX-Canal 5 (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87598
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87598
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 5 (L)(SD)" tvg-logo="https://1.bp.blogspot.com/-MmJ4TgLhKa0/Xm5o4_B3H8I/AAAAAAAABeQ/b7jztTDAi5g7UDvJLofwH1KNMZmv0OvGwCLcBGAsYHQ/s200/12.png" group-title="MEXICO",MEX-Canal 5 (L)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87597
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87597
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal 5 TV Cozumel (W)(1080)" tvg-logo="https://i.imgur.com/0nzNMuP.jpeg" group-title="MEXICO-LOCAL",MEX-Canal 5 TV Cozumel (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164602
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164602
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal Catorce(W)(720)" tvg-logo="https://i.imgur.com/AWLWu91.png" group-title="MEXICO-LOCAL",MEX-Canal Catorce(W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164626
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164626
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Canal del Congreso 45.1(W)(720)" tvg-logo="https://i.imgur.com/xAC6gQO.png" group-title="MEXICO-LOCAL",MEX-Canal del Congreso 45.1(W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164627
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164627
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Conecta TV (W)(720)" tvg-logo="https://i.imgur.com/qEk0QGa.png" group-title="MEXICO-LOCAL",MEX-Conecta TV (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164630
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164630
 #EXTINF:-1 tvg-id="" tvg-name="MEX-CreaLaTV (W)(1080)" tvg-logo="https://i.imgur.com/Bnjj29f.png" group-title="MEXICO-LOCAL",MEX-CreaLaTV (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164632
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164632
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Estrella News (W)(1080)" tvg-logo="https://i.imgur.com/HRrkhLq.png" group-title="MEXICO-LOCAL",MEX-Estrella News (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164637
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164637
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Estrella TV (W)(1080)" tvg-logo="https://i.imgur.com/IZxjnyp.png" group-title="MEXICO-LOCAL",MEX-Estrella TV (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164638
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164638
 #EXTINF:-1 tvg-id="" tvg-name="MEX-IERTBCS Canal 8 La Paz (W)(1080)" tvg-logo="https://i.imgur.com/R3icGuG.png" group-title="MEXICO-LOCAL",MEX-IERTBCS Canal 8 La Paz (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164647
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164647
 #EXTINF:-1 tvg-id="" tvg-name="MEX-IERTBCS Canal 8.2 La Paz (W)(1080)" tvg-logo="https://i.imgur.com/R3icGuG.png" group-title="MEXICO-LOCAL",MEX-IERTBCS Canal 8.2 La Paz (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164646
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164646
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Imagen TV (L)(720)" tvg-logo="https://1.bp.blogspot.com/-6DGj3EE5_5E/Xm60PTxOCXI/AAAAAAAABmg/m1B-y-CiE-U0Fxwxnvt5OV7nklSDRbsEgCLcBGAsYHQ/s200/43.png" group-title="MEXICO",MEX-Imagen TV (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87616
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87616
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Imagen TV (M)(SD)" tvg-logo="https://1.bp.blogspot.com/-6DGj3EE5_5E/Xm60PTxOCXI/AAAAAAAABmg/m1B-y-CiE-U0Fxwxnvt5OV7nklSDRbsEgCLcBGAsYHQ/s200/43.png" group-title="MEXICO",MEX-Imagen TV (M)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87615
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87615
 #EXTINF:-1 tvg-id="" tvg-name="MEX-IMRyT Morelos TV (W)(720)" tvg-logo="https://i.imgur.com/D91O6ka.png" group-title="MEXICO-LOCAL",MEX-IMRyT Morelos TV (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164648
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164648
 #EXTINF:-1 tvg-id="" tvg-name="MEX-ITV Deportes" tvg-logo="https://iili.io/J1kV1Bn.png" group-title="MEXICO-LOCAL",MEX-ITV Deportes
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164650
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164650
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Jalisco TV (W)(720)" tvg-logo="https://i.imgur.com/N4meE8I.png" group-title="MEXICO-LOCAL",MEX-Jalisco TV (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164651
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164651
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Justicia TV (W)(720)" tvg-logo="https://i.imgur.com/zyAS1hk.png" group-title="MEXICO-LOCAL",MEX-Justicia TV (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164652
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164652
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Las Estrellas (L)(720)" tvg-logo="https://1.bp.blogspot.com/-e2wz8A8TfGM/Xm56KL_9AVI/AAAAAAAABjU/Ukz1VU_TSlAuHvW8BFmY7kgneq_wuU80QCLcBGAsYHQ/s200/32.png" group-title="MEXICO",MEX-Las Estrellas (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87579
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87579
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Las Estrellas (M)(SD)" tvg-logo="https://1.bp.blogspot.com/-e2wz8A8TfGM/Xm56KL_9AVI/AAAAAAAABjU/Ukz1VU_TSlAuHvW8BFmY7kgneq_wuU80QCLcBGAsYHQ/s200/32.png" group-title="MEXICO",MEX-Las Estrellas (M)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87578
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87578
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Las Estrellas (W)(1080)" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="MEXICO-LOCAL",MEX-Las Estrellas (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164654
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164654
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Las Estrellas -2 Horas (L)(720)" tvg-logo="https://1.bp.blogspot.com/-e2wz8A8TfGM/Xm56KL_9AVI/AAAAAAAABjU/Ukz1VU_TSlAuHvW8BFmY7kgneq_wuU80QCLcBGAsYHQ/s200/32.png" group-title="MEXICO",MEX-Las Estrellas -2 Horas (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87583
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87583
 #EXTINF:-1 tvg-id="" tvg-name="MEX-María Visión Mexico (W)(SD)" tvg-logo="https://i.postimg.cc/Ghy9ZLBy/mariavision.png" group-title="MEXICO-LOCAL",MEX-María Visión Mexico (W)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164656
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164656
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Mexiquense TV (W)(720)" tvg-logo="https://i.imgur.com/iVfzakA.png" group-title="MEXICO-LOCAL",MEX-Mexiquense TV (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164658
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164658
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Monte Maria (W)(1080)" tvg-logo="https://i.imgur.com/0rMHbbM.png" group-title="MEXICO-LOCAL",MEX-Monte Maria (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164661
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164661
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Multimedios Bajío (W)(720)" tvg-logo="https://i.imgur.com/4IGzNdq.png" group-title="MEXICO-LOCAL",MEX-Multimedios Bajío (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164662
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164662
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Multimedios Guadalajara (W)(720)" tvg-logo="https://i.imgur.com/4IGzNdq.png" group-title="MEXICO-LOCAL",MEX-Multimedios Guadalajara (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164664
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164664
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Multimedios Laguna (W)(720)" tvg-logo="https://i.imgur.com/4IGzNdq.png" group-title="MEXICO-LOCAL",MEX-Multimedios Laguna (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164665
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164665
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Multimedios Monterrey (W)(720)" tvg-logo="https://i.imgur.com/4IGzNdq.png" group-title="MEXICO-LOCAL",MEX-Multimedios Monterrey (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164666
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164666
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Multimedios Puebla (W)(720)" tvg-logo="https://i.imgur.com/4IGzNdq.png" group-title="MEXICO-LOCAL",MEX-Multimedios Puebla (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164667
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164667
 #EXTINF:-1 tvg-id="" tvg-name="MEX-MyTime Movie Network Mexico (W)(720)" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="MEXICO-LOCAL",MEX-MyTime Movie Network Mexico (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164670
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164670
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Notigram TV (XHFGL-TDT) (W)(1080)" tvg-logo="https://i.imgur.com/9ZXCQvy.png" group-title="MEXICO-LOCAL",MEX-Notigram TV (XHFGL-TDT) (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164672
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164672
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Nueve TV San Luís Potosí (W)(720)" tvg-logo="https://i.imgur.com/3fzB7zY.png" group-title="MEXICO-LOCAL",MEX-Nueve TV San Luís Potosí (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164677
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164677
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Once México (W)(1080)" tvg-logo="https://i.imgur.com/K0351vF.png" group-title="MEXICO-LOCAL",MEX-Once México (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164679
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164679
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Once TV (M)(720)" tvg-logo="https://1.bp.blogspot.com/-0GKPjFkLCbw/Xm5sWsaodSI/AAAAAAAABfo/5qrJ-GrvG2YtVS9bSETVayaR4Aui9tcBACLcBGAsYHQ/s200/15.png" group-title="MEXICO",MEX-Once TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87603
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87603
 #EXTINF:-1 tvg-id="" tvg-name="MEX-PSN (W)(SD)" tvg-logo="https://i.imgur.com/7i7GkSL.png" group-title="MEXICO-LOCAL",MEX-PSN (W)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164681
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164681
 #EXTINF:-1 tvg-id="" tvg-name="MEX-PSN Canal 45.2 (W)(SD)" tvg-logo="https://i.imgur.com/7i7GkSL.png" group-title="MEXICO-LOCAL",MEX-PSN Canal 45.2 (W)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164682
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164682
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Radiotele Morelia ((W)(SD)" tvg-logo="https://i.imgur.com/XpcCZvu.png" group-title="MEXICO-LOCAL",MEX-Radiotele Morelia ((W)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164685
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164685
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Raly TV (W)(720)" tvg-logo="https://i.imgur.com/W8a1dIa.png" group-title="MEXICO-LOCAL",MEX-Raly TV (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164686
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164686
 #EXTINF:-1 tvg-id="" tvg-name="MEX-RCG TV (W)(1080)" tvg-logo="https://i.imgur.com/kYtAR26.png" group-title="MEXICO-LOCAL",MEX-RCG TV (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164687
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164687
 #EXTINF:-1 tvg-id="" tvg-name="MEX-RTG (W)(720)" tvg-logo="https://i.imgur.com/k9M2MOT.png" group-title="MEXICO-LOCAL",MEX-RTG (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164689
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164689
 #EXTINF:-1 tvg-id="" tvg-name="MEX-SET Televisión Canal 26.1 (W)(720)" tvg-logo="https://i.imgur.com/dbJKErB.png" group-title="MEXICO-LOCAL",MEX-SET Televisión Canal 26.1 (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164692
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164692
 #EXTINF:-1 tvg-id="" tvg-name="MEX-SET Televisión Canal 26.2 (W)(720)" tvg-logo="https://i.imgur.com/dbJKErB.png" group-title="MEXICO-LOCAL",MEX-SET Televisión Canal 26.2 (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164693
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164693
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Señal España (XHUNES-TDT) (W)(720)" tvg-logo="https://i.imgur.com/LbZkdca.png" group-title="MEXICO-LOCAL",MEX-Señal España (XHUNES-TDT) (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164691
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164691
 #EXTINF:-1 tvg-id="" tvg-name="MEX-SIPSE TV 8.1 (W)(1080)" tvg-logo="https://i.imgur.com/123P7dV.png" group-title="MEXICO-LOCAL",MEX-SIPSE TV 8.1 (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164695
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164695
 #EXTINF:-1 tvg-id="" tvg-name="MEX-SIPSE TVCUN 8.1 (W)(1080)" tvg-logo="https://i.imgur.com/uiTgClU.png" group-title="MEXICO-LOCAL",MEX-SIPSE TVCUN 8.1 (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164696
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164696
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Sistema Michoacano de TV (W)(1080)" tvg-logo="https://i.imgur.com/7MXF4Fd.png" group-title="MEXICO-LOCAL",MEX-Sistema Michoacano de TV (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164697
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164697
 #EXTINF:-1 tvg-id="" tvg-name="MEX-SIZART Canal 24 (XHZHZ-TDT) (W)(720)" tvg-logo="https://i.imgur.com/RxhABeK.png" group-title="MEXICO-LOCAL",MEX-SIZART Canal 24 (XHZHZ-TDT) (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164698
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164698
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Sony Channel (W)(SD)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="MEXICO-LOCAL",MEX-Sony Channel (W)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164699
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164699
 #EXTINF:-1 tvg-id="" tvg-name="MEX-SQCS Canal 4 (W)(1080)" tvg-logo="https://i.imgur.com/qnx8nBP.png" group-title="MEXICO-LOCAL",MEX-SQCS Canal 4 (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164700
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164700
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Super Channel 12 (W)(1080)" tvg-logo="https://i.imgur.com/dLHIvKz.png" group-title="MEXICO-LOCAL",MEX-Super Channel 12 (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164702
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164702
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Telemax (XEWH-TDT) (W)(1080)" tvg-logo="https://i.imgur.com/klhTyDU.png" group-title="MEXICO-LOCAL",MEX-Telemax (XEWH-TDT) (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164707
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164707
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Teleplay Sureste (W)(720)" tvg-logo="https://i.imgur.com/MeV5N08.png" group-title="MEXICO-LOCAL",MEX-Teleplay Sureste (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164708
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164708
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Teleritmo (W)(720)" tvg-logo="https://i.imgur.com/9s380Bz.png" group-title="MEXICO-LOCAL",MEX-Teleritmo (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164709
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164709
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Televisa Monterrey (L)(SD)" tvg-logo="https://1.bp.blogspot.com/-OXCQ1Od1dUM/Xm5mzH9uszI/AAAAAAAABdQ/plWLCcO44SEliyJkdO1zd_3BU_Z0ElUSgCLcBGAsYHQ/s200/1.png" group-title="MEXICO",MEX-Televisa Monterrey (L)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87605
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87605
 #EXTINF:-1 tvg-id="" tvg-name="MEX-The Pet Collective International (W)(720)" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="MEXICO-LOCAL",MEX-The Pet Collective International (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164710
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164710
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Tlaxcala Televisión (W)(SD)" tvg-logo="https://i.imgur.com/5vaEhfy.png" group-title="MEXICO-LOCAL",MEX-Tlaxcala Televisión (W)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164711
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164711
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TRC Televisión (W)(720)" tvg-logo="https://i.imgur.com/W4xwCdl.png" group-title="MEXICO-LOCAL",MEX-TRC Televisión (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164713
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164713
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TUDN (M)(720)" tvg-logo="" group-title="MEXICO",MEX-TUDN (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87590
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87590
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TV Azteca Noreste (Info7 Monterrey) (W)(720)" tvg-logo="https://i.imgur.com/aGup2ag.png" group-title="MEXICO-LOCAL",MEX-TV Azteca Noreste (Info7 Monterrey) (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164715
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164715
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TV BUAP (W)(1080)" tvg-logo="https://i.imgur.com/hHrIn0r.png" group-title="MEXICO-LOCAL",MEX-TV BUAP (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164716
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164716
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TV Cuatro 4.1 (W)(1080)" tvg-logo="https://i.imgur.com/Of044Jx.png" group-title="MEXICO-LOCAL",MEX-TV Cuatro 4.1 (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164717
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164717
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TV Cuatro 4.2 (W)(1080)" tvg-logo="https://i.imgur.com/Of044Jx.png" group-title="MEXICO-LOCAL",MEX-TV Cuatro 4.2 (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164718
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164718
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TV Lobo Durango (W)(720)" tvg-logo="https://i.imgur.com/q9p1Spj.png" group-title="MEXICO-LOCAL",MEX-TV Lobo Durango (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164723
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164723
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TV Mar Los Cabos (W)(1080)" tvg-logo="https://i.imgur.com/z9iVlMn.png" group-title="MEXICO-LOCAL",MEX-TV Mar Los Cabos (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164725
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164725
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TV Mar Puerto Vallarta (W)(1080)" tvg-logo="https://i.imgur.com/z9iVlMn.png" group-title="MEXICO-LOCAL",MEX-TV Mar Puerto Vallarta (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164726
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164726
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TV Migrante (W)(720)" tvg-logo="https://i.imgur.com/tVgkiJF.png" group-title="MEXICO-LOCAL",MEX-TV Migrante (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164727
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164727
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TV UJAT (XHUJAT-TDT) (W)(720)" tvg-logo="https://i.imgur.com/4demWOi.png" group-title="MEXICO-LOCAL",MEX-TV UJAT (XHUJAT-TDT) (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164730
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164730
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TVC Deportes (L)(720)" tvg-logo="https://i.postimg.cc/4x1DhDhb/tvc-deportes1.png" group-title="MEXICO",MEX-TVC Deportes (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87610
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87610
 #EXTINF:-1 tvg-id="" tvg-name="MEX-TVMÁS (XHGV-TDT) (W)(SD)" tvg-logo="https://i.imgur.com/15kcNRb.png" group-title="MEXICO-LOCAL",MEX-TVMÁS (XHGV-TDT) (W)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164731
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164731
 #EXTINF:-1 tvg-id="" tvg-name="MEX-UDG TV Canal 44 (W)(720)" tvg-logo="https://i.imgur.com/QKvINA6.png" group-title="MEXICO-LOCAL",MEX-UDG TV Canal 44 (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164737
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164737
 #EXTINF:-1 tvg-id="" tvg-name="MEX-USA Latino (L)(720)" tvg-logo="https://i.postimg.cc/HLdSDz3S/Usa-N-Latino.png" group-title="MEXICO",MEX-USA Latino (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87614
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87614
 #EXTINF:-1 tvg-id="" tvg-name="MEX-VB Media TV (W)(1080)" tvg-logo="https://i.imgur.com/5qlVblr.png" group-title="MEXICO-LOCAL",MEX-VB Media TV (W)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164741
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164741
 #EXTINF:-1 tvg-id="" tvg-name="MEX-Visión Televisión (W)(720)" tvg-logo="https://i.imgur.com/HV5tgcM.png" group-title="MEXICO-LOCAL",MEX-Visión Televisión (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164742
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164742
 #EXTINF:-1 tvg-id="" tvg-name="MEX-WeatherSpy (W)(720)" tvg-logo="https://i.imgur.com/KIEKOt1.png" group-title="MEXICO-LOCAL",MEX-WeatherSpy (W)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/164743
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/164743
 #EXTINF:-1 tvg-id="" tvg-name="MEX_Canal 5 (L)(720)" tvg-logo="https://1.bp.blogspot.com/-MmJ4TgLhKa0/Xm5o4_B3H8I/AAAAAAAABeQ/b7jztTDAi5g7UDvJLofwH1KNMZmv0OvGwCLcBGAsYHQ/s200/12.png" group-title="MEXICO",MEX_Canal 5 (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87596
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87596
 #EXTINF:-1 tvg-id="" tvg-name="MEX_Foro TV (M)(720)" tvg-logo="https://1.bp.blogspot.com/-97qblKLDK5A/Xm5m0h85WuI/AAAAAAAABdg/a6PjI8WcZxIT5OOM3M8D7GdQInJ1uy5qgCLcBGAsYHQ/s200/6.png" group-title="MEXICO",MEX_Foro TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87595
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87595
 #EXTINF:-1 tvg-id="" tvg-name="MEX_Las Estrellas -1hr (M)(720)" tvg-logo="https://1.bp.blogspot.com/-e2wz8A8TfGM/Xm56KL_9AVI/AAAAAAAABjU/Ukz1VU_TSlAuHvW8BFmY7kgneq_wuU80QCLcBGAsYHQ/s200/32.png" group-title="MEXICO",MEX_Las Estrellas -1hr (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87580
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87580
 #EXTINF:-1 tvg-id="" tvg-name="MEX_Las Estrellas -2hr (M)(720)" tvg-logo="https://1.bp.blogspot.com/-e2wz8A8TfGM/Xm56KL_9AVI/AAAAAAAABjU/Ukz1VU_TSlAuHvW8BFmY7kgneq_wuU80QCLcBGAsYHQ/s200/32.png" group-title="MEXICO",MEX_Las Estrellas -2hr (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87581
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87581
 #EXTINF:-1 tvg-id="" tvg-name="MEX_MilenioTV (M)(720)" tvg-logo="https://1.bp.blogspot.com/-pmqpRTK0wEM/Xm5m0CyDFmI/AAAAAAAABdY/rozixqEQGM0JdWCUTThU2y9ruNGfD75cQCLcBGAsYHQ/s200/4.png" group-title="MEXICO",MEX_MilenioTV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/87599
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/87599

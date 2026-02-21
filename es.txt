@@ -1,396 +1,396 @@
 #EXTINF:-1 tvg-id="" tvg-name="ESP - #Vamos (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/071331bfe2ef65c648c23a23720c1c7e.png" group-title="ESPAÑA",ESP - #Vamos (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8134
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8134
 #EXTINF:-1 tvg-id="" tvg-name="ESP - 24h (TV)(720)" tvg-logo="http://tvgolatino.com:8080/images/6be7cbfc3e262821b3c3cf041f24de5c.png" group-title="ESPAÑA",ESP - 24h (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8136
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8136
 #EXTINF:-1 tvg-id="" tvg-name="ESP - A3Series (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/aa72578fb81aa3510cb3ba860b8925cc.png" group-title="ESPAÑA",ESP - A3Series (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8138
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8138
 #EXTINF:-1 tvg-id="" tvg-name="ESP - AMC (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/e2c26deb02e0c7fc77a8028e3955dec6.png" group-title="ESPAÑA",ESP - AMC (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8140
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8140
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Antena 3 Internacional (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/70d0c97078cc29a450de49c7a4e4d2f6.png" group-title="ESPAÑA",ESP - Antena 3 Internacional (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8143
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8143
 #EXTINF:-1 tvg-id="" tvg-name="ESP - AXN White (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/9051a0a08d3c5d5390a485b47d3102d0.png" group-title="ESPAÑA",ESP - AXN White (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8146
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8146
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Baby TV (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/ccb03048ba6ad47bdbd8b94fc80aca84.png" group-title="ESPAÑA",ESP - Baby TV (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8148
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8148
 #EXTINF:-1 tvg-id="" tvg-name="ESP - BeMad (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/8a45b4a43167bcbf78de7a1faeebe876.png" group-title="ESPAÑA",ESP - BeMad (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8151
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8151
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Bom Cine (TV)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Bom Cine (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8154
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8154
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Calle 13 (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/fa96ad727b37d8dac3f1dd504a781976.png" group-title="ESPAÑA",ESP - Calle 13 (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8156
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8156
 #EXTINF:-1 tvg-id="" tvg-name="ESP - DARK (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/2350435c7d30336da90420b9b2931497.png" group-title="ESPAÑA",ESP - DARK (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8168
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8168
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Disney Channel (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/09062220ca78d6c2587628e68ec361ba.png" group-title="ESPAÑA",ESP - Disney Channel (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8171
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8171
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Energy (TV)(SD)" tvg-logo="http://tvgolatino.com:8080/images/40cb0e93363408e0087033cc724aa9d2.png" group-title="ESPAÑA",ESP - Energy (TV)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8179
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8179
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Eurosport 1 (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/5019948ec61d43f5f92858f06537aef1.png" group-title="ESPAÑA",ESP - Eurosport 1 (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8180
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8180
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Eurosport 2 (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/111256bc3d526aa689154822101f20a3.png" group-title="ESPAÑA",ESP - Eurosport 2 (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8181
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8181
 #EXTINF:-1 tvg-id="" tvg-name="ESP - GOL (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/7fd69a57aa39430953380549ec247b4a.png" group-title="ESPAÑA",ESP - GOL (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8187
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8187
 #EXTINF:-1 tvg-id="" tvg-name="ESP - La 1 (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/a924160875308aca0b0c65016cc520ee.png" group-title="ESPAÑA",ESP - La 1 (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8192
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8192
 #EXTINF:-1 tvg-id="" tvg-name="ESP - La 2 (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/90ecf40ad33b1bd3f632b06e297c8615.png" group-title="ESPAÑA",ESP - La 2 (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8193
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8193
 #EXTINF:-1 tvg-id="" tvg-name="ESP - La Sexta (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/4ad96d32906d80a3359345be9f8a20d6.png" group-title="ESPAÑA",ESP - La Sexta (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8195
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8195
 #EXTINF:-1 tvg-id="" tvg-name="ESP - M. Accion (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/5d58a602d028589e28a558f8980a08c1.png" group-title="ESPAÑA",ESP - M. Accion (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8196
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8196
 #EXTINF:-1 tvg-id="" tvg-name="ESP - M. Cine Español (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/bd8c0148c56ab8adf0425fb3ed9e9fb9.png" group-title="ESPAÑA",ESP - M. Cine Español (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8197
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8197
 #EXTINF:-1 tvg-id="" tvg-name="ESP - M. Comedia (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/42b52e9629284dbf30c4f378512716f6.png" group-title="ESPAÑA",ESP - M. Comedia (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8198
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8198
 #EXTINF:-1 tvg-id="" tvg-name="ESP - M. Deportes (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/a1c1e337292ad263f3031aab71beb7c9.png" group-title="ESPAÑA",ESP - M. Deportes (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8199
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8199
 #EXTINF:-1 tvg-id="" tvg-name="ESP - M. Drama (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/7b7f24505f4e793b05df3d6c6e25ddbe.png" group-title="ESPAÑA",ESP - M. Drama (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8200
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8200
 #EXTINF:-1 tvg-id="" tvg-name="ESP - M. Dreamworks (TV)(1080)" tvg-logo="" group-title="ESPAÑA",ESP - M. Dreamworks (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8201
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8201
 #EXTINF:-1 tvg-id="" tvg-name="ESP - M. Golf (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/166be4e42f3f2542bdda06b6fa2bab9b.png" group-title="ESPAÑA",ESP - M. Golf (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8202
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8202
 #EXTINF:-1 tvg-id="" tvg-name="ESP - M. Series (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/077bd8bad93170796c768290e12ad0b7.png" group-title="ESPAÑA",ESP - M. Series (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8203
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8203
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Mega (L)(720)" tvg-logo="http://23.153.216.121:25461/images/4ed0e0ecb998940e016def789ae1bdd0.png" group-title="ESPAÑA",ESP - Mega (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8204
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8204
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MEGA (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/d859fd3f0c05be226b0523af2c709455.png" group-title="ESPAÑA",ESP - MEGA (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8205
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8205
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Mundo Toros (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/227318f510fb320fafbdac770f16dcb4.png" group-title="ESPAÑA",ESP - Mundo Toros (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8217
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8217
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Nat Geo Wild (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/5102ce3be98d74f57156e462a208ae35.png" group-title="ESPAÑA",ESP - Nat Geo Wild (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8218
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8218
 #EXTINF:-1 tvg-id="National.Geographic.es" tvg-name="ESP - National Geographic (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/3123d9e8a5ac317c848d30fdfe79022e.png" group-title="ESPAÑA",ESP - National Geographic (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8221
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8221
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Neox (TV)(SD)" tvg-logo="http://23.153.216.121:25461/images/4bd915ca6138751f28c472db3d6b3f5e.png" group-title="ESPAÑA",ESP - Neox (TV)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8223
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8223
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Nickelodeon (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/80422e9a138487b496a13e04533e2b32.png" group-title="ESPAÑA",ESP - Nickelodeon (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8226
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8226
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Odisea (TV)(720)" tvg-logo="http://tvgolatino.com:8080/images/c7e1a13ded82ddb8c09500522b443ffd.png" group-title="ESPAÑA",ESP - Odisea (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8229
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8229
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Paramount Channel (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/1ee9fef6d5c6cc7c7917ea651f59673c.png" group-title="ESPAÑA",ESP - Paramount Channel (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8231
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8231
 #EXTINF:-1 tvg-id="" tvg-name="ESP - SOMOS (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/34ee1df0c9b3ce9f185e5a79391bcf1b.png" group-title="ESPAÑA",ESP - SOMOS (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8234
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8234
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TCM (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/0b40af06d362dd88373a2c0e2b81c265.png" group-title="ESPAÑA",ESP - TCM (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8239
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8239
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Telecinco (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/f20b260961505a415a3a1f11f8c06aad.png" group-title="ESPAÑA",ESP - Telecinco (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8241
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8241
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Telecinco (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/f20b260961505a415a3a1f11f8c06aad.png" group-title="ESPAÑA",ESP - Telecinco (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8242
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8242
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Teledeporte (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/dca55d4c00daa95a5856ecc9530fbc0d.png" group-title="ESPAÑA",ESP - Teledeporte (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8243
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8243
 #EXTINF:-1 tvg-id="" tvg-name="ESP - XTRM (TV)(1080)" tvg-logo="" group-title="ESPAÑA",ESP - XTRM (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/8254
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/8254
 #EXTINF:-1 tvg-id="" tvg-name="ESP - BEIN LALIGA 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BEIN LALIGA 1 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161871
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161871
 #EXTINF:-1 tvg-id="" tvg-name="ESP - BEIN SPORTS LA LIGA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BEIN SPORTS LA LIGA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161872
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161872
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DEPORTE 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DEPORTE 2 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161873
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161873
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DEPORTE 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DEPORTE 3 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161874
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161874
 #EXTINF:-1 tvg-id="" tvg-name="ESP - LA LIGA 2 TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - LA LIGA 2 TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161875
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161875
 #EXTINF:-1 tvg-id="" tvg-name="ESP - BEIN SPORTS F(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BEIN SPORTS F(M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161876
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161876
 #EXTINF:-1 tvg-id="" tvg-name="ESP - LA LIGA TV (M)(720) BAR" tvg-logo="" group-title="ESPAÑA",ESP - LA LIGA TV (M)(720) BAR
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161877
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161877
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DEPORTES (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DEPORTES (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161878
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161878
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR ACCION (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR ACCION (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161879
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161879
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DRAMA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DRAMA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161880
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161880
 #EXTINF:-1 tvg-id="" tvg-name="ESP - SERIES MANIA F(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - SERIES MANIA F(M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161881
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161881
 #EXTINF:-1 tvg-id="" tvg-name="ESP - COMEDIA. (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - COMEDIA. (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161882
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161882
 #EXTINF:-1 tvg-id="" tvg-name="ESP -  CINE ESPANOL (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP -  CINE ESPANOL (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161883
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161883
 #EXTINF:-1 tvg-id="" tvg-name="ESP - AXN WHITE. (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - AXN WHITE. (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161884
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161884
 #EXTINF:-1 tvg-id="" tvg-name="ESP - NICKELODEON  (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NICKELODEON  (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161885
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161885
 #EXTINF:-1 tvg-id="" tvg-name="ESP - CALLE 13 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CALLE 13 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161886
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161886
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Fox (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Fox (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161887
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161887
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Fox Life (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Fox Life (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161888
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161888
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Neox (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Neox (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161889
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161889
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Energy (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Energy (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161890
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161890
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Cocina TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Cocina TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161891
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161891
 #EXTINF:-1 tvg-id="" tvg-name="ESP -  Dark2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP -  Dark2 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161892
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161892
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Telecinco (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Telecinco (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161893
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161893
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Cuatro (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Cuatro (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161894
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161894
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Antena 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Antena 3 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161895
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161895
 #EXTINF:-1 tvg-id="" tvg-name="ESP - La 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - La 2 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161896
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161896
 #EXTINF:-1 tvg-id="" tvg-name="ESP - La 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - La 1 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161897
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161897
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TNT (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TNT (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161898
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161898
 #EXTINF:-1 tvg-id="" tvg-name="ESP -  VIAJAR (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP -  VIAJAR (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161899
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161899
 #EXTINF:-1 tvg-id="" tvg-name="ESP - #VAMOS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - #VAMOS (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161900
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161900
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR SERIES (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR SERIES (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161901
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161901
 #EXTINF:-1 tvg-id="" tvg-name="ESP - I24 NEWS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - I24 NEWS (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161902
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161902
 #EXTINF:-1 tvg-id="" tvg-name="ESP - DISNEY CHANNEL (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DISNEY CHANNEL (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161903
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161903
 #EXTINF:-1 tvg-id="" tvg-name="ESP - ACCION (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ACCION (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161904
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161904
 #EXTINF:-1 tvg-id="" tvg-name="ESP - IBERALIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - IBERALIA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161905
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161905
 #EXTINF:-1 tvg-id="" tvg-name="ESP - HISTORIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - HISTORIA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161906
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161906
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR FOTBOL F(M)(720) 4K" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR FOTBOL F(M)(720) 4K
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161907
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161907
 #EXTINF:-1 tvg-id="" tvg-name="ESP - EUROSPORT 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - EUROSPORT 1 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161908
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161908
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR ESTRENOS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR ESTRENOS (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161909
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161909
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR FORMULA 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR FORMULA 1 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161910
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161910
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Odisea (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Odisea (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161911
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161911
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar LaLiga (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar LaLiga (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161912
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161912
 #EXTINF:-1 tvg-id="" tvg-name="ESP - COSMO. (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - COSMO. (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161913
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161913
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DRAMA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DRAMA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161914
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161914
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DEPORTES(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DEPORTES(M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161915
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161915
 #EXTINF:-1 tvg-id="" tvg-name="ESP - LA LIGA TV BAR 1 [LIVE-EVENT]" tvg-logo="" group-title="ESPAÑA",ESP - LA LIGA TV BAR 1 [LIVE-EVENT]
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161916
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161916
 #EXTINF:-1 tvg-id="" tvg-name="ESP - HOLLYWOOD(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - HOLLYWOOD(M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161917
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161917
 #EXTINF:-1 tvg-id="" tvg-name="ESP - FOX (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - FOX (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161918
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161918
 #EXTINF:-1 tvg-id="" tvg-name="ESP - EUROSPORT 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - EUROSPORT 1 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161919
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161919
 #EXTINF:-1 tvg-id="" tvg-name="ESP - COMEDY CENTRAL (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - COMEDY CENTRAL (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161920
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161920
 #EXTINF:-1 tvg-id="" tvg-name="ESP - #VAMOS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - #VAMOS (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161921
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161921
 #EXTINF:-1 tvg-id="" tvg-name="ES DAZN 1 F(M)(720)" tvg-logo="" group-title="ESPAÑA",ES DAZN 1 F(M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161922
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161922
 #EXTINF:-1 tvg-id="" tvg-name="ES DAZN 2 F(M)(720)" tvg-logo="" group-title="ESPAÑA",ES DAZN 2 F(M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161923
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161923
 #EXTINF:-1 tvg-id="" tvg-name="ESP - DAZN 4 F(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DAZN 4 F(M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161924
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161924
 #EXTINF:-1 tvg-id="" tvg-name="ES DAZN 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",ES DAZN 3 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161925
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161925
 #EXTINF:-1 tvg-id="" tvg-name="ESP - BLAZE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BLAZE (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161926
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161926
 #EXTINF:-1 tvg-id="" tvg-name="ESP - BABY TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BABY TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161927
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161927
 #EXTINF:-1 tvg-id="" tvg-name="ESP - #0 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - #0 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161928
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161928
 #EXTINF:-1 tvg-id="" tvg-name="ESP - 24 Horas (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - 24 Horas (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161929
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161929
 #EXTINF:-1 tvg-id="" tvg-name="ESP - A3 Series (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - A3 Series (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161930
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161930
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR LALIGA (L)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR LALIGA (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161931
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161931
 #EXTINF:-1 tvg-id="" tvg-name="ESP - BLOOMBERG (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BLOOMBERG (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161932
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161932
 #EXTINF:-1 tvg-id="" tvg-name="ESP - CANAL GOLF F(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CANAL GOLF F(M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161933
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161933
 #EXTINF:-1 tvg-id="" tvg-name="ESP - CANAL SUR (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CANAL SUR (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161934
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161934
 #EXTINF:-1 tvg-id="" tvg-name="ESP - CRIME AND INVESTIGATION (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CRIME AND INVESTIGATION (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161935
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161935
 #EXTINF:-1 tvg-id="" tvg-name="ESP - DISCOVERY CHANNEL(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DISCOVERY CHANNEL(M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161936
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161936
 #EXTINF:-1 tvg-id="" tvg-name="ESP - DMAX (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DMAX (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161937
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161937
 #EXTINF:-1 tvg-id="" tvg-name="ESP - FOX NEWS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - FOX NEWS (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161938
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161938
 #EXTINF:-1 tvg-id="" tvg-name="ESP - GALICIA TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - GALICIA TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161939
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161939
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar Deportes (i)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar Deportes (i)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161940
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161940
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR CINEDOC&ROLL (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR CINEDOC&ROLL (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161941
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161941
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DEPORTES 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DEPORTES 2 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161942
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161942
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR COMEDIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR COMEDIA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161943
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161943
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR SERIE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR SERIE (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161944
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161944
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR SERIE MANIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR SERIE MANIA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161945
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161945
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TAQUILLA 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TAQUILLA 2 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161946
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161946
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TAQUILLA 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TAQUILLA 3 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161947
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161947
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TOROS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TOROS (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161948
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161948
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TRECE TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TRECE TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161949
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161949
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TVE 24H (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TVE 24H (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161950
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161950
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Teledeporte (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Teledeporte (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161951
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161951
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MADRID TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MADRID TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161952
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161952
 #EXTINF:-1 tvg-id="" tvg-name="ESP -  Dazn F1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP -  Dazn F1 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161953
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161953
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTARr GOLF F(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTARr GOLF F(M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161954
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161954
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar Deportes (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar Deportes (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161955
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161955
 #EXTINF:-1 tvg-id="" tvg-name="ESP - IBERALIA TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - IBERALIA TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161956
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161956
 #EXTINF:-1 tvg-id="" tvg-name="ESP - GOL TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - GOL TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161957
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161957
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Eurosport 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Eurosport 2 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161958
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161958
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar Liga de Campeones (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar Liga de Campeones (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161959
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161959
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MEZZO LIVE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MEZZO LIVE (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161960
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161960
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Mega (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Mega (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161961
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161961
 #EXTINF:-1 tvg-id="" tvg-name="ESP - FOX (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - FOX (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161962
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161962
 #EXTINF:-1 tvg-id="" tvg-name="ESP - FDF (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - FDF (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161963
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161963
 #EXTINF:-1 tvg-id="" tvg-name="ESP - DKISS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DKISS (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161964
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161964
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Divinity (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Divinity (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161965
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161965
 #EXTINF:-1 tvg-id="" tvg-name="ESP - DISNEY CHANEL (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DISNEY CHANEL (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161966
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161966
 #EXTINF:-1 tvg-id="" tvg-name="ESP - DISNEY (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DISNEY (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161967
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161967
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Disney Jr (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Disney Jr (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161968
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161968
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Canal Casa (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Canal Casa (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161969
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161969
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Cosmo (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Cosmo (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161970
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161970
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Comedy Central (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Comedy Central (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161971
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161971
 #EXTINF:-1 tvg-id="" tvg-name="ESP - CANAL COCINA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CANAL COCINA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161972
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161972
 #EXTINF:-1 tvg-id="" tvg-name="ESP - CLAN TVE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CLAN TVE (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161973
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161973
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Caza y Pesca (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Caza y Pesca (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161974
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161974
 #EXTINF:-1 tvg-id="" tvg-name="ESP - CALLE 13 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CALLE 13 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161975
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161975
 #EXTINF:-1 tvg-id="" tvg-name="ESP - BLAZE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BLAZE (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161976
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161976
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Be Mad (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Be Mad (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161977
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161977
 #EXTINF:-1 tvg-id="" tvg-name="ESP - BARCA TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BARCA TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161978
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161978
 #EXTINF:-1 tvg-id="" tvg-name="ESP - AXN WHITE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - AXN WHITE (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161979
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161979
 #EXTINF:-1 tvg-id="" tvg-name="ESP - AXN (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - AXN (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161980
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161980
 #EXTINF:-1 tvg-id="" tvg-name="ESP - ARAGON TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ARAGON TV (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161981
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161981
 #EXTINF:-1 tvg-id="" tvg-name="ESP - AMC (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - AMC (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161982
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161982
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Nova (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Nova (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161983
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161983
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Boing (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Boing (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161984
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161984
 #EXTINF:-1 tvg-id="" tvg-name="ESP - HOLLYWOOD (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - HOLLYWOOD (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161985
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161985
 #EXTINF:-1 tvg-id="" tvg-name="ESP - VIAJAR (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - VIAJAR (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161986
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161986
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TNT (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TNT (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161987
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161987
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TELEMADRID (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TELEMADRID (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161988
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161988
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TCM (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TCM (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161989
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161989
 #EXTINF:-1 tvg-id="" tvg-name="ESP - SYFY (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - SYFY (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161990
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161990
 #EXTINF:-1 tvg-id="" tvg-name="ESP - SUNDANCE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - SUNDANCE (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161991
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161991
 #EXTINF:-1 tvg-id="" tvg-name="ESP - PARAMOUNT NETWORK (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - PARAMOUNT NETWORK (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161992
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161992
 #EXTINF:-1 tvg-id="" tvg-name="ESP - PANDA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - PANDA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161993
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161993
 #EXTINF:-1 tvg-id="" tvg-name="ESP - ODESEA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ODESEA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161994
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161994
 #EXTINF:-1 tvg-id="" tvg-name="ESP - NICKELODEON (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NICKELODEON (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161995
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161995
 #EXTINF:-1 tvg-id="" tvg-name="ESP - NICK JUNIOR (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NICK JUNIOR (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161996
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161996
 #EXTINF:-1 tvg-id="" tvg-name="ESP - NAT GEO WILD (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NAT GEO WILD (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161997
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161997
 #EXTINF:-1 tvg-id="" tvg-name="ESP - NAT GEO (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NAT GEO (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161998
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161998
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MTV ESPAÑA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MTV ESPAÑA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/161999
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/161999
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MoviStar ESTRENOS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MoviStar ESTRENOS (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162000
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162000
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR CINE N (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR CINE N (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162001
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162001
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR Disney (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR Disney (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162002
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162002
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR ACCION (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR ACCION (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162003
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162003
 #EXTINF:-1 tvg-id="" tvg-name="ESP - La Sexta (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - La Sexta (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162004
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162004
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Cuatro (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Cuatro (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162005
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162005
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Antena 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Antena 3 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162006
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162006
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TVE LA 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TVE LA 2 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162007
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162007
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TVE LA 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TVE LA 1 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162008
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162008
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR SERIES MANIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR SERIES MANIA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162009
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162009
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR COMEDIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR COMEDIA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162010
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162010
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR LIGA CAMPEONES 2 [LIVE-EVENT]" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR LIGA CAMPEONES 2 [LIVE-EVENT]
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162011
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162011
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR LIGA CAMPEONES" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR LIGA CAMPEONES
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162012
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162012
 #EXTINF:-1 tvg-id="" tvg-name="ESP - MEZZO LIVE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MEZZO LIVE (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162013
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162013
 #EXTINF:-1 tvg-id="" tvg-name="ESP - NATIONAL GEO WILD (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NATIONAL GEO WILD (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162014
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162014
 #EXTINF:-1 tvg-id="" tvg-name="ESP - SYFY (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - SYFY (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162015
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162015
 #EXTINF:-1 tvg-id="" tvg-name="ESP - TCM (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TCM (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162016
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162016
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar LaLiga (L)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar LaLiga (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162017
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162017
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar LaLiga (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar LaLiga (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162018
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162018
 #EXTINF:-1 tvg-id="" tvg-name="[PRIVATE] ES:Movistar Liga de Campeones (M)(720)" tvg-logo="" group-title="ESPAÑA",[PRIVATE] ES:Movistar Liga de Campeones (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162019
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162019
 #EXTINF:-1 tvg-id="" tvg-name="[PRIVATE] ES:Movistar Fórmula 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",[PRIVATE] ES:Movistar Fórmula 1 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162020
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162020
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar Liga de Campeones (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar Liga de Campeones (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162021
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162021
 #EXTINF:-1 tvg-id="" tvg-name="[PRIVATE] ES:Movistar Deportes (M)(720)" tvg-logo="" group-title="ESPAÑA",[PRIVATE] ES:Movistar Deportes (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162022
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162022
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar Deportes 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar Deportes 1 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162023
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162023
 #EXTINF:-1 tvg-id="" tvg-name="ESP - ETB 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ETB 1 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162024
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162024
 #EXTINF:-1 tvg-id="" tvg-name="ESP - ETB 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ETB 2 (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162025
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162025
 #EXTINF:-1 tvg-id="" tvg-name="ESP - ETB Basque (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ETB Basque (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/162026
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/162026

@@ -1,114 +1,114 @@
 #EXTINF:-1 tvg-id="CW.Plus.Mountain.us" tvg-name="DEPORTES - beIN Sport USA (M)(720)" tvg-logo="https://1.bp.blogspot.com/-bwERD1EYUso/XjHTaAko5tI/AAAAAAAAA-M/MpTKAtCF0rUt9cvpn-Chpk3PKth9aEWJwCLcBGAsYHQ/s200/33.png" group-title="CANALES-DEPORTES",DEPORTES - beIN Sport USA (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9551
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9551
 #EXTINF:-1 tvg-id="beIN.Sports.HDTV.(Spanish).(beINHD).us" tvg-name="DEPORTES - beIN Sports Xtra Ñ (TV)(720)" tvg-logo="https://lh3.googleusercontent.com/-ZKORTNZ8Szo/Ydx2UQH0MaI/AAAAAAAACfI/KuHHd0WsnfInxBXCju3l_xrCzRyVBQASwCNcBGAsYHQ/w200-h200/1641838155930717-1.png" group-title="CANALES-DEPORTES",DEPORTES - beIN Sports Xtra Ñ (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9552
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9552
 #EXTINF:-1 tvg-id="Canal.beIN.Sport.en.Español.sv" tvg-name="DEPORTES - beIN Sports Ñ (i)(1080)" tvg-logo="https://1.bp.blogspot.com/-T4UnDWGyhb0/Xay_YgqwzVI/AAAAAAAAAkE/mta3F4p2leUOXJzzGQQWIW0Jjxw2uLYHACLcBGAsYHQ/s200/17.png" group-title="CANALES-DEPORTES",DEPORTES - beIN Sports Ñ (i)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9553
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9553
 #EXTINF:-1 tvg-id="Fox.Deportes.en.Español.HDTV.(U.S.).(FXDEHD).us" tvg-name="DEPORTES - Fox Deportes (TV)(720)" tvg-logo="https://1.bp.blogspot.com/-ZrLBW7y8kKE/Xay_YpKJ9bI/AAAAAAAAAkA/-UNQCYuie0glvhjIFsMXPDS6qVX5QlsCwCLcBGAsYHQ/s200/16.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Deportes (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9571
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9571
 #EXTINF:-1 tvg-id="CW.Plus.Mountain.us" tvg-name="DEPORTES - FOX DEPORTES (Z)(720)" tvg-logo="https://1.bp.blogspot.com/-ZrLBW7y8kKE/Xay_YpKJ9bI/AAAAAAAAAkA/-UNQCYuie0glvhjIFsMXPDS6qVX5QlsCwCLcBGAsYHQ/s200/16.png" group-title="CANALES-DEPORTES",DEPORTES - FOX DEPORTES (Z)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9572
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9572
 #EXTINF:-1 tvg-id="Fox.Sports.Argentina.(Cono.Sur).(FOXSP).ar" tvg-name="DEPORTES - Fox Sports 1 ARG (L)(720)" tvg-logo="https://1.bp.blogspot.com/-ANvUBZdXt0M/Xay_WItSP3I/AAAAAAAAAjs/00yDNyTvcs846cmFIVHEOrwLYd6UPJehgCLcBGAsYHQ/s200/1.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 1 ARG (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9575
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9575
 #EXTINF:-1 tvg-id="Fox.Sports.Argentina.(Cono.Sur).(FOXSP).ar" tvg-name="DEPORTES - Fox Sports 1 ARG (M)(720)" tvg-logo="https://1.bp.blogspot.com/-ANvUBZdXt0M/Xay_WItSP3I/AAAAAAAAAjs/00yDNyTvcs846cmFIVHEOrwLYd6UPJehgCLcBGAsYHQ/s200/1.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 1 ARG (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9576
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9576
 #EXTINF:-1 tvg-id="FOX.Sports.2.HD(FSP2HD).co" tvg-name="DEPORTES - Fox Sports 1 COL (TV)(1080)" tvg-logo="https://1.bp.blogspot.com/-HGq7a6Cg1qA/XajpshDNjUI/AAAAAAAAASQ/jP319jFgSyI-F1U-VFhe0ooc7RY_Mkn2ACLcBGAsYHQ/s200/10.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 1 COL (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9577
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9577
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES - Fox Sports 1 LAT (Z)(1080)" tvg-logo="https://1.bp.blogspot.com/-ANvUBZdXt0M/Xay_WItSP3I/AAAAAAAAAjs/00yDNyTvcs846cmFIVHEOrwLYd6UPJehgCLcBGAsYHQ/s200/1.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 1 LAT (Z)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9578
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9578
 #EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-name="DEPORTES - Fox Sports 1 MEX (M)(1080)" tvg-logo="https://1.bp.blogspot.com/-ANvUBZdXt0M/Xay_WItSP3I/AAAAAAAAAjs/00yDNyTvcs846cmFIVHEOrwLYd6UPJehgCLcBGAsYHQ/s200/1.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 1 MEX (M)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9579
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9579
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES - Fox Sports 2 LAT (Z)(720)" tvg-logo="https://1.bp.blogspot.com/-AJ5Rf2Jtldk/Xajps0BEM3I/AAAAAAAAASY/QhwqT65Cbtcfnva5b_ZG03mAgWevuOQ3wCLcBGAsYHQ/s200/11.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 2 LAT (Z)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9580
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9580
 #EXTINF:-1 tvg-id="Canal.1.(Colombia).ar" tvg-name="DEPORTES - Fox Sports 2 ARG (L)(SD)" tvg-logo="https://1.bp.blogspot.com/-F55EXTlQLLM/Xay_ZKpzh-I/AAAAAAAAAkI/aj1P5U_FLxUX17xtYY5q-J8ujgfiaG1ZACLcBGAsYHQ/s200/2.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 2 ARG (L)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9581
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9581
 #EXTINF:-1 tvg-id="Canal.Fox.Sports.2.(Cono.Norte).sv" tvg-name="DEPORTES - Fox Sports 2 ARG (i)(1080)" tvg-logo="https://1.bp.blogspot.com/-F55EXTlQLLM/Xay_ZKpzh-I/AAAAAAAAAkI/aj1P5U_FLxUX17xtYY5q-J8ujgfiaG1ZACLcBGAsYHQ/s200/2.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 2 ARG (i)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9582
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9582
 #EXTINF:-1 tvg-id="FOX.Sports.2.HD(FSP2HD).co" tvg-name="DEPORTES - Fox Sports 2 COL (TV)(1080)" tvg-logo="http://tv.proyectox.vip:8080/images/c81e728d9d4c2f636f067f89cc14862c.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 2 COL (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9583
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9583
 #EXTINF:-1 tvg-id="Fox.Sports.2.HDTV.(Cono.Norte).(FOXSP2HD).mx" tvg-name="DEPORTES - Fox Sports 2 MEX (L)(1080)" tvg-logo="http://tv.proyectox.vip:8080/images/c81e728d9d4c2f636f067f89cc14862c.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 2 MEX (L)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9584
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9584
 #EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-name="DEPORTES - Fox Sports 2 MEX (M)(1080)" tvg-logo="https://1.bp.blogspot.com/-F55EXTlQLLM/Xay_ZKpzh-I/AAAAAAAAAkI/aj1P5U_FLxUX17xtYY5q-J8ujgfiaG1ZACLcBGAsYHQ/s200/2.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 2 MEX (M)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9585
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9585
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES - Fox Sports 2 MX (Z)(720)" tvg-logo="https://1.bp.blogspot.com/-AJ5Rf2Jtldk/Xajps0BEM3I/AAAAAAAAASY/QhwqT65Cbtcfnva5b_ZG03mAgWevuOQ3wCLcBGAsYHQ/s200/11.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 2 MX (Z)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9586
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9586
 #EXTINF:-1 tvg-id="Canal.Fox.Sports.3.(Cono.Norte).sv" tvg-name="DEPORTES - Fox Sports 3 ARG (i)(1080)" tvg-logo="https://1.bp.blogspot.com/-gZ-fKImbBrA/Xay_ZVexiDI/AAAAAAAAAkM/w2BvDpBX7kIdCeB5j8aK8maKVbORE6e8QCLcBGAsYHQ/s200/3.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 3 ARG (i)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9588
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9588
 #EXTINF:-1 tvg-id="FOX.Sports.3.HD(FXS3HD).co" tvg-name="DEPORTES - Fox Sports 3 ARG (TV)(1080)" tvg-logo="https://1.bp.blogspot.com/-gZ-fKImbBrA/Xay_ZVexiDI/AAAAAAAAAkM/w2BvDpBX7kIdCeB5j8aK8maKVbORE6e8QCLcBGAsYHQ/s200/3.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 3 ARG (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9589
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9589
 #EXTINF:-1 tvg-id="FOX.Sports.3.HD(FXS3HD).co" tvg-name="DEPORTES - Fox Sports 3 COL (TV)(720)" tvg-logo="https://1.bp.blogspot.com/-gZ-fKImbBrA/Xay_ZVexiDI/AAAAAAAAAkM/w2BvDpBX7kIdCeB5j8aK8maKVbORE6e8QCLcBGAsYHQ/s200/3.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 3 COL (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9590
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9590
 #EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-name="DEPORTES - Fox Sports 3 MEX (M)(SD)" tvg-logo="https://1.bp.blogspot.com/-gZ-fKImbBrA/Xay_ZVexiDI/AAAAAAAAAkM/w2BvDpBX7kIdCeB5j8aK8maKVbORE6e8QCLcBGAsYHQ/s200/3.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 3 MEX (M)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9591
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9591
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES - Fox Sports 3 MX (Z)(1080)" tvg-logo="https://1.bp.blogspot.com/-gZ-fKImbBrA/Xay_ZVexiDI/AAAAAAAAAkM/w2BvDpBX7kIdCeB5j8aK8maKVbORE6e8QCLcBGAsYHQ/s200/3.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports 3 MX (Z)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9592
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9592
 #EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-name="DEPORTES - Fox Sports Premium MX (i)(720)" tvg-logo="https://i.postimg.cc/SsSNFqg1/Proyectox-fox-premium.png" group-title="CANALES-DEPORTES",DEPORTES - Fox Sports Premium MX (i)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9593
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9593
 #EXTINF:-1 tvg-id="Tu.Deportes.Network.(TUDN).U.S..HDTV.(TUDNHD).us" tvg-name="DEPORTES - TUDN - MEX (M)(720)" tvg-logo="https://1.bp.blogspot.com/-7Q-tZrmqxEc/Xay_WNz8u5I/AAAAAAAAAjk/mpUDmIAQx9wXEXmTEN31PP7q70qTtzTnACLcBGAsYHQ/s200/11.png" group-title="CANALES-DEPORTES",DEPORTES - TUDN - MEX (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9603
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9603
 #EXTINF:-1 tvg-id="Canal.TUDN.(México).mx" tvg-name="DEPORTES - TUDN - MEX (Z)(720)" tvg-logo="https://1.bp.blogspot.com/-7Q-tZrmqxEc/Xay_WNz8u5I/AAAAAAAAAjk/mpUDmIAQx9wXEXmTEN31PP7q70qTtzTnACLcBGAsYHQ/s200/11.png" group-title="CANALES-DEPORTES",DEPORTES - TUDN - MEX (Z)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9604
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9604
 #EXTINF:-1 tvg-id="TUDN.us" tvg-name="DEPORTES - TUDN - USA (TV)(720)" tvg-logo="https://1.bp.blogspot.com/-7Q-tZrmqxEc/Xay_WNz8u5I/AAAAAAAAAjk/mpUDmIAQx9wXEXmTEN31PP7q70qTtzTnACLcBGAsYHQ/s200/11.png" group-title="CANALES-DEPORTES",DEPORTES - TUDN - USA (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9605
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9605
 #EXTINF:-1 tvg-id="TUDN.us" tvg-name="DEPORTES - TUDN - USA (Z)(720)" tvg-logo="https://1.bp.blogspot.com/-7Q-tZrmqxEc/Xay_WNz8u5I/AAAAAAAAAjk/mpUDmIAQx9wXEXmTEN31PP7q70qTtzTnACLcBGAsYHQ/s200/11.png" group-title="CANALES-DEPORTES",DEPORTES - TUDN - USA (Z)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9606
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9606
 #EXTINF:-1 tvg-id="DSPORTS.+.HD.dtvsp" tvg-name="DEPORTES - Directv Sports + (L)(720)" tvg-logo="https://lh3.googleusercontent.com/-dxZyXXWvJDs/Yqp2MbCoR6I/AAAAAAAADpo/seuq6KMCveEvoqmHXCpW5Z9W3fS7qtHyQCNcBGAsYHQ/w200-h200/1655338543433516-0.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports + (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9557
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9557
 #EXTINF:-1 tvg-id="DSPORTS.+.HD.dtvsp" tvg-name="DEPORTES - Directv Sports + (TV)(720)" tvg-logo="https://1.bp.blogspot.com/-WZoevRCibrQ/XazFPI2G7nI/AAAAAAAAAlQ/Tm2GHOyjZuIjYxYN8ynbjF34iTCRQZzSQCLcBGAsYHQ/s200/18.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports + (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9558
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9558
 #EXTINF:-1 tvg-id="DSPORTS.+.HD.dtvsp" tvg-name="DEPORTES - Directv Sports + (TV)(720)" tvg-logo="https://lh3.googleusercontent.com/-dxZyXXWvJDs/Yqp2MbCoR6I/AAAAAAAADpo/seuq6KMCveEvoqmHXCpW5Z9W3fS7qtHyQCNcBGAsYHQ/w200-h200/1655338543433516-0.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports + (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9559
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9559
 #EXTINF:-1 tvg-id="DSPORTS.(ARG).dtvsp" tvg-name="DEPORTES - Directv Sports 1 (ARG) (TV)(1080)" tvg-logo="https://1.bp.blogspot.com/-CE1czydcuuw/XazFPWYBLvI/AAAAAAAAAlY/R5o8SlM2tGo-vOu_SzNXEIZsiTY4zrPpACLcBGAsYHQ/s200/19.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports 1 (ARG) (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9560
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9560
 #EXTINF:-1 tvg-id="Canal.Discovery.Kids.(Chile).cl" tvg-name="DEPORTES - Directv Sports 1 CHI (e)(1080)" tvg-logo="https://1.bp.blogspot.com/-CE1czydcuuw/XazFPWYBLvI/AAAAAAAAAlY/R5o8SlM2tGo-vOu_SzNXEIZsiTY4zrPpACLcBGAsYHQ/s200/19.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports 1 CHI (e)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9561
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9561
 #EXTINF:-1 tvg-id="DSPORTS.(COL).(DTSC).co" tvg-name="DEPORTES - Directv Sports 1 ECU (e)(1080)" tvg-logo="https://i.postimg.cc/1RGWB30z/Dsports.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports 1 ECU (e)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9562
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9562
 #EXTINF:-1 tvg-id="DSPORTS.(COL).(DTSC).co" tvg-name="DEPORTES - Directv Sports 1 ECU (e)(720)" tvg-logo="https://i.postimg.cc/1RGWB30z/Dsports.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports 1 ECU (e)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9563
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9563
 #EXTINF:-1 tvg-id="DSPORTS.2.HD.dtvsp" tvg-name="DEPORTES - Directv Sports 2 (e)(1080)" tvg-logo="https://lh3.googleusercontent.com/-_9mzNNdXzjQ/Yqp2LxWG4FI/AAAAAAAADpk/1Tyz1yla_eUKENravElP8qX4Pmnym0y5gCNcBGAsYHQ/w200-h200/1655338541459072-1.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports 2 (e)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9564
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9564
 #EXTINF:-1 tvg-id="DSPORTS.2.(DTS2).co" tvg-name="DEPORTES - Directv Sports 2 (e)(720)" tvg-logo="https://lh3.googleusercontent.com/-_9mzNNdXzjQ/Yqp2LxWG4FI/AAAAAAAADpk/1Tyz1yla_eUKENravElP8qX4Pmnym0y5gCNcBGAsYHQ/w200-h200/1655338541459072-1.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports 2 (e)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9565
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9565
 #EXTINF:-1 tvg-id="DSPORTS.2.HD.dtvsp" tvg-name="DEPORTES - Directv Sports 2 (Z)(720)" tvg-logo="https://lh3.googleusercontent.com/-_9mzNNdXzjQ/Yqp2LxWG4FI/AAAAAAAADpk/1Tyz1yla_eUKENravElP8qX4Pmnym0y5gCNcBGAsYHQ/w200-h200/1655338541459072-1.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports 2 (Z)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9567
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9567
 #EXTINF:-1 tvg-id="DSPORTS.2.HD.dtvsp" tvg-name="DEPORTES - Directv Sports 2 ARG (L)(720)" tvg-logo="https://lh3.googleusercontent.com/-_9mzNNdXzjQ/Yqp2LxWG4FI/AAAAAAAADpk/1Tyz1yla_eUKENravElP8qX4Pmnym0y5gCNcBGAsYHQ/w200-h200/1655338541459072-1.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports 2 ARG (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9566
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9566
 #EXTINF:-1 tvg-id="DSPORTS.Fight(DTSFHD).co" tvg-name="DEPORTES - Directv Sports Fight (TV)(720)" tvg-logo="https://lh3.googleusercontent.com/-LvUS6dp9vwM/Yqp4uneH-jI/AAAAAAAADp0/LjXyQj4JDQEfHChtmDP-s3UklHIsEpTWQCNcBGAsYHQ/w200-h200/1655339191039165-0.png" group-title="CANALES-DEPORTES",DEPORTES - Directv Sports Fight (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9568
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9568
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES - Claro Sports 2 (Z)(720)" tvg-logo="https://1.bp.blogspot.com/-fscNkID2Ypo/XazGNHsWN-I/AAAAAAAAAlg/Ypqsm7nevxMjK0ArqE0roclpCZDt5kwCQCLcBGAsYHQ/s200/21.png" group-title="CANALES-DEPORTES",DEPORTES - Claro Sports 2 (Z)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9556
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9556
 #EXTINF:-1 tvg-id="The.Fight.Network.(United.States).(TFN).us" tvg-name="DEPORTES - Fight BOX  (TV)(1080)" tvg-logo="https://1.bp.blogspot.com/-trZC8_-fPrc/X2kBptXt-QI/AAAAAAAABZY/ebjwHb5BxW4LLF_iJltMKJ-mVQHv4gqbgCLcBGAsYHQ/w200-h200/Fight%2Bbox.png" group-title="CANALES-DEPORTES",DEPORTES - Fight BOX  (TV)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9570
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9570
 #EXTINF:-1 tvg-id="GOL.TV.uy" tvg-name="DEPORTES - Gol TV ES (M)(720)" tvg-logo="https://1.bp.blogspot.com/-tAUwJtdvbyo/XzSE6JkSizI/AAAAAAAAA6Q/_piNFBzgsDIwr6cAbeqS3cteFcgInfjvACLcBGAsYHQ/w200-h200/128%2BGOL%2BTV.png" group-title="CANALES-DEPORTES",DEPORTES - Gol TV ES (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9594
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9594
 #EXTINF:-1 tvg-id="Gol.TV.USA.us" tvg-name="DEPORTES - Gol TV Internacional (TV)(720)" tvg-logo="https://1.bp.blogspot.com/-tAUwJtdvbyo/XzSE6JkSizI/AAAAAAAAA6Q/_piNFBzgsDIwr6cAbeqS3cteFcgInfjvACLcBGAsYHQ/w200-h200/128%2BGOL%2BTV.png" group-title="CANALES-DEPORTES",DEPORTES - Gol TV Internacional (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9595
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9595
 #EXTINF:-1 tvg-id="IndiePlex.HDTV.(INDIEHD).us" tvg-name="DEPORTES - Golf Latin America (M)(SD)" tvg-logo="https://1.bp.blogspot.com/-bnHcR36sEwk/XmzurT8VcYI/AAAAAAAABac/WuIdPohEzLU9o2C4V0_UB2_CpO72CjfQACLcBGAsYHQ/s200/35.png" group-title="CANALES-DEPORTES",DEPORTES - Golf Latin America (M)(SD)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9596
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9596
 #EXTINF:-1 tvg-id="CW.Plus.Mountain.us" tvg-name="DEPORTES - Golf Latin MEX (M)(1080)" tvg-logo="https://1.bp.blogspot.com/-bnHcR36sEwk/XmzurT8VcYI/AAAAAAAABac/WuIdPohEzLU9o2C4V0_UB2_CpO72CjfQACLcBGAsYHQ/s200/35.png" group-title="CANALES-DEPORTES",DEPORTES - Golf Latin MEX (M)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9597
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9597
 #EXTINF:-1 tvg-id="NBA.TV.HDTV.(NBA.HD).us" tvg-name="DEPORTES - NBA U (M)(720)" tvg-logo="https://1.bp.blogspot.com/-ri_Nr0yAHbc/XhA3NrtQMlI/AAAAAAAAA7g/POn3E9DM87w21_EvZWEi5D-YQCNLepdiACLcBGAsYHQ/s200/29.png" group-title="CANALES-DEPORTES",DEPORTES - NBA U (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9598
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9598
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES - Sky sports (TV)(720)" tvg-logo="https://lh3.googleusercontent.com/-x_CIVSy5Fzg/YkytpLNmlVI/AAAAAAAADek/5sv89DCrHMofx0iph8leofRZIbMQZHyEACNcBGAsYHQ/w200-h200/1649192355948000-0.png" group-title="CANALES-DEPORTES",DEPORTES - Sky sports (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9599
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9599
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES - SKY Sports Bundesliga (Z)(1080)" tvg-logo="https://i.postimg.cc/HLzWrYdb/Proyectox-sky-sports.png" group-title="CANALES-DEPORTES",DEPORTES - SKY Sports Bundesliga (Z)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9600
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9600
 #EXTINF:-1 tvg-id="beIN.SPORTS.CONNECT.LaLiga.(BEIN3-I).us" tvg-name="DEPORTES - SKY Sports La liga (TV)(720)" tvg-logo="https://i.postimg.cc/HxqZ8WFB/Sky-sports-proyectox.png" group-title="CANALES-DEPORTES",DEPORTES - SKY Sports La liga (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9601
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9601
 #EXTINF:-1 tvg-id="Tennis.Channel.HDTV.(TNNSHD).us" tvg-name="DEPORTES - Tennis Channel (L)(720)" tvg-logo="https://1.bp.blogspot.com/-UHbphuMzTLI/Xjb-ajdIv1I/AAAAAAAABA0/W2Dhehq7thsNNu92yKs9orPOD9LLYaddACLcBGAsYHQ/s200/34.png" group-title="CANALES-DEPORTES",DEPORTES - Tennis Channel (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9602
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9602
 #EXTINF:-1 tvg-id="Canal.TVC.Deportes.mx" tvg-name="DEPORTES - TVC Deportes (L)(1080)" tvg-logo="https://1.bp.blogspot.com/-fpt6Sm7APZ4/Xay_XGDKQ5I/AAAAAAAAAjw/--9czPX3msMJpPDjQcQx7FqDjyNMyPJfQCLcBGAsYHQ/s200/12.png" group-title="CANALES-DEPORTES",DEPORTES - TVC Deportes (L)(1080)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9607
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9607
 #EXTINF:-1 tvg-id="Canal.TyC.Sports.ar" tvg-name="DEPORTES - TyC Sports INT (i)(720)" tvg-logo="https://1.bp.blogspot.com/-clt7G_R4DNw/Xg-MJOM_YMI/AAAAAAAAA6A/ulOuWvu97K0QvGGyHNHcANUkSMGPeRLGQCLcBGAsYHQ/s200/23.png" group-title="CANALES-DEPORTES",DEPORTES - TyC Sports INT (i)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9608
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9608
 #EXTINF:-1 tvg-id="Canal.1.(Colombia).ar" tvg-name="DEPORTES - TyC Sports INT (TV)(720)" tvg-logo="https://1.bp.blogspot.com/-clt7G_R4DNw/Xg-MJOM_YMI/AAAAAAAAA6A/ulOuWvu97K0QvGGyHNHcANUkSMGPeRLGQCLcBGAsYHQ/s200/23.png" group-title="CANALES-DEPORTES",DEPORTES - TyC Sports INT (TV)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9609
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9609
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES - UFC (L)(720)" tvg-logo="https://1.bp.blogspot.com/-T4uG5FYIDek/XhA6fXlKRQI/AAAAAAAAA8U/xRyQIitNaVsNGYmrK2TVTPJKiCITuGGoACLcBGAsYHQ/s200/32.png" group-title="CANALES-DEPORTES",DEPORTES - UFC (L)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9610
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9610
 #EXTINF:-1 tvg-id="Food.Network.USA.-.Eastern.Feed.us" tvg-name="DEPORTES - UFC Fight PASS (i)(720)" tvg-logo="https://1.bp.blogspot.com/-T4uG5FYIDek/XhA6fXlKRQI/AAAAAAAAA8U/xRyQIitNaVsNGYmrK2TVTPJKiCITuGGoACLcBGAsYHQ/s200/32.png" group-title="CANALES-DEPORTES",DEPORTES - UFC Fight PASS (i)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9611
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9611
 #EXTINF:-1 tvg-id="WWE.Network.us" tvg-name="DEPORTES - WWE  (Z)(720)" tvg-logo="https://lh3.googleusercontent.com/-Br7dLua2HYc/YkjfrZ9IdzI/AAAAAAAADd8/uFaZ9I5FrckfSZ22_0RaaH-63zhw_TpOQCNcBGAsYHQ/w200-h200/1648943020342945-0.png" group-title="CANALES-DEPORTES",DEPORTES - WWE  (Z)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9612
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9612
 #EXTINF:-1 tvg-id="WWE.Network.us" tvg-name="DEPORTES - WWE (M)(720)" tvg-logo="https://lh3.googleusercontent.com/-Br7dLua2HYc/YkjfrZ9IdzI/AAAAAAAADd8/uFaZ9I5FrckfSZ22_0RaaH-63zhw_TpOQCNcBGAsYHQ/w200-h200/1648943020342945-0.png" group-title="CANALES-DEPORTES",DEPORTES - WWE (M)(720)
-http://tv.zapping.life:8080/POLLO23/7472d94acfe1/9613
+http://tv.zapping.life:8080/Fern2023/6fdb5eaf8cda/9613
