@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+
 <tv generator-info-name="GatoTV EPG - IDs adaptados a M3U" source-info-url="https://www.gatotv.com/guia_tv/mexico">
   <channel id="azteca uno/2026-04-09">
     <display-name lang="es">Azteca Uno</display-name>
