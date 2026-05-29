@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PRUEBA · M3U</title>
+<title>StreamPlay · M3U</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Figtree:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -114,15 +113,25 @@ video { width: 100%; height: 100%; object-fit: contain; position: absolute; top:
 .error-overlay small { color: #7878A0; }
 .retry-btn { padding: 8px 22px; background: #7C3AED; border: none; border-radius: 7px; color: #fff; cursor: pointer; }
 
-#vodControls { position: absolute; bottom: 70px; left: 0; right: 0; background: rgba(0,0,0,0.85); padding: 8px 16px; z-index: 20; transition: opacity 0.3s; }
+#vodControls {
+    width: 94%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: rgb(0 0 0 / 0%);
+    padding: 8px 16px;
+    z-index: 20;
+    transition: opacity 0.3s;
+}
 #vodControls.hidden { display: none; }
 
-#toast { position: fixed; bottom: 74px; right: 41%; background: #12141F; border: 1px solid rgba(255,255,255,0.09); border-radius: 8px; padding: 10px 16px; font-size: 12px; z-index: 100; transform: translateY(8px); opacity: 0; transition: all 0.2s; }
+#toast { position: fixed; bottom: 74px; right: 16px; background: #12141F; border: 1px solid rgba(255,255,255,0.09); border-radius: 8px; padding: 10px 16px; font-size: 12px; z-index: 100; transform: translateY(8px); opacity: 0; transition: all 0.2s; }
 #toast.show { opacity: 1; transform: translateY(0); }
 #toast.error { border-color: #EF4444; color: #EF4444; }
 #toast.success { border-color: #22C55E; color: #22C55E; }
 
-.immersive-toggle { position: fixed; bottom: 5px; right: 40%; z-index: 200; background: rgba(0,0,0,0.6); border: 1px solid rgba(255,255,255,0.09); border-radius: 30px; padding: 8px 16px; color: white; font-size: 12px; cursor: pointer; backdrop-filter: blur(10px); display: flex; align-items: center; gap: 8px; }
+.immersive-toggle { position: fixed; bottom: 4px; right: 30%; z-index: 200; background: rgba(0,0,0,0.6); border: 1px solid rgba(255,255,255,0.09); border-radius: 30px; padding: 8px 16px; color: white; font-size: 12px; cursor: pointer; backdrop-filter: blur(10px); display: flex; align-items: center; gap: 8px; }
 
 .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 300; align-items: center; justify-content: center; }
 .modal.show { display: flex; }
@@ -216,7 +225,7 @@ video { width: 100%; height: 100%; object-fit: contain; position: absolute; top:
 <div id="configModal" class="modal">
   <div class="modal-content">
     <h3>Configuración Xtream Codes</h3>
-    <input type="text" id="xtreamServer" placeholder="Servidor (ej: avefenixtv.com)">
+    <input type="text" id="xtreamServer" placeholder="Servidor (ej: avefenixtv.com:8080)">
     <input type="text" id="xtreamUser" placeholder="Usuario">
     <input type="password" id="xtreamPass" placeholder="Contraseña">
     <div class="modal-buttons">
@@ -356,6 +365,54 @@ function agruparSeries(items) {
     return seriesList;
 }
 
+// ==================== GUARDAR ÚLTIMA LISTA ====================
+function guardarUltimaLista(tipo, datos) {
+    var ultimaLista = {
+        tipo: tipo,  // 'xtream', 'url', 'file'
+        datos: datos,
+        fecha: Date.now()
+    };
+    localStorage.setItem('ultima_lista', JSON.stringify(ultimaLista));
+}
+
+function cargarUltimaLista() {
+    var guardado = localStorage.getItem('ultima_lista');
+    if (!guardado) return null;
+    try {
+        return JSON.parse(guardado);
+    } catch(e) {
+        return null;
+    }
+}
+
+function restaurarUltimaLista() {
+    var ultima = cargarUltimaLista();
+    if (!ultima) return false;
+    
+    console.log('Restaurando última lista:', ultima.tipo);
+    
+    if (ultima.tipo === 'xtream') {
+        var cfg = ultima.datos;
+        currentServer = cfg.server;
+        currentUser = cfg.user;
+        currentPass = cfg.pass;
+        document.getElementById('xtreamServer').value = cfg.server;
+        document.getElementById('xtreamUser').value = cfg.user;
+        document.getElementById('xtreamPass').value = cfg.pass;
+        cargarXtreamList();
+        return true;
+    } else if (ultima.tipo === 'url') {
+        var url = ultima.datos;
+        document.getElementById('urlInput').value = url;
+        loadFromUrl(url);
+        return true;
+    } else if (ultima.tipo === 'file') {
+        toast('La última lista fue un archivo local. Debes cargarlo manualmente.', 'info');
+        return false;
+    }
+    return false;
+}
+
 // ==================== VARIABLES GLOBALES ====================
 var channelsAll = [];
 var channels = [];
@@ -380,62 +437,6 @@ var currentServer = DEFAULT_SERVER;
 var currentUser = DEFAULT_USER;
 var currentPass = DEFAULT_PASS;
 var seriesStructure = null;
-
-
-
-
-// ==================== GUARDAR ÚLTIMA LISTA ====================
-function guardarUltimaLista(tipo, datos) {
-    var ultimaLista = {
-        tipo: tipo,  // 'xtream', 'url', 'file'
-        datos: datos,
-        fecha: Date.now()
-    };
-    localStorage.setItem('ultima_lista', JSON.stringify(ultimaLista));
-}
-
-function cargarUltimaLista() {
-    var guardado = localStorage.getItem('ultima_lista');
-    if (!guardado) return null;
-    
-    try {
-        return JSON.parse(guardado);
-    } catch(e) {
-        return null;
-    }
-}
-
-function restaurarUltimaLista() {
-    var ultima = cargarUltimaLista();
-    if (!ultima) return false;
-    
-    console.log('Restaurando última lista:', ultima.tipo);
-    
-    if (ultima.tipo === 'xtream') {
-        // Restaurar configuración Xtream
-        var cfg = ultima.datos;
-        currentServer = cfg.server;
-        currentUser = cfg.user;
-        currentPass = cfg.pass;
-        document.getElementById('xtreamServer').value = cfg.server;
-        document.getElementById('xtreamUser').value = cfg.user;
-        document.getElementById('xtreamPass').value = cfg.pass;
-        cargarXtreamList();
-        return true;
-    } else if (ultima.tipo === 'url') {
-        // Restaurar URL manual
-        var url = ultima.datos;
-        document.getElementById('urlInput').value = url;
-        loadFromUrl(url);
-        return true;
-    } else if (ultima.tipo === 'file') {
-        // Los archivos no se pueden restaurar automáticamente por seguridad
-        toast('La última lista fue un archivo local. Debes cargarlo manualmente.', 'info');
-        return false;
-    }
-    return false;
-}
-
 
 // ==================== FUNCIONES AUXILIARES ====================
 function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
@@ -484,20 +485,110 @@ function iniciarMonitor(video, urlOriginal, tipo, esVodContent) {
 
 // ==================== CONTROLES VOD ====================
 function agregarVOD() {
-  if(document.getElementById('vodControls')) return;
-  var bar = document.createElement('div'); bar.id='vodControls';
-  bar.innerHTML='<div style="display:flex;gap:12px;align-items:center"><span id="currentTime" style="color:white">00:00</span><div style="flex:1;position:relative"><input type="range" id="seekBar" min="0" max="100" value="0" style="width:100%"><div id="progressFill" style="position:absolute;left:0;top:0;height:4px;background:#7C3AED;width:0%"></div></div><span id="durationTime" style="color:white">00:00</span><button id="togglePlayVod" style="background:#7C3AED;border:none;color:white;padding:6px 14px;border-radius:5px">⏸ Pausa</button></div>';
-  document.getElementById('videoWrap').appendChild(bar);
-  var v = document.getElementById('videoEl'), seek = document.getElementById('seekBar');
-  function fmt(s){ if(isNaN(s)) return '00:00'; var m=Math.floor(s/60), sec=Math.floor(s%60); return `${m}:${sec.toString().padStart(2,'0')}`; }
-  v.addEventListener('loadedmetadata',()=>{ document.getElementById('durationTime').textContent=fmt(v.duration); seek.max=v.duration; });
-  v.addEventListener('timeupdate',()=>{ if(!isNaN(v.duration)){ var p=(v.currentTime/v.duration)*100; seek.value=v.currentTime; document.getElementById('progressFill').style.width=p+'%'; document.getElementById('currentTime').textContent=fmt(v.currentTime); } });
-  seek.addEventListener('input',()=>{ v.currentTime=parseFloat(seek.value); });
-  var toggleBtn = document.getElementById('togglePlayVod');
-  toggleBtn.addEventListener('click',()=>{ if(v.paused){ v.play(); toggleBtn.innerHTML='⏸ Pausa'; }else{ v.pause(); toggleBtn.innerHTML='▶ Play'; } });
-  var to; bar.addEventListener('mousemove',()=>{ bar.style.opacity='1'; clearTimeout(to); to=setTimeout(()=>{ bar.style.opacity='0'; },3000); });
-  bar.style.opacity='1'; setTimeout(()=>{ bar.style.opacity='0'; },3000);
+    // Si ya existe, solo mostrarlo
+    var existingBar = document.getElementById('vodControls');
+    if (existingBar) {
+        existingBar.classList.remove('hidden');
+        existingBar.style.opacity = '1';
+        // Actualizar el estado del botón según el video
+        var v = document.getElementById('videoEl');
+        var toggleBtn = document.getElementById('togglePlayVod');
+        if (toggleBtn) {
+            toggleBtn.textContent = v.paused ? '▶ Play' : '⏸ Pausa';
+        }
+        return;
+    }
+    
+    var bar = document.createElement('div'); 
+    bar.id = 'vodControls';
+    bar.innerHTML = '<div style="display:flex;gap:12px;align-items:center">' +
+        '<span id="currentTime" style="color:white;font-family:monospace;font-size:12px;">00:00</span>' +
+        '<div style="flex:1;position:relative">' +
+        '<input type="range" id="seekBar" min="0" max="100" value="0" style="width:100%;height:4px;-webkit-appearance:none;background:rgba(255,255,255,0.3);border-radius:2px;cursor:pointer;">' +
+        '<div id="progressFill" style="position:absolute;left:0;top:0;height:4px;background:#7C3AED;border-radius:2px;width:0%;pointer-events:none;"></div>' +
+        '</div>' +
+        '<span id="durationTime" style="color:white;font-family:monospace;font-size:12px;">00:00</span>' +
+        '<button id="togglePlayVod" style="background:#7C3AED;border:none;color:white;padding:6px 14px;border-radius:5px;cursor:pointer;font-weight:bold;font-size:12px;">⏸ Pausa</button>' +
+        '</div>';
+    
+    document.getElementById('videoWrap').appendChild(bar);
+    
+    var v = document.getElementById('videoEl');
+    var seek = document.getElementById('seekBar');
+    var progressFill = document.getElementById('progressFill');
+    var currentTimeSpan = document.getElementById('currentTime');
+    var durationTimeSpan = document.getElementById('durationTime');
+    var toggleBtn = document.getElementById('togglePlayVod');
+    
+    function fmt(s) { 
+        if (isNaN(s)) return '00:00'; 
+        var m = Math.floor(s / 60); 
+        var sec = Math.floor(s % 60); 
+        return m + ':' + (sec < 10 ? '0' : '') + sec; 
+    }
+    
+    // Cuando se carga el video
+    v.addEventListener('loadedmetadata', function onLoad() {
+        durationTimeSpan.textContent = fmt(v.duration);
+        seek.max = v.duration;
+        seek.value = v.currentTime || 0;
+    });
+    
+    // Actualizar tiempo y barra de progreso
+    v.addEventListener('timeupdate', function onTime() {
+        if (!isNaN(v.duration) && v.duration > 0) {
+            var percent = (v.currentTime / v.duration) * 100;
+            seek.value = v.currentTime;
+            progressFill.style.width = percent + '%';
+            currentTimeSpan.textContent = fmt(v.currentTime);
+        }
+    });
+    
+    // Buscar al hacer clic en la barra
+    seek.addEventListener('input', function onSeek() {
+        v.currentTime = parseFloat(seek.value);
+    });
+    
+    // Botón Play/Pausa - CORREGIDO
+    toggleBtn.onclick = function(e) {
+        e.stopPropagation();
+        if (v.paused) {
+            v.play();
+            toggleBtn.textContent = '⏸ Pausa';
+        } else {
+            v.pause();
+            toggleBtn.textContent = '▶ Play';
+        }
+    };
+    
+    // También agregar evento táctil para móviles
+    toggleBtn.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (v.paused) {
+            v.play();
+            toggleBtn.textContent = '⏸ Pausa';
+        } else {
+            v.pause();
+            toggleBtn.textContent = '▶ Play';
+        }
+    });
+    
+    // Auto-ocultar controles después de 3 segundos
+    var timeoutOcultar;
+    function mostrarControles() {
+        bar.style.opacity = '1';
+        clearTimeout(timeoutOcultar);
+        timeoutOcultar = setTimeout(function() {
+            bar.style.opacity = '0';
+        }, 3000);
+    }
+    
+    bar.addEventListener('mousemove', mostrarControles);
+    bar.addEventListener('mouseenter', mostrarControles);
+    mostrarControles();
 }
+
 function quitarVOD() { var el = document.getElementById('vodControls'); if(el) el.classList.add('hidden'); }
 
 // ==================== REPRODUCCIÓN ====================
@@ -520,7 +611,18 @@ function playVideoDirecto(ch, idx) {
   document.getElementById('npName').textContent = ch.nombre || ch.name;
   document.getElementById('npMeta').textContent = ch.group || '—';
   var vod = (ch.tipo === 'movies' || ch.tipo === 'series');
-  if(vod){ agregarVOD(); setLive(false); } else { quitarVOD(); setLive(true); }
+ if(vod){ 
+    agregarVOD(); 
+    setLive(false); 
+    // Forzar que el botón se muestre correctamente
+    setTimeout(function() {
+        var toggleBtn = document.getElementById('togglePlayVod');
+        if(toggleBtn) toggleBtn.textContent = '⏸ Pausa';
+    }, 100);
+} else { 
+    quitarVOD(); 
+    setLive(true); 
+}
   var errHandler = function(){ v.removeEventListener('error',errHandler); hideLoader(); showError('No se puede reproducir','Copia el enlace para VLC'); setLive(false); detenerMonitor(); };
   v.addEventListener('error',errHandler);
   v.src = ch.url;
@@ -566,9 +668,6 @@ function actualizarFocoCategorias() {
   pills.forEach((p,i)=>{ if(i===currentCategoryIndex){ p.classList.add('focused'); p.scrollIntoView({ behavior:'smooth', block:'nearest', inline:'center' }); } else p.classList.remove('focused'); });
 }
 
-
-
-
 function navegarCategoria(delta) {
     registrarActividad();
     var pills = document.querySelectorAll('.cat-pill');
@@ -583,7 +682,7 @@ function navegarCategoria(delta) {
     }
     filtrarPorCategoria();
     buildCategoryPills();
-    renderList(true); // true = forzar renderizado completo
+    renderList(true);
     setTimeout(function() {
         var nuevas = document.querySelectorAll('.cat-pill');
         for (var i = 0; i < nuevas.length; i++) {
@@ -619,7 +718,7 @@ function cambiarTipoContenido(tipo) {
     }
     
     buildCategoryPills();
-    renderList(true); // true = forzar renderizado completo
+    renderList(true);
     renderBreadcrumb();
     toast(tipo === 'channels' ? '📺 Canales en vivo' : (tipo === 'movies' ? '🎬 Películas' : '📺 Series agrupadas'), 'success');
 }
@@ -658,7 +757,7 @@ function buildCategoryPills() {
             }
             filtrarPorCategoria();
             buildCategoryPills();
-            renderList(true); // true = forzar renderizado completo
+            renderList(true);
             setTimeout(function() {
                 var nuevas = document.querySelectorAll('.cat-pill');
                 for (var i = 0; i < nuevas.length; i++) {
@@ -678,14 +777,10 @@ function buildCategoryPills() {
     setTimeout(actualizarFocoCategorias, 50);
 }
 
-
-
-
 function seleccionarCanal(delta) {
     registrarActividad();
     if (!channels.length) return;
     
-    // Encontrar el índice actual
     var idxActual = -1;
     for (var i = 0; i < channels.length; i++) {
         if (channels[i]._origIdx === activeIdx) {
@@ -704,13 +799,8 @@ function seleccionarCanal(delta) {
     if (nuevoIdx >= channels.length) nuevoIdx = channels.length - 1;
     
     if (nuevoIdx !== idxActual && channels[nuevoIdx]) {
-        // Actualizar el activeIdx sin recargar toda la lista
         activeIdx = channels[nuevoIdx]._origIdx;
-        
-        // Solo actualizar las clases visuales, NO recargar la lista completa
         actualizarFocoVisual();
-        
-        // Scroll suave al elemento
         scrollAlElementoActivo();
     }
 }
@@ -727,7 +817,6 @@ function actualizarFocoVisual() {
             items[i].classList.remove('focused');
         }
     }
-    // Actualizar el now playing
     var canalActivo = channels.find(c => c._origIdx === activeIdx);
     if (canalActivo) {
         document.getElementById('npName').textContent = canalActivo.nombre || canalActivo.name;
@@ -752,14 +841,11 @@ function scrollAlElementoActivo() {
         var contRect = contenedor.getBoundingClientRect();
         var elRect = elementoActivo.getBoundingClientRect();
         
-        // Solo hacer scroll si el elemento está fuera de la vista
         if (elRect.top < contRect.top || elRect.bottom > contRect.bottom) {
             elementoActivo.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
     }
 }
-
-
 
 function filtrarPorCategoria() {
     if (currentContentType === 'series' && seriesStructure && seriesStructure.length > 0 && navStack.length === 0) {
@@ -779,10 +865,6 @@ function filtrarPorCategoria() {
     }
     channels.forEach((ch, idx) => { ch._origIdx = idx; });
 }
-
-
-
-
 
 // ==================== MODO INMERSIVO ====================
 function activarInmersivo() {
@@ -829,7 +911,7 @@ function mostrarTemporadas(serie) {
             tipo: 'series'
         };
     });
-    renderList(true); // true = forzar renderizado completo
+    renderList(true);
     renderBreadcrumb();
 }
 
@@ -851,7 +933,7 @@ function mostrarCapitulos(temporada) {
             tipo: 'series'
         };
     });
-    renderList(true); // true = forzar renderizado completo
+    renderList(true);
     renderBreadcrumb();
 }
 
@@ -908,7 +990,6 @@ function renderBreadcrumb() {
 }
 
 // ==================== RESOLVER CANAL ====================
-
 function resolveChannel(origIdx) {
     registrarActividad();
     var item = channels.find(c => c._origIdx === origIdx);
@@ -930,7 +1011,6 @@ function resolveChannel(origIdx) {
         return;
     }
     
-    // Actualizar activeIdx sin recargar lista si es el mismo tipo
     if (activeIdx !== origIdx) {
         activeIdx = origIdx;
         actualizarFocoVisual();
@@ -986,7 +1066,7 @@ function loadLevel(list){
 
 function navigateTo(ch){ navStack.push({ name:ch.name, channels:channels.slice(), activeIdx:activeIdx }); loadLevel(ch._subList); }
 
-// ==================== VIRTUAL LIST ====================  PARA CAMBIAR CANTIDAD DE ELEMENTOS QUE SE MUESTRAN EN LA LISTA
+// ==================== VIRTUAL LIST ====================
 function renderVirtual() {
     var wrap = document.getElementById('chListWrap');
     var inner = document.getElementById('chListInner');
@@ -998,12 +1078,10 @@ function renderVirtual() {
     
     if (!n) return;
     
-    // Calcular cuántos elementos caben en pantalla más un margen
     var elementosVisibles = Math.ceil(wrapH / ITEM_H) + 20;
     var start = Math.max(0, Math.floor(scroll / ITEM_H) - elementosVisibles);
     var end = Math.min(n - 1, Math.ceil((scroll + wrapH) / ITEM_H) + elementosVisibles);
     
-    // Limpiar elementos fuera del rango visible
     var keys = Object.keys(_renderedMap);
     for (var k = 0; k < keys.length; k++) {
         var vi = parseInt(keys[k]);
@@ -1014,7 +1092,6 @@ function renderVirtual() {
         }
     }
     
-    // Crear nuevos elementos que entran en rango
     var frag = document.createDocumentFragment();
     for (var i = start; i <= end; i++) {
         if (_renderedMap[i]) continue;
@@ -1029,9 +1106,6 @@ function renderVirtual() {
     inner.appendChild(frag);
 }
 
-
-
-
 function crearItem(c, vi){
     var div = document.createElement('div');
     var clases = 'channel-item';
@@ -1040,7 +1114,6 @@ function crearItem(c, vi){
     div.className = clases;
     div.style.top = (vi * ITEM_H) + 'px';
     
-    // Asegurar que dataset.origIdx esté correctamente asignado
     div.setAttribute('data-orig-idx', c._origIdx);
     
     var lw = document.createElement('div'); lw.className='ch-logo-wrap';
@@ -1070,24 +1143,15 @@ function crearItem(c, vi){
     return div;
 }
 
-
-
-
-
-
-
-
 function renderList(forzarRenderizado) {
     var inner = document.getElementById('chListInner');
     
-    // Si es solo navegación y no forzamos render, solo actualizamos foco
     if (!forzarRenderizado && inner.children.length > 0) {
         actualizarFocoVisual();
         scrollAlElementoActivo();
         return;
     }
     
-    // Renderizado completo (solo cuando cambia la lista)
     inner.innerHTML = '';
     _renderedMap = {};
     
@@ -1109,11 +1173,11 @@ function renderList(forzarRenderizado) {
 }
 
 // ==================== CARGA DE LISTA ====================
-
-function getM3UUrl() { return `http://${currentServer}/get.php?username=${currentUser}&password=${currentPass}&type=m3u_plus&output=mpegts`; }
+function getM3UUrl() { 
+    return `http://${currentServer}/get.php?username=${currentUser}&password=${currentPass}&type=m3u_plus&output=ts`;
+}
 
 function cargarXtreamList(){
-    // Guardar como última lista usada
     guardarUltimaLista('xtream', { server: currentServer, user: currentUser, pass: currentPass });
     
     showLoadBar();
@@ -1139,10 +1203,9 @@ function cargarXtreamPersonalizado(server, user, pass) {
 }
 
 function loadFromUrl(url) {
-    showLoadBar();
-    // Guardar URL como última lista
     guardarUltimaLista('url', url);
     
+    showLoadBar();
     fetchText(url).then(raw=>{
         var text=extractText(raw);
         if(!isM3U(text)) throw new Error('Formato inválido');
@@ -1181,12 +1244,11 @@ function renderSavedConfigs() {
 
 function guardarConfiguracion(server, user, pass) {
     var configs = loadSavedConfigs();
-    configs.unshift({ id: 'cfg_' + Date.now(), name: server.split('.')[0], server: server, user: user, pass: pass, isDefault: false });
+    var nuevaConfig = { id: 'cfg_' + Date.now(), name: server.split('.')[0], server: server, user: user, pass: pass, isDefault: false };
+    configs.unshift(nuevaConfig);
     if (configs.length > 10) configs = configs.slice(0, 10);
     saveConfig(configs);
     renderSavedConfigs();
-    
-    // Guardar como última lista usada
     guardarUltimaLista('xtream', { server: server, user: user, pass: pass });
 }
 
@@ -1198,7 +1260,9 @@ function eliminarConfiguracion(id) {
 }
 
 function cargarConfiguracion(cfg) {
-    currentServer = cfg.server; currentUser = cfg.user; currentPass = cfg.pass;
+    currentServer = cfg.server; 
+    currentUser = cfg.user; 
+    currentPass = cfg.pass;
     document.getElementById('xtreamServer').value = cfg.server;
     document.getElementById('xtreamUser').value = cfg.user;
     document.getElementById('xtreamPass').value = cfg.pass;
@@ -1212,10 +1276,7 @@ document.getElementById('loadBtn').addEventListener('click',()=>{ var u=document
 document.getElementById('fileInput').addEventListener('change',e=>{ 
     var f=e.target.files[0]; 
     if(!f) return; 
-    
-    // Guardar nombre del archivo (no el contenido por seguridad)
     guardarUltimaLista('file', { name: f.name, size: f.size });
-    
     var r=new FileReader(); 
     r.onload=ev=>{ 
         var text=extractText(ev.target.result); 
@@ -1233,8 +1294,20 @@ document.getElementById('fileInput').addEventListener('change',e=>{
     r.readAsText(f,'utf-8'); 
     e.target.value=''; 
 });
-
-document.getElementById('playBtn').addEventListener('click',()=>{ var v=document.getElementById('videoEl'); if(activeIdx<0) return; if(v.paused){ v.play(); } else { v.pause(); } });
+document.getElementById('playBtn').addEventListener('click', function() { 
+    var v = document.getElementById('videoEl'); 
+    if (activeIdx < 0) return; 
+    if (v.paused) { 
+        v.play();
+        // Actualizar botón VOD si existe
+        var vodBtn = document.getElementById('togglePlayVod');
+        if (vodBtn) vodBtn.textContent = '⏸ Pausa';
+    } else { 
+        v.pause();
+        var vodBtn = document.getElementById('togglePlayVod');
+        if (vodBtn) vodBtn.textContent = '▶ Play';
+    } 
+});
 document.getElementById('prevBtn').addEventListener('click',()=>{ var idx=channels.findIndex(c=>c._origIdx===activeIdx); if(idx>0) resolveChannel(channels[idx-1]._origIdx); });
 document.getElementById('nextBtn').addEventListener('click',()=>{ var idx=channels.findIndex(c=>c._origIdx===activeIdx); if(idx<channels.length-1) resolveChannel(channels[idx+1]._origIdx); });
 document.getElementById('fsBtn').addEventListener('click',()=>{ var w=document.getElementById('videoWrap'); if(!document.fullscreenElement) w.requestFullscreen(); else document.exitFullscreen(); });
@@ -1287,9 +1360,9 @@ document.addEventListener('keydown', function(e) {
   if(e.key==='ArrowUp'){ e.preventDefault(); if(channels.length) seleccionarCanal(-1); return; }
   if(e.key==='ArrowDown'){ e.preventDefault(); if(channels.length) seleccionarCanal(1); return; }
   if(e.key==='Enter'){ e.preventDefault(); if(activeIdx>=0) resolveChannel(activeIdx); return; }
-  if(e.key===' ' || e.key==='k' || e.key==='K'){ e.preventDefault(); document.getElementById('playBtn').click(); return; }
-  if(e.key==='n' || e.key==='N'){ e.preventDefault(); document.getElementById('nextBtn').click(); return; }
-  if(e.key==='p' || e.key==='P'){ e.preventDefault(); document.getElementById('prevBtn').click(); return; }
+  if(e.key==='p' || e.key==='P' || e.key==='K'){ e.preventDefault(); document.getElementById('playBtn').click(); return; }  // play o pause
+  if(e.key==='q' || e.key==='Q'){ e.preventDefault(); document.getElementById('nextBtn').click(); return; }
+  if(e.key==='w' || e.key==='W'){ e.preventDefault(); document.getElementById('prevBtn').click(); return; }
   if(e.key==='Backspace' || e.key==='b' || e.key==='B'){ 
     e.preventDefault(); 
     if (currentContentType === 'series' && navStack.length > 0) {
@@ -1299,9 +1372,9 @@ document.addEventListener('keydown', function(e) {
     }
     return; 
   }
-  if(e.key==='f' || e.key==='F'){ e.preventDefault(); document.getElementById('fsBtn').click(); return; }
-  if(e.key==='m' || e.key==='M'){ e.preventDefault(); document.getElementById('volBtn').click(); return; }
-  if(e.key==='i' || e.key==='I'){ e.preventDefault(); toggleInmersivo(); return; }
+  if(e.key==='f' || e.key==='F'){ e.preventDefault(); document.getElementById('fsBtn').click(); return; }  // pantalla completa
+  if(e.key==='s' || e.key==='S'){ e.preventDefault(); document.getElementById('volBtn').click(); return; }  // activar o silenciar volumen 
+  if(e.key==='i' || e.key==='I'){ e.preventDefault(); toggleInmersivo(); return; }  // modo inmersivo
 });
 
 function navigateBack() { 
@@ -1323,31 +1396,23 @@ function navigateBack() {
   renderBreadcrumb(); 
 }
 
-
-
-// Manejar scroll para renderizado virtual  ---------------------------------------------------------------
+// Manejar scroll para renderizado virtual
 var scrollTimeout;
 document.getElementById('chListWrap').addEventListener('scroll', function() {
     if (scrollTimeout) clearTimeout(scrollTimeout);
     scrollTimeout = setTimeout(function() {
         renderVirtual();
-    }, 16); // ~60fps
+    }, 16);
 });
-
-
-
 
 // ==================== INICIALIZACIÓN ====================
 renderList();
 renderSavedConfigs();
 
-// Intentar restaurar la última lista
 var restaurada = restaurarUltimaLista();
 if (!restaurada) {
-    // Si no hay lista guardada, cargar la de defecto
     setTimeout(() => { cargarXtreamList(); }, 500);
 }
-
 </script>
 </body>
 </html>
