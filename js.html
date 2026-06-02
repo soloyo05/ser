@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -189,11 +185,48 @@ border-left: solid 5px #5cff00;
 .spinner { width: 38px; height: 38px; border: 3px solid rgba(255,255,255,0.07); border-top-color: #9B72F5; border-radius: 50%; animation: spin 0.7s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-.error-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.82); display: none; flex-direction: column; align-items: center; justify-content: center; z-index: 5; gap: 10px; }
-.error-overlay.hidden { display: none; }
-.error-overlay p { color: #EF4444; }
-.error-overlay small { color: #7878A0; }
-.retry-btn { padding: 8px 22px; background: #7C3AED; border: none; border-radius: 7px; color: #fff; cursor: pointer; }
+.error-overlay { 
+    position: absolute; 
+    inset: 0; 
+    background: rgba(0,0,0,0.88); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    z-index: 25; 
+    gap: 12px; 
+}
+.error-overlay.hidden { 
+    display: none !important; 
+}
+.error-overlay p { 
+    color: #EF4444; 
+    font-size: 17px; 
+    font-weight: 700; 
+    text-align: center; 
+    padding: 0 20px;
+}
+.error-overlay small { 
+    color: #94A3B8; 
+    font-size: 12px; 
+    text-align: center; 
+    padding: 0 20px;
+}
+.retry-btn { 
+    padding: 10px 28px; 
+    background: #7C3AED; 
+    border: none; 
+    border-radius: 8px; 
+    color: #fff; 
+    cursor: pointer; 
+    font-size: 14px; 
+    font-weight: 700; 
+    margin-top: 8px;
+    font-family: 'Figtree', sans-serif;
+}
+.retry-btn:hover { 
+    background: #9B72F5; 
+}
 
 #vodControls { width: 92%; position: absolute; bottom: 2px; left: 0; right: 0; background: rgb(0 0 0 / 0%); padding: 0px 6px; z-index: 20; transition: opacity 0.3s; }
 #vodControls.hidden { display: none; }
@@ -423,7 +456,7 @@ var _searchTimer;
 var currentPlayPromise = null;
 var reconectarTimeout = null;
 var intentosReconexion = 0;
-var MAX_INTENTOS = 10;
+var MAX_INTENTOS = 20;
 var immersiveMode = true;
 var immersiveTimeout = null;
 var lastActivityTime = Date.now();
@@ -895,7 +928,7 @@ function agregarAlHistorial(url) {
 }
 
 function eliminarDelHistorial(url) {
-    console.log('Eliminando URL:', url);
+    console.log('🗑️ Eliminando URL:', url.substring(0, 50) + '...');
     console.log('Antes:', historialListas.length, 'elementos');
     
     // Filtrar la URL a eliminar
@@ -903,11 +936,26 @@ function eliminarDelHistorial(url) {
         return i.url !== url; 
     });
     
+    // ✅ TAMBIÉN eliminar el tipo guardado para esta URL
+    if (tiposGuardados[url]) {
+        delete tiposGuardados[url];
+        guardarTipos();
+        console.log('📋 Tipo guardado eliminado para esta URL');
+    }
+    
+    // ✅ Si la URL eliminada era la última lista cargada, limpiar también
+    var ultima = cargarUltimaLista();
+    if (ultima && ultima.tipo === 'url' && ultima.datos === url) {
+        localStorage.removeItem('ultima_lista');
+        console.log('🧹 Última lista limpiada (era la URL eliminada)');
+    }
+    
     console.log('Después:', historialListas.length, 'elementos');
     
     // Si no quedan listas, poner la default
     if (historialListas.length === 0) {
         historialListas = [{ url: DEFAULT_M3U_URL, nombre: 'IPTV El Salvador (Default)', fecha: Date.now(), esDefault: true }];
+        console.log('📂 Lista default agregada (no quedaban listas)');
     }
     
     // Forzar el guardado inmediato
@@ -915,7 +963,7 @@ function eliminarDelHistorial(url) {
     
     // Verificar que se guardó correctamente
     var verificar = localStorage.getItem('historial_listas_m3u');
-    console.log('Verificación localStorage:', verificar ? 'OK' : 'ERROR');
+    console.log('✅ Verificación localStorage:', verificar ? 'OK' : 'ERROR');
     
     toast('URL eliminada', 'success');
 }
@@ -996,23 +1044,37 @@ function eliminarDelHistorialYRecargar(url) {
 function guardarUltimaLista(tipo, datos) { localStorage.setItem('ultima_lista', JSON.stringify({ tipo: tipo, datos: datos, fecha: Date.now() })); }
 function cargarUltimaLista() { try { return JSON.parse(localStorage.getItem('ultima_lista')); } catch(e) { return null; } }
 
+
 function restaurarUltimaLista() {
     var ultima = cargarUltimaLista();
+    
     if (ultima && ultima.tipo === 'url') {
-        // Verificar si la URL aún está en el historial
+        // Si es la URL por defecto, cargarla directamente
+        if (ultima.datos === DEFAULT_M3U_URL) {
+            console.log('🔄 Cargando lista por defecto...');
+            cargarURLconTipo(ultima.datos);
+            return true;
+        }
+        
+        // Verificar si la URL está en el historial
         var existeEnHistorial = historialListas.some(function(item) {
             return item.url === ultima.datos;
         });
         
-        // Solo cargar si la URL existe en el historial
-        if (existeEnHistorial || ultima.datos === DEFAULT_M3U_URL) {
-            loadFromUrl(ultima.datos);
+        if (existeEnHistorial) {
+            console.log('🔄 Restaurando última lista:', ultima.datos.substring(0, 50) + '...');
+            // Usar el tipo guardado para esta URL
+            if (tiposGuardados[ultima.datos]) {
+                TIPO_LISTA_ACTUAL = tiposGuardados[ultima.datos];
+            }
+            cargarURLconTipo(ultima.datos);
             return true;
         } else {
-            // Si la URL fue eliminada, limpiar la última lista guardada
-            console.log('URL eliminada del historial, limpiando última lista');
+            // URL eliminada, limpiar y cargar default
+            console.log('⚠️ URL eliminada, cargando default...');
             localStorage.removeItem('ultima_lista');
-            return false;
+            cargarURLconTipo(DEFAULT_M3U_URL);
+            return true;
         }
     }
     else if (ultima && ultima.tipo === 'xtream') {
@@ -1025,38 +1087,148 @@ function restaurarUltimaLista() {
         cargarXtreamList(); 
         return true;
     }
-    // ✅ Si no hay lista guardada, cargar la default y seleccionar primer elemento
-    setTimeout(function() {
-        if (channels.length > 0) {
-            activeIdx = channels[0]._origIdx;
-            actualizarFocoVisual();
-        }
-    }, 500);
-    return false;
+    
+    // Si no hay nada guardado, cargar la lista por defecto
+    console.log('🆕 Sin listas guardadas, cargando default...');
+    cargarURLconTipo(DEFAULT_M3U_URL);
+    return true;
 }
+
 
 // ==================== MONITOR DE RECONEXIÓN ====================
 function detenerMonitor() { if(reconectarTimeout){ clearInterval(reconectarTimeout); reconectarTimeout=null; } intentosReconexion=0; }
 
 function iniciarMonitor(video, urlOriginal, tipo, esVodContent) {
     detenerMonitor();
-    if(esVodContent) return;
-    intentosReconexion=0;
-    reconectarTimeout = setInterval(function(){
-        if(!video || video.paused || video.ended) return;
+    if(esVodContent) return; // No monitorear VOD (películas/series)
+    
+    intentosReconexion = 0;
+    var ultimoTime = 0;
+    var contadorCongelado = 0;
+    var MAX_CONTADOR_CONGELADO = 3; // 3 chequeos seguidos congelado = reconectar
+    
+    console.log('🔍 Monitor iniciado para:', urlOriginal.substring(0, 50) + '...');
+    
+    reconectarTimeout = setInterval(function() {
+        // Si el video ya no existe, detener
+        if (!video) {
+            console.log('❌ Video es null, deteniendo monitor');
+            detenerMonitor();
+            return;
+        }
+        
+        // Si el video terminó, detener
+        if (video.ended) {
+            console.log('⏹️ Video terminado, deteniendo monitor');
+            detenerMonitor();
+            return;
+        }
+        
+        // Si ya superó el máximo de reintentos, detener
+        if (intentosReconexion >= MAX_INTENTOS) {
+            console.log('🛑 Máximo de reintentos alcanzado (' + MAX_INTENTOS + ')');
+            detenerMonitor();
+            showError('Stream no disponible', 'Se alcanzó el máximo de reintentos');
+            return;
+        }
+        
         var tiempoActual = video.currentTime || 0;
         var buffer = video.buffered;
-        var bufferFin = (buffer.length > 0) ? buffer.end(buffer.length - 1) : 0;
-        var sinBuffer = (buffer.length === 0 || (bufferFin - tiempoActual < 0.5));
-        var congelado = (video.lastCurrentTime !== undefined && video.lastCurrentTime === tiempoActual && tiempoActual > 0);
-        video.lastCurrentTime = tiempoActual;
-        if((congelado || sinBuffer) && intentosReconexion < MAX_INTENTOS && tiempoActual > 0){
-            intentosReconexion++;
-            toast(`Reconectando (${intentosReconexion})`,'');
-            if(tipo==='hls' && hls){ hls.destroy(); hls=null; setTimeout(()=>{ if(currentCh) playVideoHls(currentCh, activeIdx); },1000); }
-            else if(tipo==='directo'){ var nuevaUrl = urlOriginal + (urlOriginal.includes('?')?'&_=':'?_=')+Date.now(); video.src=nuevaUrl; video.load(); video.play().catch(e=>{}); }
+        var bufferFin = 0;
+        
+        // Calcular buffer disponible
+        if (buffer.length > 0) {
+            bufferFin = buffer.end(buffer.length - 1);
         }
-    },8000);
+        
+        var sinBuffer = (buffer.length === 0 || (bufferFin - tiempoActual < 0.3));
+        var congelado = (ultimoTime === tiempoActual && tiempoActual > 0);
+        
+        // Si el video está pausado pero NO por el usuario, intentar reproducir
+        if (video.paused && !video.ended && tiempoActual > 0) {
+            console.log('▶️ Video pausado inesperadamente, intentando reproducir...');
+            video.play().catch(function(e) {
+                console.log('⚠️ No se pudo reanudar, reconectando...');
+                reconectarStream(video, urlOriginal, tipo);
+            });
+            return;
+        }
+        
+        // Detectar stream congelado
+        if (congelado) {
+            contadorCongelado++;
+            console.log('🥶 Stream posiblemente congelado (' + contadorCongelado + '/' + MAX_CONTADOR_CONGELADO + ')');
+            
+            if (contadorCongelado >= MAX_CONTADOR_CONGELADO) {
+                console.log('🔄 Reconectando por congelamiento...');
+                reconectarStream(video, urlOriginal, tipo);
+                contadorCongelado = 0;
+            }
+        } else {
+            // Resetear contador si el stream avanza
+            contadorCongelado = 0;
+        }
+        
+        // Detectar sin buffer (stream detenido)
+        if (sinBuffer && tiempoActual > 0 && !congelado) {
+            console.log('📦 Sin buffer suficiente, posible corte...');
+            // Esperar 2 ciclos antes de reconectar por buffer
+            if (contadorCongelado === 0) {
+                contadorCongelado = 1;
+            } else if (contadorCongelado >= 2) {
+                console.log('🔄 Reconectando por falta de buffer...');
+                reconectarStream(video, urlOriginal, tipo);
+                contadorCongelado = 0;
+            }
+        }
+        
+        // Guardar tiempo actual para comparar en el próximo ciclo
+        ultimoTime = tiempoActual;
+        
+    }, 5000); // Revisar cada 5 segundos (más rápido)
+}
+
+// Función auxiliar para reconectar
+function reconectarStream(video, urlOriginal, tipo) {
+    intentosReconexion++;
+    console.log('🔄 Intento de reconexión #' + intentosReconexion + ' de ' + MAX_INTENTOS);
+    
+    // Mostrar toast solo si no es Smart TV
+    if (!esSmartTV) {
+        toast('Reconectando... (' + intentosReconexion + '/' + MAX_INTENTOS + ')', 'info');
+    }
+    
+    if (tipo === 'hls' && hls) {
+        hls.destroy();
+        hls = null;
+        setTimeout(function() {
+            if (currentCh) playVideoHls(currentCh, activeIdx);
+        }, 1500);
+    } 
+    else if (tipo === 'shaka' && shakaPlayer) {
+        try { shakaPlayer.destroy(); } catch(e) {}
+        shakaPlayer = null;
+        setTimeout(function() {
+            if (currentCh) playVideoShaka(currentCh, activeIdx);
+        }, 1500);
+    } 
+    else if (tipo === 'directo') {
+        // Agregar timestamp para evitar caché
+        var nuevaUrl = urlOriginal;
+        if (nuevaUrl.includes('?')) {
+            nuevaUrl += '&_r=' + Date.now();
+        } else {
+            nuevaUrl += '?_r=' + Date.now();
+        }
+        console.log('📎 Nueva URL:', nuevaUrl.substring(0, 50) + '...');
+        video.src = nuevaUrl;
+        video.load();
+        setTimeout(function() {
+            video.play().catch(function(e) {
+                console.log('⚠️ Error al reproducir después de reconexión:', e.message);
+            });
+        }, 500);
+    }
 }
 
 
@@ -1877,10 +2049,15 @@ function loadFromUrl(url) {
     // Verificar si esta URL ya tiene un tipo guardado
     if (tiposGuardados[url]) {
         TIPO_LISTA_ACTUAL = tiposGuardados[url];
+        console.log('✅ Tipo recordado para esta URL:', getNombreTipoLista(TIPO_LISTA_ACTUAL));
         cargarURLconTipo(url);
-        toast('Cargando como: ' + getNombreTipoLista(TIPO_LISTA_ACTUAL) + ' (recordado)', 'success');
+    } else if (url === DEFAULT_M3U_URL && TIPO_LISTA_ACTUAL && TIPO_LISTA_ACTUAL !== 'auto') {
+        // Si es la URL default y ya hay un tipo definido, usar ese tipo
+        console.log('✅ Usando tipo actual para URL default:', getNombreTipoLista(TIPO_LISTA_ACTUAL));
+        cargarURLconTipo(url);
     } else {
         // Si es una URL nueva, preguntar
+        console.log('❓ URL nueva, mostrando selector...');
         listaPendiente = { tipo: 'url', dato: url };
         mostrarSelectorTipoLista();
     }
@@ -2263,32 +2440,76 @@ function configurarOcultarVOD() {
 }
 
 
-
 // ==================== INICIALIZACIÓN ====================
-renderList();
-// Verificar historial al iniciar
-console.log('=== INICIALIZACIÓN ===');
-console.log('Historial cargado:', historialListas.length, 'elementos');
-console.log('Contenido localStorage:', localStorage.getItem('historial_listas_m3u'));
-// Cargar el último tipo de lista usado
-// Cargar tipos guardados para URLs
-var tipos = localStorage.getItem('tipos_listas_m3u');
-if (tipos) { try { tiposGuardados = JSON.parse(tipos); } catch(e) { tiposGuardados = {}; } }
+console.log('=== 🚀 INICIANDO REPRODUCTOR M3U ===');
 
+// 1. Cargar tipos guardados para URLs
+var tipos = localStorage.getItem('tipos_listas_m3u');
+if (tipos) { 
+    try { 
+        tiposGuardados = JSON.parse(tipos); 
+        console.log('📋 Tipos guardados cargados:', Object.keys(tiposGuardados).length);
+    } catch(e) { 
+        tiposGuardados = {}; 
+        console.log('⚠️ Error al cargar tipos guardados');
+    } 
+}
+
+// 2. Cargar último tipo de lista usado
 var tipoGuardado = localStorage.getItem('ultimo_tipo_lista');
 if (tipoGuardado) {
     TIPO_LISTA_ACTUAL = tipoGuardado;
-    console.log('Tipo de lista cargado:', getNombreTipoLista(TIPO_LISTA_ACTUAL));
+    console.log('📌 Último tipo de lista:', getNombreTipoLista(TIPO_LISTA_ACTUAL));
 }
-renderSavedConfigs();
+
+// 3. Renderizar lista vacía inicial
+renderList();
+
+// 4. Cargar historial
 cargarHistorial();
+console.log('📜 Historial cargado:', historialListas.length, 'elementos');
+
+// 5. Configurar URL en el input
 var urlInput2 = document.getElementById('urlInput');
-if(urlInput2 && urlInput2.value === '') urlInput2.value = DEFAULT_M3U_URL;
+if (urlInput2 && urlInput2.value === '') {
+    urlInput2.value = DEFAULT_M3U_URL;
+    console.log('🔗 URL default establecida');
+}
+
+// 6. Cargar configuraciones guardadas
+renderSavedConfigs();
+
+// 7. Iniciar detección de actividad (modo inmersivo)
 iniciarDeteccionActividad();
+
+// 8. Restaurar última lista automáticamente
+console.log('🔄 Intentando restaurar última lista...');
 var restaurada = restaurarUltimaLista();
-if(!restaurada) toast('Haz clic en "Cargar" para iniciar', 'info');
-setTimeout(() => { if(immersiveMode) registrarActividad(); }, 500);
-setTimeout(() => { if(esAndroid && !esSmartTV) toast('📱 Modo Android: botón 🤖 para reproductor externo', 'info'); if(esSmartTV) toast('📺 Controles TV: 🔴 Buscar | 🟢 Play | 🟡 Default | 🔵 Fullscreen | ⏺ +/- Canales', 'info'); }, 1000);
+if (restaurada) {
+    console.log('✅ Última lista restaurada correctamente');
+} else {
+    console.log('⚠️ No se pudo restaurar, cargando default...');
+    cargarURLconTipo(DEFAULT_M3U_URL);
+}
+
+// 9. Configurar modo inmersivo
+setTimeout(() => { 
+    if(immersiveMode) registrarActividad(); 
+}, 500);
+
+// 10. Mensajes de bienvenida (solo si no es Smart TV)
+setTimeout(() => { 
+    if (esSmartTV) {
+        console.log('📺 Modo Smart TV detectado');
+    }
+    if (esAndroid && !esSmartTV) {
+        console.log('📱 Modo Android detectado');
+    }
+}, 1000);
+
+console.log('=== ✅ INICIALIZACIÓN COMPLETA ===');
+
+
 </script>
 </body>
 </html>
