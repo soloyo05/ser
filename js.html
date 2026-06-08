@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -17,15 +18,16 @@ body { background: #07080D; color: #EEEEF4; font-family: 'Figtree', sans-serif; 
 
 header {
     position: relative;
-    top: 0.5%;
+    top: 0%;
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 0 16px;
     height: 48px;
-    background: #0c0e1600;
+    background: #0c0e16bd;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     flex-shrink: 0;
+    padding-top: 2.5%;
+    padding-bottom: 3rem;
     z-index: 10;
 }
 .logo { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 800; color: #EEEEF4; display: flex; align-items: center; gap: 7px; flex-shrink: 0; text-shadow: 0px 0px 11px white, 0px 0px 1px white, 0px -2px 1px red, 0px 2px 1px red, 2px 0px 1px red, -2px 0px 1px red; }
@@ -40,7 +42,7 @@ header {
 .hdr-btn-ghost { padding: 2px; background: #30344a; color: #d2f200; border: 1px solid rgb(255 0 0 / 93%); }
 .hdr-btn-config {display: none; background: #1E293B; color: #94A3B8; border: 1px solid #334155; }
 input[type="file"] { display: none; }
-.hdr-stats { margin-left: auto; font-size: 12px; color: #00fffe; white-space: nowrap; }
+.hdr-stats { margin-left: 10%; font-size: 12px; color: #00fffe; white-space: nowrap; }
 .hdr-stats b { color: #48ff00; }
 
 .layout { display: flex; flex: 1; overflow: hidden; }
@@ -49,7 +51,7 @@ input[type="file"] { display: none; }
     background: #0c0e16bd;
     border-right: 1px solid rgba(255, 255, 255, 0.05);
     display: flex; flex-direction: column; overflow: hidden;
-    transition: transform 0.3s ease; z-index: 15; margin-top: 1.5%;
+    transition: transform 0.3s ease; z-index: 15; padding-top: 1%;
 }
 /* Modo inmersivo SOLO para PC y Smart TV (NO celulares) */
 @media (min-width: 769px) {
@@ -59,7 +61,7 @@ input[type="file"] { display: none; }
 }
 
 /* En celulares, el modo inmersivo NO oculta el sidebar */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     body.immersive .sidebar { transform: none; width: 100% !important; min-width: 100% !important; display: flex !important; }
     body.immersive .now-playing { opacity: 1; pointer-events: auto; }
     body.immersive header { transform: none; display: flex; }
@@ -74,10 +76,21 @@ video { width: 100%; height: 100%; object-fit: contain; position: absolute; top:
 .search-wrap { position: relative; }
 .search-wrap .s-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: #3A3A52; width: 14px; height: 14px; }
 .search-input {
-    top: 1%; right: 20%; position: fixed; width: 10%;
-    background: #12141F; border: 1px solid rgb(255 0 0); border-radius: 7px;
-    padding: 3px 6px 3px 10px; font-family: emoji; font-size: 20px;
-    color: #2dff00; outline: none; z-index: 200; font-weight: bolder; letter-spacing: 2px;
+    top: 85px;
+    left: 15%;
+    position: fixed;
+    width: 10%;
+    background: #12141F;
+    border: 1px solid rgb(255 0 0);
+    border-radius: 7px;
+    padding: 3px 6px 3px 10px;
+    font-family: emoji;
+    font-size: 20px;
+    color: #2dff00;
+    outline: none;
+    z-index: 200;
+    font-weight: bolder;
+    letter-spacing: 2px;
 }
 .search-input:focus { border-color: #9B72F5; }
 
@@ -94,9 +107,10 @@ video { width: 100%; height: 100%; object-fit: contain; position: absolute; top:
     overflow-x: auto; padding: 10px 12px 8px; flex-shrink: 0; scrollbar-width: none;
 }
 .cats-wrap::-webkit-scrollbar { display: none; }
-.cat-pill { padding: 4px 11px; border-radius: 20px; border: 1px solid rgb(0 184 255 / 74%); background: #12141F; color: #ffab5e; font-size: 11px; white-space: nowrap; cursor: pointer; }
+.cat-pill { padding: 4px 11px; border-radius: 20px; border: 1px solid rgb(0 184 255 / 74%); background: #12141F; color: #ffab5e; font-size: 14px; white-space: nowrap; cursor: pointer; }
 .cat-pill.active { background: rgba(124,58,237,0.14); border-color: #9B72F5; color: #00ffe3; }
 .cat-pill.focused {
+    background: black;
     outline: 0px solid #9B72F5; outline-offset: 3px;
     box-shadow: inset 0px 0px 12px #ff0000; border-radius: 20px;
     border-left: solid 5px #5cff00; border-right: solid 5px #5cff00;
@@ -120,7 +134,7 @@ video { width: 100%; height: 100%; object-fit: contain; position: absolute; top:
 .ch-logo { width: 100%; height: 100%; object-fit: contain; }
 .ch-ph { color: #3A3A52; font-size: 15px; }
 .ch-info { flex: 1; min-width: 0; }
-.ch-name { font-size: 14.5px; font-weight: 500; color: #EEEEF4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ch-name { font-size: 14.5px; font-weight: 500; color: #EEEEF4; }
 .folder-item .ch-name { color: #9B72F5; font-weight: 600; }
 .ch-badge { font-size: 10px; color: #fdff00; flex-shrink: 0; }
 
@@ -136,13 +150,33 @@ video { width: 100%; height: 100%; object-fit: contain; position: absolute; top:
 .controls { display: flex; gap: 4px; flex-direction: column; align-items: flex-end; margin-bottom: 48%; }
 .ctrl-btn { width: 36px; height: 36px; border-radius: 7px; background: #12141F; border: 1px solid rgba(255,255,255,0.05); color: #7878A0; cursor: pointer; display: flex; align-items: center; justify-content: center; }
 .ctrl-btn.play-btn { width: 40px; background: #7C3AED; border-color: transparent; color: #fff; }
-.vol-wrap { display: flex; align-items: center; gap: 7px; }
+.vol-wrap { display: none; align-items: center; gap: 7px; }
 .vol-slider { width: 72px; height: 3px; }
 
-.loader-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.55); display: flex; align-items: center; justify-content: center; z-index: 5; }
-.loader-overlay.hidden { display: none; }
-.spinner { width: 38px; height: 38px; border: 3px solid rgba(255,255,255,0.07); border-top-color: #9B72F5; border-radius: 50%; animation: spin 0.7s linear infinite; }
-@keyframes spin { to { transform: rotate(360deg); } }
+.loader-overlay { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    background: rgba(0,0,0,0.7); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    z-index: 99999; 
+}
+.loader-overlay.hidden { display: none !important; }
+  position: fixed;
+  left: calc(50vw - 19px);
+  top: calc(50vh - 19px);
+  display: flex;
+  width: 38px;
+  height: 38px;
+  border: 3px solid rgba(255, 255, 255, 0.07);
+  border-top-color: #9b72f5;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+
 
 .error-overlay { width: 15%; inset: 0; background: rgba(0,0,0,0.88); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 25; gap: 12px; }
 .error-overlay.hidden { display: none !important; }
@@ -224,14 +258,140 @@ body.immersive .firma-jdm:hover { opacity: 0.8; }
 .touch-device .sidebar { -webkit-overflow-scrolling: touch; }
 .touch-device .cats-wrap { -webkit-overflow-scrolling: touch; overflow-x: auto; scroll-behavior: smooth; }
 
-@media (max-width: 768px) {
+
+
+
+
+/* =========================================== */
+/* ESTILOS SOLO PARA TABLETAS (768px - 1280px) */
+/* NO AFECTA A TVs (más de 1280px) */
+/* =========================================== */
+@media (min-width: 768px) and (max-width: 1280px) {
+    
+    /* Sidebar más angosto para dejar espacio al video */
+    .sidebar {
+        width: 260px !important;
+        min-width: 260px !important;
+    }
+    
+    /* Header más compacto */
+    header {
+        height: 42px !important;
+       /*      padding: 0 10px !important;   */
+    }
+    
+    .logo {
+        font-size: 13px !important;
+    }
+    
+    /* Inputs más pequeños */
+    .url-input {
+        min-width: 180px !important;
+        font-size: 11px !important;
+        padding: 6px 10px !important;
+    }
+    
+    .search-input {
+        width: 8% !important;
+        font-size: 16px !important;
+        padding: 0px 8px !important;
+    }
+    
+    /* Controles en barra de abajo */
+    .now-playing {
+        height: 50px !important;
+        padding: 0 10px !important;
+    }
+    
+    .controls {
+        gap: 4px !important;
+    }
+    
+    .ctrl-btn {
+        width: 32px !important;
+        height: 32px !important;
+        font-size: 14px !important;
+    }
+    
+    .ctrl-btn.play-btn {
+        width: 36px !important;
+        height: 36px !important;
+    }
+    
+    /* Categorías más compactas */
+    .cat-pill {
+        padding: 3px 8px !important;
+        font-size: 12px !important;
+    }
+    
+    /* Items de canal más pequeños */
+    .channel-item {
+        height: 50px !important;
+        padding: 6px 10px !important;
+    }
+    
+    .ch-logo-wrap {
+        width: 42px !important;
+        height: 42px !important;
+    }
+    
+    .ch-name {
+        font-size: 15px !important;
+    }
+    
+    /* Breadcrumb compacto */
+    .breadcrumb {
+        padding: 3px 8px !important;
+    }
+    
+    .bc-item {
+        font-size: 12px !important;
+        max-width: 100px !important;
+    }
+    
+    /* Botones de tipo de contenido */
+    .content-type-buttons {
+        padding: 0px 3px !important;
+        gap: 4px !important;
+        width: 40%;
+    }
+    
+    .content-btn {
+        font-size: 10px !important;
+        padding: 2px 4px !important;
+    }
+    
+    /* Ocultar firma en tablet */
+    .firma-jdm {
+        font-size: 9px !important;
+        opacity: 0.5 !important;
+    }
+}
+
+/* =========================================== */
+/* ESTILOS PARA TV (más de 1280px) - SIN CAMBIOS */
+/* Tu código actual se mantiene igual */
+/* =========================================== */
+@media (min-width: 1281px) {
+    /* Aquí NO necesitas poner nada, 
+       tus estilos actuales ya funcionan para TV */
+}
+
+/* ============================================================================================================================================== */
+
+@media (max-width: 767px) {
     #toast { font-size: 14px; padding: 12px 20px; bottom: 90px; }
 .firma-jdm {
     font-size: 13px;
-    top: 52%;
+    top: 53%;
     left: 11px;
 }
-    .controls { display: flex !important; flex-direction: row !important; gap: 10px !important; padding: 8px 12px !important; background: rgb(12 14 22 / 75%) !important; border-radius: 50px !important; flex-wrap: wrap !important; }
+
+#copyLinkBtn , #openWebBtn ,.vol-wrap  {
+ display: none;
+}
+
+    .controls { display: flex !important; flex-direction: row !important; gap: 18px !important; padding: 8px 12px !important; background: rgb(12 14 22 / 75%) !important; border-radius: 50px !important; flex-wrap: wrap !important; }
     .now-playing {
         position: fixed !important;
         bottom: 45% !important;
@@ -247,7 +407,7 @@ body.immersive .firma-jdm:hover { opacity: 0.8; }
     .ctrl-btn {
         width: 44px !important;
         height: 34px !important;
-        font-size: 18px !important;
+        font-size: 30px !important;
 color: #00ffe4;
     }
     .ctrl-btn.play-btn {
@@ -280,7 +440,7 @@ color: #00ffe4;
     }
 .search-input {
     top: 0.2%;
-    right: 1%;
+    left: 74%;
     width: 25%;
 }
 header {
@@ -292,9 +452,7 @@ flex-direction: column;
     position: fixed;
     top: 9.5%;
 }
-.vol-wrap , #fsBtn {
-    display: none;
-}
+
     .controls { 
         position: absolute;
         top: 2%;
@@ -369,25 +527,260 @@ flex-direction: column;
 
 }
 
-/* Landscape: sidebar oculto, video fullscreen */
-body.landscape-mode .sidebar { display: none !important; }
-body.landscape-mode .player-area { height: 100vh !important; width: 100vw !important; }
-body.landscape-mode header { display: none !important; }
-body.landscape-mode .immersive-toggle { display: none !important; }
-body.landscape-mode .now-playing { bottom: 10px !important; background: rgb(0 0 0 / 0%) !important; border-radius: 10px !important; }
-body.landscape-mode .firma-jdm { display: none; }
-body.landscape-mode .controls { display: none !important; }
-body.landscape-mode #videoEl {top: 0% !important; }
-body.landscape-mode .live-text { display: none !important; }
-body.landscape-mode .np-info { display: none !important; }
 
-/* Portrait: sidebar visible abajo */
-body.portrait-mode .sidebar { display: flex !important; }
+
+/* =========================================== */
+/* MODO LANDSCAPE MEJORADO - PARA CELULARES */
+/* =========================================== */
+@media (max-width: 767px) and (orientation: landscape) {
+    /* Hacer el video ocupar toda la pantalla */
+    .player-area {
+        height: 100vh !important;
+        width: 100vw !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        z-index: 100 !important;
+    }
+
+    .video-wrap {
+        height: 100vh !important;
+    }
+
+    #videoEl {
+        top: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+    }
+
+    /* Ocultar cosas que no necesitamos en landscape SOLO EN CELULARES */
+    .cats-wrap,
+    .content-type-buttons,
+    .firma-jdm,
+    .immersive-toggle,
+    .hdr-stats,
+    .url-input,
+    #historySelect,
+    .logo {
+        display: none !important;
+    }
+    
+    /* Sidebar visible pero más angosto en landscape */
+    .sidebar {
+        width: 250px !important;
+        min-width: 250px !important;
+        display: flex !important;
+    }
+
+
+    /* Header más pequeño y con transparencia */
+    header {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        height: 30px !important;
+        padding: 0 10px !important;
+        background: rgba(0,0,0,0.7) !important;
+        backdrop-filter: blur(10px) !important;
+        z-index: 300 !important;
+        opacity: 0.5 !important;
+        transition: opacity 0.3s !important;
+    }
+
+    header:hover {
+        opacity: 1 !important;
+    }
+
+    /* Buscador compacto */
+    .search-input {
+        position: fixed !important;
+        top: 2px !important;
+        right: 10px !important;
+        width: 25% !important;
+        padding: 4px 8px !important;
+        font-size: 14px !important;
+        z-index: 301 !important;
+        background: rgba(18,20,31,0.9) !important;
+        border-radius: 15px !important;
+    }
+
+    /* Info del canal - abajo a la izquierda */
+    .now-playing {
+        position: fixed !important;
+        bottom: 15px !important;
+        left: 15px !important;
+        right: auto !important;
+        width: auto !important;
+        max-width: 40% !important;
+        background: rgba(0,0,0,0.8) !important;
+        backdrop-filter: blur(15px) !important;
+        border-radius: 12px !important;
+        padding: 8px 15px !important;
+        z-index: 200 !important;
+        opacity: 0.7 !important;
+        transition: opacity 0.3s !important;
+    }
+
+    .now-playing:hover {
+        opacity: 1 !important;
+    }
+
+    .np-name {
+        font-size: 12px !important;
+        color: #fff !important;
+    }
+
+    .np-meta {
+        font-size: 10px !important;
+        color: #00fffe !important;
+    }
+
+    .live-badge.on {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+    }
+
+    /* Controles - abajo a la derecha */
+    .controls {
+        position: fixed !important;
+        bottom: 15px !important;
+        right: 15px !important;
+        top: auto !important;
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 8px !important;
+        padding: 6px 12px !important;
+        background: rgba(0,0,0,0.8) !important;
+        backdrop-filter: blur(15px) !important;
+        border-radius: 25px !important;
+        z-index: 200 !important;
+        opacity: 0.7 !important;
+        transition: opacity 0.3s !important;
+    }
+
+    .controls:hover {
+        opacity: 1 !important;
+    }
+
+    /* Botones más compactos */
+    .ctrl-btn {
+        width: 34px !important;
+        height: 32px !important;
+        font-size: 16px !important;
+        color: #fff !important;
+    }
+
+    .ctrl-btn.play-btn {
+        width: 38px !important;
+        height: 36px !important;
+        font-size: 18px !important;
+        background: #7C3AED !important;
+    }
+
+    /* Ocultar volumen en landscape */
+    .vol-wrap {
+        display: none !important;
+    }
+
+    /* Mensaje de error más chico */
+    .error-overlay {
+        width: 30% !important;
+        left: 35% !important;
+        right: 35% !important;
+    }
+
+    /* Controles VOD */
+    #vodControls {
+        width: 95% !important;
+        bottom: 70px !important;
+        left: 2.5% !important;
+        background: rgba(0,0,0,0.9) !important;
+        border-radius: 10px !important;
+        padding: 8px 12px !important;
+    }
+}
+
+/* =========================================== */
+/* MODO PORTRAIT MEJORADO - sidebar abajo */
+/* =========================================== */
+@media (max-width: 767px) and (orientation: portrait) {
+    body.portrait-mode .sidebar { 
+        display: flex !important; 
+    }
+}
+
+/* AQUÍ PEGAS EL NUEVO CÓDIGO */
+/* Estilos para modo landscape */
+@media (max-width: 767px) and (orientation: landscape) {
+    .player-area {
+        height: 100vh !important;
+        width: 100vw !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    
+    .video-wrap {
+        height: 100vh !important;
+    }
+    
+    #videoEl {
+        top: 0 !important;
+        height: 100vh !important;
+    }
+    
+    .sidebar {
+        display: none !important;
+    }
+    
+    .firma-jdm {
+        display: none !important;
+    }
+    
+    .immersive-toggle {
+        display: none !important;
+    }
+    
+    .now-playing {
+        position: fixed !important;
+        bottom: 15px !important;
+        left: 15px !important;
+        right: auto !important;
+        width: auto !important;
+        max-width: 40% !important;
+        background: rgba(0,0,0,0.8) !important;
+        border-radius: 12px !important;
+        padding: 8px 15px !important;
+    }
+    
+    .controls {
+        position: fixed !important;
+        bottom: 15px !important;
+        right: 15px !important;
+        top: auto !important;
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 8px !important;
+        padding: 6px 12px !important;
+        background: rgba(0,0,0,0.8) !important;
+        border-radius: 25px !important;
+    }
+    
+    .vol-wrap {
+        display: none !important;
+    }
+}
+
 </style>
 </head>
 <body>
 <div id="loadbar" style="position:fixed;top:0;left:0;height:2px;width:0;background:#7C3AED;z-index:200;transition:width .3s"></div>
-<div class="firma-jdm" title="🎬 Reproductor M3U - Creado por JDM | 2024">JDM</div>
+<div class="firma-jdm" title="🎬 Reproductor M3U">JDM</div>
 <header>
   <div class="logo">Lista De --></div>
   <div class="url-form">
@@ -432,7 +825,7 @@ body.portrait-mode .sidebar { display: flex !important; }
     <div class="video-wrap" id="videoWrap">
       <div class="no-channel" id="noChannel"><svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg><p>ELIGE UN CANAL</p></div>
       <video id="videoEl" class="video-js vjs-default-skin" playsinline style="width:100%;height:100%;position:fixed"></video>
-      <div class="loader-overlay hidden" id="loaderOverlay"><div class="spinner"></div></div>
+
       <div class="error-overlay hidden" id="errorOverlay"><p id="errorMsg">Error</p><small id="errorSub">Verifica la URL</small><button class="retry-btn" id="retryBtn">Reintentar</button></div>
     </div>
     <div class="now-playing">
@@ -440,9 +833,9 @@ body.portrait-mode .sidebar { display: flex !important; }
       <div class="np-info"><div class="np-name" id="npName">Sin reproducción</div><div class="np-meta" id="npMeta">—</div></div>
       <div class="controls">
         <button class="ctrl-btn" id="openWebBtn" title="Abrir en navegador">🌐</button>
-        <button class="ctrl-btn" id="prevBtn" title="Anterior">◀◀</button>
+        <button class="ctrl-btn" id="prevBtn" title="Anterior">▕◀</button>
         <button class="ctrl-btn play-btn" id="playBtn" title="Play">▶</button>
-        <button class="ctrl-btn" id="nextBtn" title="Siguiente">▶▶</button>
+        <button class="ctrl-btn" id="nextBtn" title="Siguiente">▶▏</button>
         <div class="vol-wrap"><button class="vol-btn" id="volBtn">🔊</button><input type="range" class="vol-slider" id="volRange" min="0" max="1" step="0.05" value="1"></div>
         <button class="ctrl-btn" id="copyLinkBtn" title="Copiar enlace">VLC</button>
         <button class="ctrl-btn" id="androidBtn" title="Abrir en reproductor externo" style="display:none;">🤖</button>
@@ -477,23 +870,41 @@ body.portrait-mode .sidebar { display: flex !important; }
   </div>
 </div>
 
+
+
 <script>
 // ==================== CONFIGURACIÓN ====================
 const DEFAULT_SERVER = 'avefenixtv.com';
 const DEFAULT_USER = 'rey_estrada';
 const DEFAULT_PASS = 'Estrada2022R';
 const DEFAULT_M3U_URL = 'https://raw.githubusercontent.com/JMigue85/IPTV-SV/refs/heads/main/IPTVSV.m3u';
+// Función para reducir calidad de imágenes en TVs
+function optimizarImagenTV(url) {
+    if (!esDispositivoLento || !url) return url;
+    // Si la imagen es de un dominio común de logos, usar versión pequeña
+    if (url.includes('githubusercontent.com')) {
+        return url + '?size=small';
+    }
+    // Para otros dominios, intentar usar un proxy que comprima
+    // return 'https://images.weserv.nl/?url=' + encodeURIComponent(url) + '&w=80&h=80&fit=contain';
+    return url;
+}
 
 // ==================== DETECCIÓN DISPOSITIVOS (DEBE IR PRIMERO) ====================
 var esAndroid = /Android/i.test(navigator.userAgent);
 var esIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
-var esSmartTV = /SmartTV|webOS|LGTV|AppleTV|GoogleTV|Tizen|NetCast|SmartHub|Opera TV/i.test(navigator.userAgent);
+var esSmartTV = /SmartTV|webOS|LGTV|AppleTV|GoogleTV|Tizen|NetCast|SmartHub|Opera TV|Android TV/i.test(navigator.userAgent);
 var esDispositivoTactil = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || esAndroid || esIOS;
+// DETECCIÓN DE TABLETAS - NO ocultar sidebar en landscape
+var esTableta = (window.innerWidth >= 768 && window.innerWidth <= 1280) || 
+                /iPad|Tablet|PlayBook|Silk/i.test(navigator.userAgent) ||
+                (navigator.maxTouchPoints > 5);
 
 // ==================== VARIABLES GLOBALES ====================
 var channelsAll = [];
 var channels = [];
 var activeIdx = -1;
+var playingChannelIndex = -1; // Para el sistema de reinicio simple
 var TIPO_LISTA_ACTUAL = 'auto';
 var listaPendiente = null;
 var activeGroup = '';
@@ -502,12 +913,13 @@ var hls = null;
 var navStack = [];
 var currentCh = null;
 var ITEM_H = 58; // CORREGIDO: valor fijo, no depende de variable no definida aún
+// Control de imágenes para TVs y dispositivos lentos
+var IMAGENES_CARGADAS = 0;
+var MAX_IMAGENES_TV = 30; // Solo cargar 30 imágenes máximo en TV
+var esDispositivoLento = esSmartTV || /SmartTV|webOS|LGTV|Tizen|NetCast/i.test(navigator.userAgent);
 var _renderedMap = {};
 var _searchTimer;
 var currentPlayPromise = null;
-var reconectarTimeout = null;
-var intentosReconexion = 0;
-var MAX_INTENTOS = 10;
 var immersiveMode = true;
 var immersiveTimeout = null;
 var lastActivityTime = Date.now();
@@ -538,11 +950,28 @@ var touchStartX = 0;
 var touchEndY = 0;
 var touchEndX = 0;
 var scrollTimer = null;
+var bufferCheckTimeout = null;
+var contadorCongelado = 0; // Para el monitor de reconexión
 
 // Aplicar clase para estilos táctiles
 if (esDispositivoTactil) {
     document.body.classList.add('touch-device');
     ITEM_H = 65; // Más alto en móviles
+}
+// ==================== MODO DEPURACIÓN (quitar en producción) ====================
+var MODO_DEBUG = true; // Cambiar a false para desactivar logs
+
+function debugLog(msg, tipo) {
+    if (!MODO_DEBUG) return;
+    if (tipo === 'error') {
+        console.error('❌ ' + msg);
+    } else if (tipo === 'warn') {
+        console.warn('⚠️ ' + msg);
+    } else if (tipo === 'success') {
+        console.log('✅ ' + msg);
+    } else {
+        console.log('🔍 ' + msg);
+    }
 }
 
 // ==================== FUNCIONES AUXILIARES ====================
@@ -550,8 +979,30 @@ function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').re
 function showLoadBar() { var b = document.getElementById('loadbar'); b.style.width='70%'; b.style.opacity='1'; }
 function hideLoadBar() { var b = document.getElementById('loadbar'); b.style.width='100%'; setTimeout(function(){ b.style.opacity='0'; setTimeout(function(){ b.style.width='0'; },400); },300); }
 function setLive(on) { document.getElementById('liveBadge').classList.toggle('on', on); }
-function showLoader(){ document.getElementById('loaderOverlay').classList.remove('hidden'); }
-function hideLoader(){ document.getElementById('loaderOverlay').classList.add('hidden'); }
+function showLoader(){ 
+    // Eliminar loader anterior si existe
+    var viejo = document.getElementById('loaderOverlay');
+    if (viejo) viejo.remove();
+    
+    // Crear nuevo loader centrado
+    var loader = document.createElement('div');
+    loader.id = 'loaderOverlay';
+    loader.style.cssText = 'position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: #07080d00; display: flex; align-items: center; justify-content: center; z-index: 99999;';
+    
+    var spinner = document.createElement('div');
+    spinner.className = 'spinner';
+    spinner.style.cssText = 'width: 40px; height: 40px; border: 3px solid rgba(255,255,255,0.1); border-top-color: #7C3AED; border-radius: 50%; animation: spin 0.7s linear infinite;';
+    
+    loader.appendChild(spinner);
+    document.body.appendChild(loader);
+}
+
+function hideLoader(){ 
+    var loader = document.getElementById('loaderOverlay');
+    if (loader) {
+        loader.remove();
+    }
+}
 function showError(msg,sub){ var el=document.getElementById('errorOverlay'); el.classList.remove('hidden'); document.getElementById('errorMsg').textContent=msg; document.getElementById('errorSub').textContent=sub; }
 function hideError(){ document.getElementById('errorOverlay').classList.add('hidden'); }
 function toast(msg,type){
@@ -619,6 +1070,9 @@ function renderVirtual() {
     
     var n = channels.length;
     
+// Reiniciar contador de imágenes al renderizar
+ if (esDispositivoLento) IMAGENES_CARGADAS = 0;
+
     // Si no hay canales, mostrar estado vacío
     if (!n) {
         inner.innerHTML = '';
@@ -627,7 +1081,8 @@ function renderVirtual() {
         document.getElementById('stats').innerHTML = '';
         return;
     }
-    
+
+
     // En celulares Android: mostrar TODOS los elementos sin paginación
     if (esDispositivoTactil && !esSmartTV) {
         TOTAL_PAGINAS = 1;
@@ -655,16 +1110,28 @@ function renderVirtual() {
             
             var lw = document.createElement('div');
             lw.className = 'ch-logo-wrap';
-            if (c.logo) {
-                var img = new Image();
-                img.className = 'ch-logo';
-                img.loading = 'lazy';
-                img.src = c.logo;
-                img.onerror = function() { this.style.display = 'none'; };
-                lw.appendChild(img);
-            } else {
-                lw.innerHTML = '<span class="ch-ph">' + (c.esCarpeta ? '📁' : '▶') + '</span>';
-            }
+if (c.logo) {
+    if (esDispositivoLento && IMAGENES_CARGADAS >= MAX_IMAGENES_TV) {
+        lw.innerHTML = '<span class="ch-ph">📺</span>';
+    } else {
+        var img = new Image();
+        img.className = 'ch-logo';
+        img.loading = 'lazy';
+        img.src = c.logo;
+        img.onerror = function() { 
+            this.style.display = 'none'; 
+            this.parentElement.innerHTML = '<span class="ch-ph">📺</span>';
+        };
+        if (esDispositivoLento) {
+            img.style.imageRendering = 'auto';
+            img.decoding = 'async';
+        }
+        lw.appendChild(img);
+        if (esDispositivoLento) IMAGENES_CARGADAS++;
+    }
+} else {
+    lw.innerHTML = '<span class="ch-ph">' + (c.esCarpeta ? '📁' : '▶') + '</span>';
+}
             
             var info = document.createElement('div');
             info.className = 'ch-info';
@@ -747,12 +1214,20 @@ function renderVirtual() {
         var lw = document.createElement('div');
         lw.className = 'ch-logo-wrap';
         if (c.logo) {
-            var img = new Image();
-            img.className = 'ch-logo';
-            img.loading = 'lazy';
-            img.src = c.logo;
-            img.onerror = function() { this.style.display = 'none'; };
-            lw.appendChild(img);
+            if (esDispositivoLento && IMAGENES_CARGADAS >= MAX_IMAGENES_TV) {
+                lw.innerHTML = '<span class="ch-ph">📺</span>';
+            } else {
+                var img = new Image();
+                img.className = 'ch-logo';
+                img.loading = 'lazy';
+                img.src = c.logo;
+                img.onerror = function() { 
+                    this.style.display = 'none'; 
+                    this.parentElement.innerHTML = '<span class="ch-ph">📺</span>';
+                };
+                lw.appendChild(img);
+                if (esDispositivoLento) IMAGENES_CARGADAS++;
+            }
         } else {
             lw.innerHTML = '<span class="ch-ph">' + (c.esCarpeta ? '📁' : '▶') + '</span>';
         }
@@ -1018,23 +1493,74 @@ document.getElementById('chListWrap').addEventListener('click', function(e) {
 });
 
 // ==================== ORIENTACIÓN ====================
+
 function ajustarOrientacion() {
     var isLandscape = window.innerWidth > window.innerHeight;
     var sidebar = document.querySelector('.sidebar');
     var playerArea = document.querySelector('.player-area');
     var videoWrap = document.getElementById('videoWrap');
+    var header = document.querySelector('header');
+    var nowPlaying = document.querySelector('.now-playing');
+    var controls = document.querySelector('.controls');
     
-    // SOLO para celulares (Android/iOS), NO para Smart TV
-    if (esDispositivoTactil && !esSmartTV) {
+    if (esDispositivoTactil && !esSmartTV && !esTableta) {
         if (isLandscape) {
-            // MODO HORIZONTAL: sidebar oculto, video FULLSCREEN
+            // ========== MODO HORIZONTAL ==========
             if (sidebar) sidebar.style.display = 'none';
-            if (playerArea) playerArea.style.height = '100%';
-            if (videoWrap) videoWrap.style.height = '100vh';
+            
+            if (playerArea) {
+                playerArea.style.height = '100vh';
+                playerArea.style.width = '100vw';
+                playerArea.style.position = 'fixed';
+                playerArea.style.top = '0';
+                playerArea.style.left = '0';
+            }
+            
+            if (videoWrap) {
+                videoWrap.style.height = '100vh';
+            }
+            
+            if (header) {
+                header.style.opacity = '1';
+            }
+            
+            if (nowPlaying) {
+                nowPlaying.style.position = 'fixed';
+                nowPlaying.style.bottom = '15px';
+                nowPlaying.style.left = '40%';
+                nowPlaying.style.right = 'auto';
+                nowPlaying.style.width = 'auto';
+                nowPlaying.style.maxWidth = '40%';
+                nowPlaying.style.background = 'rgba(0,0,0,0.8)';
+                nowPlaying.style.borderRadius = '12px';
+                nowPlaying.style.padding = '8px 15px';
+                nowPlaying.style.opacity = '1';
+            }
+            
+            if (controls) {
+                controls.style.position = 'fixed';
+                controls.style.bottom = '15px';
+                controls.style.right = '15px';
+                controls.style.top = 'auto';
+                controls.style.display = 'flex';
+                controls.style.flexDirection = 'row';
+                controls.style.gap = '8px';
+                controls.style.padding = '6px 12px';
+                controls.style.background = 'rgba(0,0,0,0.8)';
+                controls.style.borderRadius = '25px';
+                controls.style.opacity = '1';
+            }
+            
             document.body.classList.add('landscape-mode');
             document.body.classList.remove('portrait-mode');
+            
+            // Activar auto-ocultar
+            iniciarAutoOcultarLandscape();
+            
         } else {
-            // MODO VERTICAL: sidebar SIEMPRE visible abajo
+            // ========== MODO VERTICAL ==========
+            detenerAutoOcultarLandscape();
+            
             if (sidebar) {
                 sidebar.style.display = 'flex';
                 sidebar.style.height = '45%';
@@ -1045,19 +1571,54 @@ function ajustarOrientacion() {
                 sidebar.style.borderRadius = '20px 20px 0 0';
                 sidebar.style.zIndex = '50';
             }
-            if (playerArea) playerArea.style.height = '55%';
-            if (videoWrap) videoWrap.style.height = '100%';
+            
+            if (playerArea) {
+                playerArea.style.height = '55%';
+                playerArea.style.position = '';
+                playerArea.style.width = '';
+            }
+            
+            if (header) {
+                header.style.opacity = '1';
+            }
+            
+            if (nowPlaying) {
+                nowPlaying.style.position = '';
+                nowPlaying.style.bottom = '';
+                nowPlaying.style.left = '';
+                nowPlaying.style.right = '';
+                nowPlaying.style.width = '';
+                nowPlaying.style.maxWidth = '';
+                nowPlaying.style.background = '';
+                nowPlaying.style.borderRadius = '';
+                nowPlaying.style.padding = '';
+                nowPlaying.style.opacity = '1';
+            }
+            
+            if (controls) {
+                controls.style.position = '';
+                controls.style.bottom = '';
+                controls.style.right = '';
+                controls.style.top = '';
+                controls.style.flexDirection = '';
+                controls.style.gap = '';
+                controls.style.padding = '';
+                controls.style.background = '';
+                controls.style.borderRadius = '';
+                controls.style.opacity = '1';
+            }
+            
             document.body.classList.add('portrait-mode');
             document.body.classList.remove('landscape-mode');
         }
-    } else if (esSmartTV) {
-        // En Smart TV, el sidebar se oculta con modo inmersivo
-        if (sidebar) sidebar.style.display = 'flex';
-        if (playerArea) playerArea.style.height = '';
-        document.body.classList.remove('landscape-mode');
-        document.body.classList.remove('portrait-mode');
     }
 }
+
+
+
+
+
+
 
 window.addEventListener('resize', function() { setTimeout(renderVirtual, 100); ajustarOrientacion(); });
 if (window.screen && window.screen.orientation) { window.screen.orientation.addEventListener('change', function() { setTimeout(ajustarOrientacion, 300); }); }
@@ -1247,95 +1808,290 @@ function cargarUltimaLista() { try { return JSON.parse(localStorage.getItem('ult
 function restaurarUltimaLista() {
     var ultima = cargarUltimaLista();
     if (ultima && ultima.tipo === 'url') {
-        if (ultima.datos === DEFAULT_M3U_URL) { cargarURLconTipo(ultima.datos); return true; }
+        // Si la última lista es la default, usar TIPO_LISTA_ACTUAL guardado
+        if (ultima.datos === DEFAULT_M3U_URL) { 
+            var tipoGuardado = localStorage.getItem('ultimo_tipo_lista');
+            if (tipoGuardado) TIPO_LISTA_ACTUAL = tipoGuardado;
+            if (!TIPO_LISTA_ACTUAL || TIPO_LISTA_ACTUAL === '') TIPO_LISTA_ACTUAL = 'auto';
+            cargarURLconTipo(ultima.datos); 
+            return true; 
+        }
         var existeEnHistorial = historialListas.some(function(item) { return item.url === ultima.datos; });
-        if (existeEnHistorial) { if (tiposGuardados[ultima.datos]) { TIPO_LISTA_ACTUAL = tiposGuardados[ultima.datos]; } cargarURLconTipo(ultima.datos); return true; }
-        else { localStorage.removeItem('ultima_lista'); cargarURLconTipo(DEFAULT_M3U_URL); return true; }
+        if (existeEnHistorial) { 
+            if (tiposGuardados[ultima.datos]) { 
+                TIPO_LISTA_ACTUAL = tiposGuardados[ultima.datos]; 
+            } else {
+                TIPO_LISTA_ACTUAL = 'auto';
+            }
+            cargarURLconTipo(ultima.datos); 
+            return true; 
+        } else { 
+            localStorage.removeItem('ultima_lista'); 
+            TIPO_LISTA_ACTUAL = 'auto';
+            cargarURLconTipo(DEFAULT_M3U_URL); 
+            return true; 
+        }
+    } else if (ultima && ultima.tipo === 'xtream') { 
+        currentServer = ultima.datos.server; 
+        currentUser = ultima.datos.user; 
+        currentPass = ultima.datos.pass; 
+        document.getElementById('xtreamServer').value = ultima.datos.server; 
+        document.getElementById('xtreamUser').value = ultima.datos.user; 
+        document.getElementById('xtreamPass').value = ultima.datos.pass; 
+        cargarXtreamList(); 
+        return true; 
     }
-    else if (ultima && ultima.tipo === 'xtream') { currentServer = ultima.datos.server; currentUser = ultima.datos.user; currentPass = ultima.datos.pass; document.getElementById('xtreamServer').value = ultima.datos.server; document.getElementById('xtreamUser').value = ultima.datos.user; document.getElementById('xtreamPass').value = ultima.datos.pass; cargarXtreamList(); return true; }
-    cargarURLconTipo(DEFAULT_M3U_URL); return true;
+    // Si no hay última lista, cargar la default
+    TIPO_LISTA_ACTUAL = 'auto';
+    cargarURLconTipo(DEFAULT_M3U_URL); 
+    return true;
 }
 
 // ==================== MONITOR DE RECONEXIÓN ====================
-function detenerMonitor() { if(reconectarTimeout){ clearInterval(reconectarTimeout); reconectarTimeout=null; } intentosReconexion=0; }
 
-function iniciarMonitor(video, urlOriginal, tipo, esVodContent) {
-    detenerMonitor();
-    if(esVodContent) { console.log('🎬 Contenido VOD detectado - NO se monitoreará para reconexión'); return; }
-    intentosReconexion = 0;
-    var ultimoTime = 0;
-    var contadorCongelado = 0;
-    var MAX_CONTADOR_CONGELADO = 2;
-    var INTERVALO_CHEQUEO = 4000;
-    console.log('🔍 Monitor iniciado para:', urlOriginal.substring(0, 50) + '...');
-    reconectarTimeout = setInterval(function() {
-        if (!video) { detenerMonitor(); return; }
-        if (video.ended) { detenerMonitor(); return; }
-        if (intentosReconexion >= MAX_INTENTOS) { detenerMonitor(); showError('Stream no disponible', 'Se alcanzó el máximo de reintentos'); return; }
-        var tiempoActual = video.currentTime || 0;
-        var buffer = video.buffered;
-        var bufferFin = 0;
-        if (buffer.length > 0) { bufferFin = buffer.end(buffer.length - 1); }
-        var sinBuffer = (buffer.length === 0 || (bufferFin - tiempoActual < 0.3));
-        var congelado = (ultimoTime === tiempoActual && tiempoActual > 0);
-        if (video.paused && !video.ended && tiempoActual > 0 && !esVod(currentCh)) {
-            video.play().then(function() { contadorCongelado = 0; }).catch(function(e) { setTimeout(function() { if (!esVod(currentCh)) { reconectarStream(video, urlOriginal, tipo); } }, 2000); });
-            return;
-        }
-        if (congelado && !esVod(currentCh)) {
-            contadorCongelado++;
-            if (contadorCongelado >= MAX_CONTADOR_CONGELADO) { reconectarStream(video, urlOriginal, tipo); contadorCongelado = 0; intentosReconexion++; }
-        } else if (!esVod(currentCh)) { contadorCongelado = 0; }
-        if (sinBuffer && tiempoActual > 0 && !congelado && !esVod(currentCh)) {
-            if (contadorCongelado === 0) { contadorCongelado = 1; }
-            else if (contadorCongelado >= 1) { reconectarStream(video, urlOriginal, tipo); contadorCongelado = 0; intentosReconexion++; }
-        }
-        ultimoTime = tiempoActual;
-    }, INTERVALO_CHEQUEO);
-}
 
-function reconectarStream(video, urlOriginal, tipo) {
-    intentosReconexion++;
-    if (!esSmartTV) { toast('Reconectando... (' + intentosReconexion + '/' + MAX_INTENTOS + ')', 'info'); }
-    if (tipo === 'hls' && hls) { try { hls.destroy(); } catch(e) {} hls = null; setTimeout(function() { if (currentCh && !esVod(currentCh)) { playVideoHls(currentCh, activeIdx); } }, 1500); }
-    else if (tipo === 'shaka' && typeof shakaPlayer !== 'undefined' && shakaPlayer) { try { shakaPlayer.destroy(); } catch(e) {} shakaPlayer = null; setTimeout(function() { if (currentCh && !esVod(currentCh)) { playVideoShaka(currentCh, activeIdx); } }, 1500); }
-    else if (tipo === 'directo') {
-        var nuevaUrl = urlOriginal;
-        if (nuevaUrl.includes('?')) { nuevaUrl += '&_r=' + Date.now(); } else { nuevaUrl += '?_r=' + Date.now(); }
-        video.src = '';
-        setTimeout(function() { video.src = nuevaUrl; video.load(); setTimeout(function() { video.play().catch(function(e) {}); }, 300); }, 200);
-    }
-    if (intentosReconexion >= MAX_INTENTOS) { detenerMonitor(); showError('Stream no disponible después de ' + MAX_INTENTOS + ' intentos', 'Prueba con otro canal o verifica tu conexión'); }
-}
+
+
+
+
+
+
+
+
+
 
 // ==================== REPRODUCCIÓN ====================
-function stopPlayback() { detenerMonitor(); if(hls){ hls.destroy(); hls=null; } if(currentPlayPromise){ currentPlayPromise.catch(function(e){}); currentPlayPromise=null; } var v = document.getElementById('videoEl'); if(v){ v.pause(); v.removeAttribute('src'); v.load(); } }
+function stopPlayback() { 
+    // Limpiar buffer timeout
+    if (bufferCheckTimeout) { clearTimeout(bufferCheckTimeout); bufferCheckTimeout = null; }
+    
+    // Limpiar listeners de reinicio
+    var v = document.getElementById('videoEl');
+    if(v){ 
+        v.removeEventListener('error', reiniciarCanalSimple);
+        v.removeEventListener('pause', reiniciarCanalSimple);
+        v.removeEventListener('ended', reiniciarCanalSimple);
+        v.removeEventListener('stalled', reiniciarCanalSimple);
+        v.removeEventListener('waiting', verificarBufferAgotado);
+        v.pause(); 
+        v.removeAttribute('src'); 
+        v.load(); 
+    }
+    
+    if(hls){ hls.destroy(); hls=null; } 
+    if(currentPlayPromise){ currentPlayPromise.catch(function(e){}); currentPlayPromise=null; } 
+    playingChannelIndex = -1;
+}
 
 function playVideoDirecto(ch, idx) {
     stopPlayback();
-    currentCh = ch; activeIdx = idx;
-    renderList();
+    currentCh = ch; 
+    activeIdx = idx;
+    playingChannelIndex = idx; // GUARDAR para reinicio
+    
     var v = document.getElementById('videoEl');
+    
+    // Reiniciar estado de reproducción
+    reintentosReinicio = 0;
+    reproduccionEstable = false;
+    clearTimeout(tiempoEsperaReinicio);
     showLoader(); hideError();
     document.getElementById('noChannel').style.display = 'none';
     v.style.display = 'block';
     document.getElementById('npName').textContent = ch.nombre || ch.name;
     document.getElementById('npMeta').textContent = ch.group || '—';
+    
     var vod = (ch.tipo === 'movies' || ch.tipo === 'series');
     if(vod){ agregarVOD(); setLive(false); } else { quitarVOD(); setLive(true); }
-    var errHandler = function(){ v.removeEventListener('error',errHandler); hideLoader(); showError('No se puede reproducir','Copia el enlace para VLC'); setLive(false); detenerMonitor(); };
-    v.addEventListener('error',errHandler);
+    
     v.src = ch.url;
     v.load();
+    
+    // ===== SISTEMA DE REINICIO SIMPLE (COMO EL CÓDIGO NUEVO) =====
+    // Limpiar listeners anteriores
+    v.removeEventListener('error', reiniciarCanalSimple);
+    v.removeEventListener('pause', reiniciarCanalSimple);
+    v.removeEventListener('ended', reiniciarCanalSimple);
+    v.removeEventListener('stalled', reiniciarCanalSimple);
+    v.removeEventListener('waiting', verificarBufferAgotado);
+    
+    if (!vod) {
+        // Solo para CANALES: agregar listeners de reinicio
+        v.addEventListener('error', reiniciarCanalSimple);
+        v.addEventListener('pause', reiniciarCanalSimple);
+        v.addEventListener('ended', reiniciarCanalSimple);
+        v.addEventListener('stalled', reiniciarCanalSimple);
+        v.addEventListener('waiting', verificarBufferAgotado);
+        console.log('📡 Listeners de reinicio activados para canal');
+    } else {
+        console.log('🎬 VOD - Sin listeners de reinicio');
+    }
+    
     currentPlayPromise = v.play();
-    currentPlayPromise.then(function(){ hideLoader(); iniciarMonitor(v, ch.url, 'directo', vod); currentPlayPromise=null; }).catch(function(e){ v.removeEventListener('error',errHandler); hideLoader(); showError('Error',e.message); currentPlayPromise=null; });
+    currentPlayPromise.then(function(){ 
+        hideLoader(); 
+        currentPlayPromise=null; 
+    }).catch(function(e){ 
+        hideLoader(); 
+        console.error('❌ Error al reproducir:', e.message);
+        currentPlayPromise=null; 
+    });
 }
+
+// ===== FUNCIONES DE REINICIO SIMPLE (COPIADAS DEL CÓDIGO NUEVO) =====
+var reintentosReinicio = 0;
+var maximoReintentos = 3;
+var tiempoEsperaReinicio = null;
+var reproduccionEstable = false;
+
+function reiniciarCanalSimple() {
+    // Si ya se está reproduciendo bien, NO reiniciar
+    var v = document.getElementById('videoEl');
+    if (!v) return;
+    
+    // Verificar si el video ya se está reproduciendo correctamente
+    if (v.readyState >= 3 && !v.paused && v.currentTime > 0 && !v.ended) {
+        console.log('✅ El canal ya se está reproduciendo correctamente. NO reiniciar.');
+        reproduccionEstable = true;
+        reintentosReinicio = 0;
+        return;
+    }
+    
+    // Si ya reiniciamos muchas veces, esperar más tiempo
+    if (reintentosReinicio >= maximoReintentos) {
+        console.log('⚠️ Demasiados reinicios. Esperando 15 segundos antes de reintentar...');
+        clearTimeout(tiempoEsperaReinicio);
+        tiempoEsperaReinicio = setTimeout(function() {
+            reintentosReinicio = 0;
+            console.log('🔄 Reanudando monitoreo después de espera...');
+        }, 15000);
+        return;
+    }
+    
+    // Verificar que haya un canal para reiniciar
+    if (playingChannelIndex === -1 || !channels[playingChannelIndex]) {
+        console.warn("No hay canal en reproducción para reiniciar.");
+        return;
+    }
+    
+    var canal = channels[playingChannelIndex];
+    
+    // No reiniciar VOD
+    if (canal.tipo === 'movies' || canal.tipo === 'series') {
+        console.log('🎬 VOD - No se reinicia');
+        return;
+    }
+    
+    // Verificar que realmente haya un problema
+    var hayProblema = false;
+    
+    if (v.error) {
+        console.log('❌ Error detectado en el video');
+        hayProblema = true;
+    }
+    if (v.paused && v.readyState < 3 && v.networkState === 3) {
+        console.log('⏸️ Video pausado por buffer/bajada');
+        hayProblema = true;
+    }
+    if (v.ended) {
+        console.log('🏁 Video terminado');
+        hayProblema = true;
+    }
+    
+    // Si no hay problema claro, no reiniciar
+    if (!hayProblema && reproduccionEstable) {
+        console.log('👍 No se detecta problema. Reproducción estable.');
+        return;
+    }
+    
+    reintentosReinicio++;
+    console.log('🔁 Reinicio #' + reintentosReinicio + ' de ' + maximoReintentos + ' - Canal: ' + (canal.nombre || canal.name));
+    
+    if (!esSmartTV) {
+        toast('Reconectando... (' + reintentosReinicio + '/' + maximoReintentos + ')', 'info');
+    }
+    
+    // Limpiar HLS si existe
+    if (hls) {
+        try { hls.destroy(); } catch(e) {}
+        hls = null;
+    }
+    
+    // Marcar como no estable antes de reiniciar
+    reproduccionEstable = false;
+    
+    // Recargar el stream
+    v.src = canal.url;
+    v.load();
+    
+    var playPromise = v.play();
+    if (playPromise !== undefined) {
+        playPromise.then(function() {
+            console.log('▶️ Reproducción iniciada después de reinicio #' + reintentosReinicio);
+            // Esperar 2 segundos y verificar si sigue reproduciéndose
+            setTimeout(function() {
+                if (v.readyState >= 3 && !v.paused && v.currentTime > 0) {
+                    console.log('✅ Reproducción estable después de reinicio #' + reintentosReinicio);
+                    reproduccionEstable = true;
+                    reintentosReinicio = 0;
+                    hideError();
+                }
+            }, 2000);
+        }).catch(function(err) {
+            console.warn('⚠️ Error al reiniciar:', err.message);
+        });
+    }
+    
+    // Si después de 8 segundos no se ha estabilizado, permitir otro reinicio
+    clearTimeout(tiempoEsperaReinicio);
+    tiempoEsperaReinicio = setTimeout(function() {
+        if (!reproduccionEstable && reintentosReinicio < maximoReintentos) {
+            console.log('⏰ Timeout de verificación - El reinicio #' + reintentosReinicio + ' no funcionó');
+            reiniciarCanalSimple();
+        }
+    }, 8000);
+}
+
+
+
+function verificarBufferAgotado() {
+    // Si la reproducción es estable, no hacer nada
+    if (reproduccionEstable) {
+        console.log('👍 Buffer: reproducción estable, ignorando evento waiting');
+        return;
+    }
+    
+    console.log('⏳ Video en espera (waiting) - Posible buffer agotado');
+    
+    if (bufferCheckTimeout) clearTimeout(bufferCheckTimeout);
+    
+    bufferCheckTimeout = setTimeout(function() {
+        var v = document.getElementById('videoEl');
+        if (v && !reproduccionEstable && v.readyState < 3) {
+            console.log('🚨 Buffer agotado confirmado - Iniciando reinicio');
+            reiniciarCanalSimple();
+        } else if (v && v.readyState >= 3) {
+            console.log('✅ El video se recuperó solo del buffer');
+            reproduccionEstable = true;
+        }
+    }, 5000);
+}
+
+
+
 
 function playVideoHls(ch, idx) {
     stopPlayback();
-    currentCh = ch; activeIdx = idx;
-    renderList();
+    currentCh = ch; 
+    activeIdx = idx;
+    playingChannelIndex = idx; // GUARDAR para reinicio
+    
     var v = document.getElementById('videoEl');
+    
+    // Reiniciar estado de reproducción
+    reintentosReinicio = 0;
+    reproduccionEstable = false;
+    clearTimeout(tiempoEsperaReinicio);
     showLoader(); hideError();
     document.getElementById('noChannel').style.display = 'none';
     v.style.display = 'block';
@@ -1343,14 +2099,64 @@ function playVideoHls(ch, idx) {
     document.getElementById('npName').textContent = ch.nombre || ch.name;
     document.getElementById('npMeta').textContent = ch.group || '—';
     setLive(true);
+    
+    // ===== SISTEMA DE REINICIO SIMPLE =====
+    v.removeEventListener('error', reiniciarCanalSimple);
+    v.removeEventListener('pause', reiniciarCanalSimple);
+    v.removeEventListener('ended', reiniciarCanalSimple);
+    v.removeEventListener('stalled', reiniciarCanalSimple);
+    v.removeEventListener('waiting', verificarBufferAgotado);
+    
+    // Solo para CANALES
+    if (ch.tipo !== 'movies' && ch.tipo !== 'series') {
+        v.addEventListener('error', reiniciarCanalSimple);
+        v.addEventListener('pause', reiniciarCanalSimple);
+        v.addEventListener('ended', reiniciarCanalSimple);
+        v.addEventListener('stalled', reiniciarCanalSimple);
+        v.addEventListener('waiting', verificarBufferAgotado);
+        console.log('📡 Listeners de reinicio HLS activados');
+    }
+    
     if(Hls.isSupported()){
         hls = new Hls({ enableWorker:false });
         hls.loadSource(ch.url);
         hls.attachMedia(v);
-        var to = setTimeout(function(){ if(hls){ hls.destroy(); hls=null; playVideoDirecto(ch,idx); } },10000);
-        hls.on(Hls.Events.MANIFEST_PARSED,function(){ clearTimeout(to); currentPlayPromise=v.play(); currentPlayPromise.then(function(){ hideLoader(); iniciarMonitor(v,ch.url,'hls',false); currentPlayPromise=null; }).catch(function(e){ hideLoader(); currentPlayPromise=null; }); });
-        hls.on(Hls.Events.ERROR,function(e,d){ if(d.fatal && d.type!==Hls.ErrorTypes.NETWORK_ERROR){ clearTimeout(to); if(hls){ hls.destroy(); hls=null; } playVideoDirecto(ch,idx); } });
-    } else { playVideoDirecto(ch,idx); }
+        
+        var to = setTimeout(function(){ 
+            if(hls){ 
+                hls.destroy(); 
+                hls=null; 
+                console.log('⚠️ HLS no cargó - Cambiando a directo');
+                playVideoDirecto(ch,idx); 
+            } 
+        },10000);
+        
+        hls.on(Hls.Events.MANIFEST_PARSED,function(){ 
+            clearTimeout(to); 
+            currentPlayPromise=v.play(); 
+            currentPlayPromise.then(function(){ 
+                hideLoader(); 
+                currentPlayPromise=null; 
+            }).catch(function(e){ 
+                hideLoader(); 
+                console.error('❌ Error HLS:', e.message);
+                currentPlayPromise=null; 
+            }); 
+        });
+        
+        hls.on(Hls.Events.ERROR,function(e,d){ 
+            if(d.fatal){ 
+                console.error('❌ Error fatal HLS');
+                clearTimeout(to); 
+                if(hls){ hls.destroy(); hls=null; } 
+                if (ch.tipo !== 'movies' && ch.tipo !== 'series') {
+                    setTimeout(function() { playVideoDirecto(ch, idx); }, 1000);
+                }
+            } 
+        });
+    } else { 
+        playVideoDirecto(ch,idx); 
+    }
 }
 
 // ==================== NAVEGACIÓN DE CATEGORÍAS Y CONTENIDO ====================
@@ -1433,6 +2239,73 @@ function seleccionarCanal(delta) { registrarActividad(); navegarResultadosBusque
 function limpiarMemoriaVirtual() { var inner = document.getElementById('chListInner'); if (inner) inner.innerHTML = ''; _renderedMap = {}; activeIdx = -1; indiceResultadoActual = -1; }
 
 // ==================== MODO INMERSIVO ====================
+// ==================== AUTO-OCULTAR CONTROLES EN LANDSCAPE ====================
+var landscapeTimeout = null;
+
+function iniciarAutoOcultarLandscape() {
+    // Limpiar timeout anterior
+    if (landscapeTimeout) {
+        clearTimeout(landscapeTimeout);
+        landscapeTimeout = null;
+    }
+    
+    var header = document.querySelector('header');
+    var nowPlaying = document.querySelector('.now-playing');
+    var controls = document.querySelector('.controls');
+    var videoWrap = document.getElementById('videoWrap');
+    var searchInput = document.getElementById('searchInput');
+    
+    function ocultar() {
+        if (header) header.style.opacity = '0.15';
+//   _____________  para mostraru ocultar el nombre del canal cuando se oculta el sidebar  ______________
+        if (nowPlaying) nowPlaying.style.opacity = '0.0';    
+        if (controls) controls.style.opacity = '0.2';
+        if (searchInput) searchInput.style.opacity = '0.2';
+    }
+    
+    function mostrar() {
+        if (header) header.style.opacity = '1';
+        if (nowPlaying) nowPlaying.style.opacity = '1';
+        if (controls) controls.style.opacity = '1';
+        if (searchInput) searchInput.style.opacity = '1';
+        
+        // Reiniciar el contador
+        if (landscapeTimeout) clearTimeout(landscapeTimeout);
+        landscapeTimeout = setTimeout(ocultar, 4000);
+    }
+    
+    // Cuando tocan la pantalla del video
+    if (videoWrap) {
+        videoWrap.removeEventListener('click', mostrar);
+        videoWrap.removeEventListener('touchstart', mostrar);
+        videoWrap.addEventListener('click', mostrar);
+        videoWrap.addEventListener('touchstart', mostrar);
+    }
+    
+    // Iniciar ocultación después de 4 segundos
+    landscapeTimeout = setTimeout(ocultar, 4000);
+}
+
+function detenerAutoOcultarLandscape() {
+    if (landscapeTimeout) {
+        clearTimeout(landscapeTimeout);
+        landscapeTimeout = null;
+    }
+    
+    var header = document.querySelector('header');
+    var nowPlaying = document.querySelector('.now-playing');
+    var controls = document.querySelector('.controls');
+    var searchInput = document.getElementById('searchInput');
+    
+    if (header) header.style.opacity = '1';
+    if (nowPlaying) nowPlaying.style.opacity = '1';
+    if (controls) controls.style.opacity = '1';
+    if (searchInput) searchInput.style.opacity = '1';
+}
+// ==================== AUTO-OCULTAR CONTROLES EN LANDSCAPE ====================
+
+
+
 function activarInmersivo() { if(immersiveMode) document.body.classList.add('immersive'); }
 function desactivarInmersivo() { document.body.classList.remove('immersive'); }
 function toggleInmersivo() { immersiveMode = !immersiveMode; toast(immersiveMode ? 'Modo inmersivo activado' : 'Modo inmersivo desactivado', 'success'); if(immersiveMode) activarInmersivo(); else desactivarInmersivo(); }
@@ -1549,7 +2422,12 @@ function fetchText(u) {
     function intentarConProxies(url, proxyIndex) { if (proxyIndex >= proxies.length) { throw new Error('No se pudo cargar la lista. Prueba descargarla como archivo.'); } var urlFinal = proxies[proxyIndex] + encodeURIComponent(url); return fetch(urlFinal, { method: 'GET', headers: { 'Accept': 'text/plain, */*', 'User-Agent': 'Mozilla/5.0' } }).then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); }).catch(function(e) { return intentarConProxies(url, proxyIndex + 1); }); }
 }
 
-function loadLevel(list) { channelsAll = list.map(function(ch, idx) { return { ...ch, tipo: clasificarInteligente(ch), _origIdx: idx }; }); seriesStructure = agruparSeries(channelsAll.filter(function(ch) { return ch.tipo === 'series'; })); filtrarPorCategoria(); buildCategoryPills(); renderList(); setTimeout(function() { if (channels.length > 0) { activeIdx = channels[0]._origIdx; indiceResultadoActual = 0; actualizarFocoVisual(); scrollAlElementoActivo(); } }, 100); }
+function loadLevel(list) {     // En TVs: eliminar logos de todos excepto los primeros 20
+    if (esDispositivoLento && list.length > 20) {
+        for (var i = 20; i < list.length; i++) {
+            list[i].logo = ''; // Quitar logo para que no intente cargar
+        }
+    } channelsAll = list.map(function(ch, idx) { return { ...ch, tipo: clasificarInteligente(ch), _origIdx: idx }; }); seriesStructure = agruparSeries(channelsAll.filter(function(ch) { return ch.tipo === 'series'; })); filtrarPorCategoria(); buildCategoryPills(); renderList(); setTimeout(function() { if (channels.length > 0) { activeIdx = channels[0]._origIdx; indiceResultadoActual = 0; actualizarFocoVisual(); scrollAlElementoActivo(); } }, 100); }
 
 // ==================== CARGA DE LISTAS ====================
 function getM3UUrl() { return 'http://'+currentServer+'/get.php?username='+currentUser+'&password='+currentPass+'&type=m3u_plus&output=ts'; }
@@ -1581,7 +2459,19 @@ function agregarVOD() { if(document.getElementById('vodControls')) { document.ge
 function quitarVOD() { var el = document.getElementById('vodControls'); if (el) { el.classList.add('hidden'); el.style.opacity = '0'; } if (vodControlsTimeout) { clearTimeout(vodControlsTimeout); vodControlsTimeout = null; } }
 
 // ==================== EVENTOS PRINCIPALES ====================
-document.getElementById('historySelect').addEventListener('change', function(e) { var valor = this.value; if(valor === 'clear') { if(confirm('¿Eliminar todo el historial?')){ historialListas = [{ url: DEFAULT_M3U_URL, nombre: 'Default', fecha: Date.now(), esDefault: true }]; guardarHistorial(); toast('Historial limpiado','success'); } this.value=''; } else if(valor === 'default') { document.getElementById('urlInput').value = DEFAULT_M3U_URL; loadFromUrl(DEFAULT_M3U_URL); this.value=''; } else if(valor === 'manage') { mostrarModalGestionHistorial(); this.value=''; } else if(valor === 'forget') { if(confirm('¿Olvidar todos los tipos de lista guardados?')) { tiposGuardados = {}; localStorage.removeItem('tipos_listas_m3u'); toast('Tipos olvidados','success'); } this.value=''; } else if(valor && valor !== '') { document.getElementById('urlInput').value = valor; loadFromUrl(valor); this.value=''; } });
+document.getElementById('historySelect').addEventListener('change', function(e) { var valor = this.value; if(valor === 'clear') { if(confirm('¿Eliminar todo el historial?')){ historialListas = [{ url: DEFAULT_M3U_URL, nombre: 'Default', fecha: Date.now(), esDefault: true }]; guardarHistorial(); toast('Historial limpiado','success'); } this.value=''; } else if(valor === 'default') { document.getElementById('urlInput').value = DEFAULT_M3U_URL; loadFromUrl(DEFAULT_M3U_URL); this.value=''; } else if(valor === 'manage') { mostrarModalGestionHistorial(); this.value=''; } else if(valor === 'forget') { if(confirm('¿Olvidar todos los tipos de lista guardados?')) { tiposGuardados = {}; localStorage.removeItem('tipos_listas_m3u'); toast('Tipos olvidados','success'); } this.value=''; } else if(valor && valor !== '') { document.getElementById('urlInput').value = valor; loadFromUrl(valor); this.value=''; }     // QUITAR EL FOCO del select y ponerlo en el sidebar
+    this.blur();
+    
+    // Esperar a que cargue la lista y luego enfocar el primer canal
+    setTimeout(function() {
+        var primerCanal = document.querySelector('.channel-item');
+        if (primerCanal) {
+            primerCanal.focus();
+            primerCanal.classList.add('focused');
+        }
+        // También quitar foco del select por si acaso
+        document.getElementById('historySelect').blur();
+    }, 800); });
 document.getElementById('loadBtn').addEventListener('click', function() { var url = document.getElementById('urlInput').value.trim(); if(url) loadFromUrl(url); else toast('Ingresa una URL','error'); });
 document.getElementById('fileInput').addEventListener('change', function(e) { var f = e.target.files[0]; if(!f) return; listaPendiente = { tipo: 'archivo', dato: f }; mostrarSelectorTipoLista(); e.target.value=''; });
 document.getElementById('resetBtn').addEventListener('click', function() { localStorage.removeItem('ultima_lista'); localStorage.removeItem('ultimo_tipo_lista'); localStorage.removeItem('tipos_listas_m3u'); tiposGuardados = {}; forceTypeOverride = { channels: false, movies: false, series: false }; TIPO_LISTA_ACTUAL = 'auto'; document.getElementById('urlInput').value = DEFAULT_M3U_URL; loadFromUrl(DEFAULT_M3U_URL); toast('Lista restablecida','success'); });
@@ -1625,7 +2515,34 @@ document.addEventListener('keydown', function(e) {
     if (e.key === '1') { cambiarTipoContenido('channels'); return; }
     if (e.key === '2') { cambiarTipoContenido('movies'); return; }
     if (e.key === '3') { cambiarTipoContenido('series'); return; }
-    if (e.key === 'Enter') { e.preventDefault(); var elementoActivo = document.querySelector('.channel-item.active, .channel-item.focused'); if (elementoActivo) { elementoActivo.click(); } else if (channels.length > 0 && activeIdx >= 0) { resolveChannel(activeIdx); } else if (channels.length > 0) { resolveChannel(channels[0]._origIdx); } return; }
+    if (e.key === 'Enter' || e.keyCode === 13 || e.keyCode === 29460 || e.key === 'OK') {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        // Intentar obtener el elemento activo visualmente
+        var elementoActivo = document.querySelector('.channel-item.active, .channel-item.focused');
+        
+        if (elementoActivo) {
+            // Simular clic completo
+            var origIdx = parseInt(elementoActivo.getAttribute('data-orig-idx'));
+            if (!isNaN(origIdx) && origIdx >= 0) {
+                activeIdx = origIdx;
+                actualizarFocoVisual();
+                resolveChannel(origIdx);
+                return;
+            }
+        }
+        
+        // Fallback: usar el índice activo
+        if (channels.length > 0 && activeIdx >= 0) {
+            resolveChannel(activeIdx);
+        } else if (channels.length > 0) {
+            activeIdx = channels[0]._origIdx;
+            actualizarFocoVisual();
+            resolveChannel(channels[0]._origIdx);
+        }
+        return;
+    }
    if (e.key === ' ' || e.key === 'p' || e.key === 'P' || e.key === 'e' || e.key === 'E') { document.getElementById('playBtn').click(); return; }
     if (e.key === 'b' || e.key === 'B') { e.preventDefault(); if (navStack.length > 0) { navigateBackFromSeries(); } else { toast('No hay más niveles para volver', 'info'); } return; }
     if (e.key === 'Backspace') { e.preventDefault(); if (navStack.length > 0) { navigateBackFromSeries(); } return; }
@@ -1641,18 +2558,64 @@ var tipos = localStorage.getItem('tipos_listas_m3u');
 if (tipos) { try { tiposGuardados = JSON.parse(tipos); } catch(e) { tiposGuardados = {}; } }
 var tipoGuardado = localStorage.getItem('ultimo_tipo_lista');
 if (tipoGuardado) { TIPO_LISTA_ACTUAL = tipoGuardado; }
+
 renderList();
 cargarHistorial();
+
+// Agregar listas predefinidas al historial si no existen ##########################################################################################################
+var listasPredefinidas = [
+    { url: DEFAULT_M3U_URL, nombre: '📺 IPTV El Salvador', fecha: Date.now(), esDefault: true },
+    { url: 'https://tecnotv.club/hawz/lista.m3u', nombre: 'TECNOTV-CANALES', fecha: Date.now(), esDefault: false },
+    { url: 'https://raw.githubusercontent.com/TVPRO20/Megatv23/refs/heads/master/tv23.m3u', nombre: 'TVPRO20-CANALES', fecha: Date.now(), esDefault: false },
+    { url: 'https://raw.githubusercontent.com/Dk2071/ListaDK/refs/heads/main/canales1.m3u', nombre: 'DK2071-CANALES', fecha: Date.now(), esDefault: false }
+];
+
+//  ===        { url: '', nombre: '####', fecha: Date.now(), esDefault: false }
+
+listasPredefinidas.forEach(function(lista) {
+    if (!historialListas.some(function(item) { return item.url === lista.url; })) {
+        historialListas.unshift(lista);
+    }
+});
+
+// Mantener máximo HISTORIAL_MAX
+if (historialListas.length > HISTORIAL_MAX) {
+    historialListas = historialListas.slice(0, HISTORIAL_MAX);
+}
+
+guardarHistorial();
+
 var urlInput2 = document.getElementById('urlInput');
 if (urlInput2 && urlInput2.value === '') { urlInput2.value = DEFAULT_M3U_URL; }
+
 renderSavedConfigs();
 iniciarDeteccionActividad();
-var restaurada = restaurarUltimaLista();
-setTimeout(function() { if(immersiveMode) registrarActividad(); }, 500);
-setTimeout(function() { if (esSmartTV) { console.log('📺 Modo Smart TV detectado'); } if (esAndroid && !esSmartTV) { console.log('📱 Modo Android detectado'); } }, 1000);
-console.log('=== ✅ INICIALIZACIÓN COMPLETA ===');
 
+// IMPORTANTE: Restaurar DESPUÉS de guardar historial, con retraso
+setTimeout(function() {
+    // Asegurar que TIPO_LISTA_ACTUAL tenga un valor
+    var tipoGuardado = localStorage.getItem('ultimo_tipo_lista');
+    if (tipoGuardado) {
+        TIPO_LISTA_ACTUAL = tipoGuardado;
+    }
+    if (!TIPO_LISTA_ACTUAL || TIPO_LISTA_ACTUAL === '') {
+        TIPO_LISTA_ACTUAL = 'auto';
+    }
+    
+    var restaurada = restaurarUltimaLista();
+    if (!restaurada) {
+        cargarURLconTipo(DEFAULT_M3U_URL);
+    }
+}, 500);
+
+setTimeout(function() { if(immersiveMode) registrarActividad(); }, 800);
+setTimeout(function() { 
+    if (esSmartTV) { console.log('📺 Modo Smart TV detectado'); } 
+    if (esAndroid && !esSmartTV) { console.log('📱 Modo Android detectado'); } 
+}, 1000);
+
+console.log('=== ✅ INICIALIZACIÓN COMPLETA ===');
 
 </script>
 </body>
-</html>
+</html> 
