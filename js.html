@@ -1758,7 +1758,7 @@ function eliminarDelHistorial(url) {
 function actualizarSelectorHistorial() {
     var select = document.getElementById('historySelect');
     if (!select) return;
-    select.innerHTML = '<option value="">📜 Historial</option>';
+    select.innerHTML = '<option value="">📜 LISTAS</option>';
     historialListas.forEach(function(item, idx) {
         if (!item || !item.url || typeof item.url !== 'string') return;
         if (item.url.includes('function') || item.url.includes('{') || item.url.includes('}')) return;
