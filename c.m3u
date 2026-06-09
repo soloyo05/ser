@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTM3U
+
 #EXTINF:-1 tvg-id="mega.cl" tvg-name="CL | MEGA HD" tvg-logo="http://redworld.pro:8880/images/1ae67befe5da5b3cdd6d0bd76ed1f03f.png" group-title="⭐️ CHILE  ",CL | MEGA HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/28244.m3u8
 #EXTINF:-1 tvg-id="mega.cl" tvg-name="CL | MEGA SD" tvg-logo="http://redworld.pro:8880/images/1ae67befe5da5b3cdd6d0bd76ed1f03f.png" group-title="⭐️ CHILE  ",CL | MEGA SD
@@ -57,7 +57,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/298545.m3u8
 #EXTINF:-1 tvg-id="canal13c.cl" tvg-name="CL | CANAL 13 C" tvg-logo="http://redworld.pro:8880/images/50b794b3749e2e23b118c5b6416c73e4.png" group-title="⭐️ CHILE  ",CL | CANAL 13 C
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/424474.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="fox.cl" tvg-name="F0X $PORTS 1 (CHI)" tvg-logo="http://redworld.pro:8880/images/6dc7503c4fbdb327b24ffc5318ae0f7a.png" group-title="⭐️ CHILE DEPORTE",F0X $PORTS 1 (CHI)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/120545.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="F0X $PORTS 2 (CHI)" tvg-logo="http://redworld.pro:8880/images/4e30238679427cf61979378dc815f0ae.png" group-title="⭐️ CHILE DEPORTE",F0X $PORTS 2 (CHI)
@@ -87,7 +87,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/430651.m3u8
 #EXTINF:-1 tvg-id="CDFBasico.cl@SD" tvg-name="FUT BASIC HD (CHI)" tvg-logo="http://redworld.pro:8880/images/6118fd518aadc48c39ebbf4ca2c03da5.png" group-title="⭐️ CHILE DEPORTE",FUT BASIC HD (CHI)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/430830.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="Latino | A3S" tvg-logo="http://redworld.pro:8880/images/275f7a0c2a55fcac1f240202bcf219a0.png" group-title="⭐️ Telenovelas",Latino | A3S
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/135427.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Latino | AZ CORAZON" tvg-logo="http://redworld.pro:8880/images/c749fdf8a9943d4e485533e16bed3357.png" group-title="⭐️ Telenovelas",Latino | AZ CORAZON
@@ -109,7 +109,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/308075.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TBS | TNT NOVELAS HD" tvg-logo="" group-title="⭐️ Telenovelas",TBS | TNT NOVELAS HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/422647.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="EC | GOL TV HD" tvg-logo="http://redworld.pro:8880/images/32b93d81e997e0e62abb75018e5a83c6.png" group-title="⭐️ Deporte Ecuador",EC | GOL TV HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/104112.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="LIGA PRO - ECU" tvg-logo="http://redworld.pro:8880/images/517940c75b538e45aa9882ba29fe433d.png" group-title="⭐️ Deporte Ecuador",LIGA PRO - ECU
@@ -125,7 +125,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/520016.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EC | LIGA PRO - ZAPPING 04" tvg-logo="https://i.postimg.cc/ZnL3C4Tg/ESTO-ES-TV-LIGA-PRO-ECUADOR.webp" group-title="⭐️ Deporte Ecuador",EC | LIGA PRO - ZAPPING 04
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/520017.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="RADIO CORAZÓN " tvg-logo="http://goldfull.pro:8880/images/127c1e8a4588c8cc59f4611cc612cf0a.jpeg" group-title="⭐️ RADIOS CHILE",RADIO CORAZÓN
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/166702.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RADIO PUNTO 7 (TEMUCO)" tvg-logo="http://goldfull.pro:8880/images/86526fb3f5731fd6ba02725f190b3646.png" group-title="⭐️ RADIOS CHILE",RADIO PUNTO 7 (TEMUCO)
@@ -253,7 +253,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/417325.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="El Radar " tvg-logo="http://goldfull.pro:8880/images/dda228e9c1694fcc4f7bc81998189b11.jpg" group-title="⭐️ RADIOS CHILE",El Radar
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/420470.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="ROCK & POP ( ARGENTINA )" tvg-logo="http://goldfull.pro:8880/images/59c7026544beaaa79d5e6830708de73f.jpg" group-title="⭐️ RADIOS ARGENTINA ",ROCK & POP ( ARGENTINA )
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/166764.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RADIO 40 PRINCIPALES (ARGENTINA)" tvg-logo="http://goldfull.pro:8880/images/3ab951a88d01be0a26cd3d8b711237bc.jpg" group-title="⭐️ RADIOS ARGENTINA ",RADIO 40 PRINCIPALES (ARGENTINA)
@@ -277,7 +277,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/166777.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RADIO SOLO ROCK NACIONAL (ARGENTINA)" tvg-logo="http://goldfull.pro:8880/images/290e2b878adc91436de88e71ac0fd2ec.jpg" group-title="⭐️ RADIOS ARGENTINA ",RADIO SOLO ROCK NACIONAL (ARGENTINA)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/166779.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="RADIO RPP LIMA (PERU)" tvg-logo="http://goldfull.pro:8880/images/dd4cf0c317156152d7ab8eec8f94da86.jpg" group-title="⭐️ RADIO PERU",RADIO RPP LIMA (PERU)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/166784.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RADIO OXIGENO (PERU)" tvg-logo="http://goldfull.pro:8880/images/2bb48f7a8d00cb661bfdfd0802aaa323.jpeg" group-title="⭐️ RADIO PERU",RADIO OXIGENO (PERU)
@@ -311,7 +311,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/166799.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RADIO TOP LATINO (PERU)" tvg-logo="http://goldfull.pro:8880/images/4fe5403eea27b4cc73179a811a71175a.png" group-title="⭐️ RADIO PERU",RADIO TOP LATINO (PERU)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/166800.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="D3PÖRT3S | [$ŠPN-3]" tvg-logo="http://redworld.pro:8880/images/65b140dd9ebf0ec2b2a8c1565fa90080.png" group-title="⭐️ DEPORTE VIP",D3PÖRT3S | [$ŠPN-3]
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/167725.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="D3PØRT3S | $ŠPN-4" tvg-logo="http://redworld.pro:8880/images/9c83acb71e6f939bae03936d2c827d7c.png" group-title="⭐️ DEPORTE VIP",D3PØRT3S | $ŠPN-4
@@ -391,7 +391,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/514018.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES | ÑBÆ" tvg-logo="http://redworld.pro:8880/images/cb9ba08fe282681f4ae34fdc866f0c41.png" group-title="⭐️ DEPORTE VIP",DEPORTES | ÑBÆ
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/514112.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="TVU Concepción " tvg-logo="http://goldfull.pro:8880/images/d1fbdb32b13af67a720747a72d1a8cfc.png" group-title="⭐️ CHILE REGIONALES",TVU Concepción
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/252149.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CANAL 9 Bio Bio" tvg-logo="http://goldfull.pro:8880/images/af6bd0bf5130ca63c286f44f14735047.png" group-title="⭐️ CHILE REGIONALES",CANAL 9 Bio Bio
@@ -471,7 +471,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/438100.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Telecauquenes" tvg-logo="https://www.google.com/search?client=ms-android-motorola-rvo3&sca_esv=eff7f5ade088c338&sxsrf=AE3TifM8ICc_aKXe6M-BV-GQoy68UgOwSQ:1754665418396&udm=2&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQht6_BFq6vBIoFFRK7qchKHDX9TtpZ992kyQpCWcw0WhoqqkQpEwIiVZWE9GXTg9wsVEMl0enKwYrJSEHlB6shhBzuyrjEAyuc2qIWfKzi29Xlu_CrPD0F2WsPcVRVgFvReB4l1qBn-LeEzqzt13HDhSWP3okKxJ6DRtEpt32Iuo5p51c_s-F8YNFACkAn8z_vaiiZxy4ZmunsJZILyKz-AqQDu0&q=tele+cauquenes&sa=X&sqi=2&ved=2ahUKEwjq_tmHvvuOAxUfqJUCHQyzMFUQtKgLegQIDxAB&biw=411&bih=773&dpr=1.75" group-title="⭐️ CHILE REGIONALES",Telecauquenes
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/443536.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="CO | Cable Noticias HD" tvg-logo="http://goldfull.pro:8880/images/6397e0a8c21ef6a4bac5a777a71e7f01.png" group-title="⭐️ Colombia",CO | Cable Noticias HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/318369.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CO | Canal Capital" tvg-logo="http://goldfull.pro:8880/images/7da05d11d78e8951326c0b1d72928161.png" group-title="⭐️ Colombia",CO | Canal Capital
@@ -535,7 +535,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/318400.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RCN MÁS+" tvg-logo="http://goldfull.pro:8880/images/9eab3d01ae2477e250ff4dd968b47923.jpg" group-title="⭐️ Colombia",RCN MÁS+
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/363718.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="DiscoveryChannel.pe" tvg-name="Discovery Channel HD" tvg-logo="http://redworld.pro:8880/images/12a8ebd221c1cc385dc020a7d31e8cce.png" group-title="⭐️ CULTURA",Discovery Channel HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/318603.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.pe" tvg-name="Discovery Channel SD" tvg-logo="http://redworld.pro:8880/images/12a8ebd221c1cc385dc020a7d31e8cce.png" group-title="⭐️ CULTURA",Discovery Channel SD
@@ -599,7 +599,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/362420.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Videos de Paisajes 4K" tvg-logo="http://redworld.pro:8880/images/952787d87ff3e80bc242faf3452059e1.png" group-title="⭐️ CULTURA",Videos de Paisajes 4K
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/364245.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="KIDS | BABY FIRST" tvg-logo="http://redworld.pro:8880/images/3b3a23dcc02f40038cfc34d8c58c313f.png" group-title="⭐️ Infantiles",KIDS | BABY FIRST
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/321968.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KIDS | BABY TV" tvg-logo="http://redworld.pro:8880/images/637e562dbf5fd427957eb42dcd838054.png" group-title="⭐️ Infantiles",KIDS | BABY TV
@@ -623,7 +623,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/321984.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KIDS | NICKTOONS" tvg-logo="http://redworld.pro:8880/images/2c60790cd9470a61cf2e3c265f9589de.png" group-title="⭐️ Infantiles",KIDS | NICKTOONS
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/321985.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="AR | $ŠPN-1" tvg-logo="http://redworld.pro:8880/images/669465c0bb8b14bd996ebeb2e1b3d0da.png" group-title="⭐️ Deporte Argentina",AR | $ŠPN-1
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/327914.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AR | [$ŠPN 2]" tvg-logo="http://redworld.pro:8880/images/06f8b949029a4cf1f5b2021eed2e8159.png" group-title="⭐️ Deporte Argentina",AR | [$ŠPN 2]
@@ -651,7 +651,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/377719.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AR | Deport TV" tvg-logo="http://goldfull.pro:8880/images/418d5555f6030759ca609d5ccaabaaa9.png" group-title="⭐️ Deporte Argentina",AR | Deport TV
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/397594.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="TVC HD " tvg-logo="http://redworld.pro:8880/images/65aa8c5cbbd669df1c69e46c155326f5.png" group-title="⭐️ Ecuador",TVC HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/347666.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TC TELEVISION " tvg-logo="http://goldfull.pro:8880/images/387e4df7e2437acaf36de28efeda86e9.png" group-title="⭐️ Ecuador",TC TELEVISION
@@ -679,7 +679,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/347687.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ECUADOR | PURUWA" tvg-logo="http://goldfull.pro:8880/images/c604fe782c8b2e57152c4fdc0019b673.png" group-title="⭐️ Ecuador",ECUADOR | PURUWA
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/350269.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="RADIO BLU " tvg-logo="http://goldfull.pro:8880/images/1e4118edb63ad34f120b2b7a67f7f24d.jpg" group-title="⭐️ RADIOS COLOMBIA",RADIO BLU
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/348695.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RADIO CARACOL" tvg-logo="http://goldfull.pro:8880/images/c714e97dc0f6a92ac5a6efaed2cad9f1.jpg" group-title="⭐️ RADIOS COLOMBIA",RADIO CARACOL
@@ -705,7 +705,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/348705.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RADIO LA REINA 98.6FM" tvg-logo="http://goldfull.pro:8880/images/58c5276be6cf63f27631d13c8bd94ef0.png" group-title="⭐️ RADIOS COLOMBIA",RADIO LA REINA 98.6FM
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/348706.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="RADIO LA RANCHERA (MONTEREY)" tvg-logo="http://goldfull.pro:8880/images/c55af0c2921033277c7dfb27cdb906d5.png" group-title="⭐️ RADIOS MEXICO",RADIO LA RANCHERA (MONTEREY)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/348707.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RADIO CUMBIAS INMORTALES" tvg-logo="http://goldfull.pro:8880/images/aec2973d77545387838e65ad599fb04c.png" group-title="⭐️ RADIOS MEXICO",RADIO CUMBIAS INMORTALES
@@ -731,7 +731,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/348717.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RADIO LA RANCHERITA" tvg-logo="http://goldfull.pro:8880/images/d18bf82ceaf32639f9fa86b00ca94c51.png" group-title="⭐️ RADIOS MEXICO",RADIO LA RANCHERITA
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/348718.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="Love Nature SD (D)" tvg-logo="http://goldfull.pro:8880/images/ad4943043f51563d2cf7eddc96b98be1.png" group-title="⭐️ Canales "Conexiones Lentas"",Love Nature SD (D)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/348756.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Boxing Tv SD (D)" tvg-logo="https://streamstak.com/boxingtv/wp-content/uploads/sites/17/2023/08/boxing-tv-thumbnail.png" group-title="⭐️ Canales "Conexiones Lentas"",Boxing Tv SD (D)
@@ -773,7 +773,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/410186.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Canal Televida (Argentina)" tvg-logo="" group-title="⭐️ Canales "Conexiones Lentas"",Canal Televida (Argentina)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/410187.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="PR | WAPA HD" tvg-logo="http://daleplaypro.com:8080/images/aa0d954723953aa496b08ad536878737.png" group-title="⭐️ Puerto Rico",PR | WAPA HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/354744.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PR  | Mega Tv" tvg-logo="http://daleplaypro.com:8080/images/07cf2761333c19428b87ab6b9f58bfcb.png" group-title="⭐️ Puerto Rico",PR  | Mega Tv
@@ -795,7 +795,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/374751.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PR | TeleOnce" tvg-logo="http://goldfull.pro:8880/images/273601062fd8451fa8dfcf15fa78560d.png" group-title="⭐️ Puerto Rico",PR | TeleOnce
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/374752.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="Canal 10 " tvg-logo="http://goldfull.pro:8880/images/71ead3030bbac67c33989e137d66742c.png" group-title="⭐️ Nicaragua",Canal 10
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/357691.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CANAL 11" tvg-logo="http://goldfull.pro:8880/images/9f52aa882d0be5fbec5fead45cef225d.png" group-title="⭐️ Nicaragua",CANAL 11
@@ -815,7 +815,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/357698.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Canal 13 Nic" tvg-logo="http://goldfull.pro:8880/images/175cb3906e6aa908865648c6923e2a64.png" group-title="⭐️ Nicaragua",Canal 13 Nic
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/386356.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="HON  | Azteca Honduras" tvg-logo="http://redworld.pro:8880/images/752c2d87ac81d75a0921085673764603.png" group-title="⭐️ Honduras",HON  | Azteca Honduras
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/357700.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="HON | DEPORTES TVC" tvg-logo="http://redworld.pro:8880/images/5d61387ae8af4390ba6dea83f6a5e6b1.png" group-title="⭐️ Honduras",HON | DEPORTES TVC
@@ -861,7 +861,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/421856.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="UNE TV" tvg-logo="http://redworld.pro:8880/images/fa46ec7440c55f973b75d1458cfd71be.png" group-title="⭐️ Honduras",UNE TV
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/421857.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="Canal Gen Tv  - C.A B.A" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Gen Tv  - C.A B.A
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/359917.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Canal Atv - C.A.B.A" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Atv - C.A.B.A
@@ -951,7 +951,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/361275.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Canal 10 - Neuquen " tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 10 - Neuquen
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/361276.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="Retro Magico | AR" tvg-logo="http://goldfull.pro:8880/images/c14235a51f2b4619b715a4b77765d5e2.png" group-title="⭐ Zona Retro",Retro Magico | AR
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/376575.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Retro Music Television | CZ" tvg-logo="http://goldfull.pro:8880/images/59e525848c3a8041c4e2a42ea48236f9.png" group-title="⭐ Zona Retro",Retro Music Television | CZ
@@ -967,7 +967,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/376438.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Chilevisual Retro | CL" tvg-logo="http://goldfull.pro:8880/images/4e805cae54845ce407ce0b83df8e310a.png" group-title="⭐ Zona Retro",Chilevisual Retro | CL
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/376583.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="CDM (PR)" tvg-logo="http://latinoamericatv.vip:3334/images/51013bee54911f393569c1e6edc356c9.png" group-title="⭐️ Tv Religiosos",CDM (PR)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/383992.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Logos TV (ES) (Opt-2)" tvg-logo="http://latinoamericatv.vip:3334/images/e9b447ef566a6fffd70d2496c9ca03c1.png" group-title="⭐️ Tv Religiosos",Logos TV (ES) (Opt-2)
@@ -997,7 +997,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/384012.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CDM International" tvg-logo="http://goldfull.pro:8880/images/5967e2b7fed11fb11ef4b31ebc592c0d.jpg" group-title="⭐️ Tv Religiosos",CDM International
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/384014.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="UR | CANAL 4 HD" tvg-logo="http://redworld.pro:8880/images/3d5fba5ab93017303a6900848d7fb316.png" group-title="⭐️ Uruguay",UR | CANAL 4 HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/385083.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="UR | CANAL 4 SD" tvg-logo="http://redworld.pro:8880/images/3d5fba5ab93017303a6900848d7fb316.png" group-title="⭐️ Uruguay",UR | CANAL 4 SD
@@ -1029,7 +1029,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/385100.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="UR | VTV PLUS SD" tvg-logo="http://goldfull.pro:8880/images/cd051d904246c214e72ad75f7857c260.png" group-title="⭐️ Uruguay",UR | VTV PLUS SD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/385101.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="PT :FOX MOVIES FHD HEVC" tvg-logo="http://live.phenixiptv.com:8080/images/3g3pPpn683RjmFf9NReXSP7VtVGVdC-bYbM14JftXKh1l6gVJtV5YHr1vHhED3ayeAwmC4BKeseA1gjoHhiBzbrWPY9jY7vAfeLVjmVJQI4xdYrvNy8MXJDg6WbJFya4c4qRKcM9OOAXv81lA59BZNMsk8d3J63qUz61UPaAySIG7b3fkhAgBOuu-OM26vvAU2bgTunFitQP8mmnDBYt1Q.png" group-title="⭐️ Portugal",PT :FOX MOVIES FHD HEVC
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/390811.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PT : TVI REALITY MOSAICO" tvg-logo="http://live.phenixiptv.com:8080/images/ZUbFfR577OwfqSMNTCmm1VWwW7bRwIJULbKzcuLN3jCT-VQH9xQ8BS1drbJgFuFtvv-yWp09ArP-NGs5xMmRFA.png" group-title="⭐️ Portugal",PT : TVI REALITY MOSAICO
@@ -1263,7 +1263,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/390926.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PT : SPORT TV 1 ᴴᴰ" tvg-logo="http://live.phenixiptv.com:8080/images/145ab6f9e5c19d2bfa60ec2bcedf6195.png" group-title="⭐️ Portugal",PT : SPORT TV 1 ᴴᴰ
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/390927.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="DEP. URUGUAY | VTV HD" tvg-logo="http://goldfull.pro:8880/images/642c97f41f77f0bbac5e962c51549949.png" group-title="⭐️ Deportes Uruguay",DEP. URUGUAY | VTV HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/394835.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="DEP. URUGUAY | VTV OP2" tvg-logo="http://goldfull.pro:8880/images/4b7af4708871f5837bf6440f3d11942e.png" group-title="⭐️ Deportes Uruguay",DEP. URUGUAY | VTV OP2
@@ -1273,7 +1273,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/394837.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="DEP. URUGUAY | VTV PLUS OP2" tvg-logo="http://goldfull.pro:8880/images/e6ccd2f0921113e7b8ee75422c01cc91.png" group-title="⭐️ Deportes Uruguay",DEP. URUGUAY | VTV PLUS OP2
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/394838.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="CINE  | A&E FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjV-u5jw-GdHMR9tjbDC9wxDWINx3jLXRUQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | A&E FHD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/414453.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CINE  | A&E HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjV-u5jw-GdHMR9tjbDC9wxDWINx3jLXRUQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | A&E HD
@@ -1411,7 +1411,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/414525.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CINE PARAMOUNT+" tvg-logo="http://redworld.pro:8880/images/29938cae6727790a47491882e556fce7.png" group-title="⭐️ CINE PREMIUM",CINE PARAMOUNT+
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/449493.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="PANAMA |  RPC TV" tvg-logo="http://redworld.pro:8880/images/b823b2f7d32514006bcd3e6af84ac0fa.png" group-title="⭐️ Panama",PANAMA |  RPC TV
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/418182.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PANAMA |  MAS 23" tvg-logo="" group-title="⭐️ Panama",PANAMA |  MAS 23
@@ -1431,7 +1431,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/418189.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PANAMA | SERTV" tvg-logo="" group-title="⭐️ Panama",PANAMA | SERTV
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/447447.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="MLS 1" tvg-logo="http://goldfull.pro:8880/images/ab6e45bc344f0dff60b713e4704a8d67.png" group-title="⭐️ MLS Exclusivo ⭐️",MLS 1
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/421680.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MLS 2 " tvg-logo="http://goldfull.pro:8880/images/ab6e45bc344f0dff60b713e4704a8d67.png" group-title="⭐️ MLS Exclusivo ⭐️",MLS 2
@@ -1455,7 +1455,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/421691.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MLS 6" tvg-logo="http://goldfull.pro:8880/images/ab6e45bc344f0dff60b713e4704a8d67.png" group-title="⭐️ MLS Exclusivo ⭐️",MLS 6
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/421692.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="MX: [LMP]- Solo en evento fijos 01 ❖2" tvg-logo="http://goldfull.pro:8880/images/933ae67f77012cd4d7892bdeb3e81948.png" group-title="⭐️ LMP Liga ARCO",MX: [LMP]- Solo en evento fijos 01 ❖2
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/423121.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MX: [LMP]- Solo en evento fijos 02 ❖2" tvg-logo="http://goldfull.pro:8880/images/933ae67f77012cd4d7892bdeb3e81948.png" group-title="⭐️ LMP Liga ARCO",MX: [LMP]- Solo en evento fijos 02 ❖2
@@ -1471,7 +1471,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/423126.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MX: [LMP]- Solo en evento fijos 07 ❖2" tvg-logo="http://goldfull.pro:8880/images/933ae67f77012cd4d7892bdeb3e81948.png" group-title="⭐️ LMP Liga ARCO",MX: [LMP]- Solo en evento fijos 07 ❖2
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/423127.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="RD = CANAL 164 Luz Divina TV" tvg-logo="http://127.0.0.1/" group-title="⭐️ República Dominicana",RD = CANAL 164 Luz Divina TV
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/423193.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RD = CANAL 19 Canal19" tvg-logo="http://127.0.0.1/" group-title="⭐️ República Dominicana",RD = CANAL 19 Canal19
@@ -1481,7 +1481,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/423200.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RD = CANAL 21 Antena21" tvg-logo="http://127.0.0.1/" group-title="⭐️ República Dominicana",RD = CANAL 21 Antena21
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/423205.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="lch2775" tvg-name="PE*| E$PN 1 HD" tvg-logo="http://redworld.pro:8880/images/669465c0bb8b14bd996ebeb2e1b3d0da.png" group-title="⭐️ DEPORTE PERÚ",PE*| E$PN 1 HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/428654.m3u8
 #EXTINF:-1 tvg-id="lch3952" tvg-name="PE | 3$PN HD" tvg-logo="http://redworld.pro:8880/images/06f8b949029a4cf1f5b2021eed2e8159.png" group-title="⭐️ DEPORTE PERÚ",PE | 3$PN HD
@@ -1525,7 +1525,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/430211.m3u8
 #EXTINF:-1 tvg-id="lch2776" tvg-name="PE*| €SPN* 3 HD" tvg-logo="http://redworld.pro:8880/images/65b140dd9ebf0ec2b2a8c1565fa90080.png" group-title="⭐️ DEPORTE PERÚ",PE*| €SPN* 3 HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/443116.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="lch2202" tvg-name="PE| AMERICA TV HD OP1" tvg-logo="http://redworld.pro:8880/images/affe649311fe6469e061b0d802fb6a49.png" group-title="⭐️ PERU",PE| AMERICA TV HD OP1
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/428948.m3u8
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PE| AMERICA TV HD OP2" tvg-logo="http://redworld.pro:8880/images/affe649311fe6469e061b0d802fb6a49.png" group-title="⭐️ PERU",PE| AMERICA TV HD OP2
@@ -1633,7 +1633,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/453315.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PE| UTV Ucayali" tvg-logo="http://redworld.pro:8880/images/c6b5d100fe3243dc9f82837a5ff20ab9.jpg" group-title="⭐️ PERU",PE| UTV Ucayali
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/463894.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="CDFPremium.cl@SD" tvg-name="PREM CHI | HD OP1 (SOLO EVENTOS IMPORTANTES)" tvg-logo="http://redworld.pro:8880/images/68a464285551d64366caa7bd08231975.png" group-title="⚽ FÚTBOL CHILE",PREM CHI | HD OP1 (SOLO EVENTOS IMPORTANTES)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/430575.m3u8
 #EXTINF:-1 tvg-id="CDFPremium.cl@SD" tvg-name="PREMIER CHI | OP 2 SD" tvg-logo="http://redworld.pro:8880/images/a10f323208a182454a28c34c9766801c.png" group-title="⚽ FÚTBOL CHILE",PREMIER CHI | OP 2 SD
@@ -1645,7 +1645,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/430647.m3u8
 #EXTINF:-1 tvg-id="CDFBasico.cl@SD" tvg-name="FUT BASIC | HD OP2" tvg-logo="http://redworld.pro:8880/images/6118fd518aadc48c39ebbf4ca2c03da5.png" group-title="⚽ FÚTBOL CHILE",FUT BASIC | HD OP2
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/430648.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="CANAL 11"  GUATEMALA"CANAL 11" tvg-logo="http://redworld.pro:8880/images/1e216f0de32c66b15b6332513f96407c.png" group-title="⭐️ Guatemala",CANAL 11"  GUATEMALA"CANAL 11
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/432855.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="GT | TN23 # 1" tvg-logo="http://redworld.pro:8880/images/e35e732a5d376e0f1e4e6cd511793139.png" group-title="⭐️ Guatemala",GT | TN23 # 1
@@ -1707,7 +1707,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/457913.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="GT | TIGO SPORTS GUATEMALA" tvg-logo="http://redworld.pro:8880/images/91598feaf6addfd8ed2623fe7533db50.png" group-title="⭐️ Guatemala",GT | TIGO SPORTS GUATEMALA
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/526069.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="CO | W $ports + HD" tvg-logo="http://redworld.pro:8880/images/0d56f2f5a6609911ef0ca69a85ca7407.png" group-title="⭐️ Deporte Colombia",CO | W $ports + HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/437740.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CO | W $ports + OP2" tvg-logo="http://redworld.pro:8880/images/91999a30fad2cb63c9c4eee7d7fb3bdb.png" group-title="⭐️ Deporte Colombia",CO | W $ports + OP2
@@ -1717,7 +1717,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/437742.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CO | W $ports SD" tvg-logo="http://redworld.pro:8880/images/0d56f2f5a6609911ef0ca69a85ca7407.png" group-title="⭐️ Deporte Colombia",CO | W $ports SD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/437743.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="USA | NFL Red Zone" tvg-logo="http://redworld.pro:8880/images/25af13738da85e1474b6f2bc011254c7.jpeg" group-title="⭐️ NFL Exclusivo ⭐️ ",USA | NFL Red Zone
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/445614.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="USA | NFL Network" tvg-logo="http://redworld.pro:8880/images/25af13738da85e1474b6f2bc011254c7.jpeg" group-title="⭐️ NFL Exclusivo ⭐️ ",USA | NFL Network
@@ -1729,11 +1729,11 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/445618.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NFL NETWORK (US)" tvg-logo="https://i.picasion.com/pic91/64a403b0d5997b74286c6492e31fedd0.gif" group-title="⭐️ NFL Exclusivo ⭐️ ",NFL NETWORK (US)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/445619.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="Nba Tv HD" tvg-logo="https://yt3.ggpht.com/lwNmuM6cV_kH2dT408Q5HBdKCf7gKM2A7yh_cclROgG5urRy9qvfoSsUhkUZX94xH6rg9m4bAw=ns-nd" group-title="⭐️ NBA Exclusivo ⭐️",Nba Tv HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/447469.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="MX | Azteca Uno" tvg-logo="http://redworld.pro:8880/images/8aa1d04024621be3b0d02b02069f605d.png" group-title="⭐️ México",MX | Azteca Uno
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/448435.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MX | Azteca Uno Op2" tvg-logo="http://redworld.pro:8880/images/8aa1d04024621be3b0d02b02069f605d.png" group-title="⭐️ México",MX | Azteca Uno Op2
@@ -1797,7 +1797,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/448464.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TELEVISA PUEBLA" tvg-logo="http://goldfull.pro:8880/skycambio9@815233/ZBCkZ7vv3dxy/419070" group-title="⭐️ México",TELEVISA PUEBLA
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/448465.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="TIGO SPORTS" tvg-logo="https://play-lh.googleusercontent.com/kJzdzpsxJCkLswIZrC09fWZaen5cnGueDt4rtI5qbg-dcudz0-bd5s_TerqhGvmeKvg" group-title="⭐️ Futbol Paraguay",TIGO SPORTS
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/450153.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TIGO SPORTS LIGA PY" tvg-logo="https://play-lh.googleusercontent.com/kJzdzpsxJCkLswIZrC09fWZaen5cnGueDt4rtI5qbg-dcudz0-bd5s_TerqhGvmeKvg" group-title="⭐️ Futbol Paraguay",TIGO SPORTS LIGA PY
@@ -1805,7 +1805,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/450154.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TIGO SPORTS 3" tvg-logo="https://play-lh.googleusercontent.com/kJzdzpsxJCkLswIZrC09fWZaen5cnGueDt4rtI5qbg-dcudz0-bd5s_TerqhGvmeKvg" group-title="⭐️ Futbol Paraguay",TIGO SPORTS 3
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/450155.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="TERROR 1" tvg-logo="http://redworld.pro:8880/images/9032aac886da839fce94a5a4aba06058.png" group-title="",TERROR 1
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/356192.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TERROR 5" tvg-logo="http://redworld.pro:8880/images/9032aac886da839fce94a5a4aba06058.png" group-title="",TERROR 5
@@ -1817,7 +1817,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/524607.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SEÑAL (3) " tvg-logo="http://redworld.pro:8880/images/9a65300d2130239036d2370b7142aae0.png" group-title="",SEÑAL (3)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/524606.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="BOL : RED UNO LA PAZ HD." tvg-logo="http://dplatino.net:8080/images/a27f1e1b96028e41769df9d938f4488d.png" group-title="⭐️ Bolivia ",BOL : RED UNO LA PAZ HD.
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/464908.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BOL : RED UNO SANTA CRUZ HD." tvg-logo="http://dplatino.net:8080/images/a27f1e1b96028e41769df9d938f4488d.png" group-title="⭐️ Bolivia ",BOL : RED UNO SANTA CRUZ HD.
@@ -1909,7 +1909,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/464951.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BOL : RTP HD" tvg-logo="http://dplatino.net:8080/images/9fbf715aa1364491f61bf7a479ee9b93.png" group-title="⭐️ Bolivia ",BOL : RTP HD
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/464952.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="(ONLINE) EVENTOS DISNEY+ 1 (SOLO EVENTOS)" tvg-logo="http://redworld.pro:8880/images/36f5b35ed2ef399b76a6ced90c69e220.png" group-title="⭐ PPV Exclusivos Disney",(ONLINE) EVENTOS DISNEY+ 1 (SOLO EVENTOS)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/488959.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="(ONLINE) EVENTOS DISNEY+ 2 (SOLO EVENTOS)" tvg-logo="http://redworld.pro:8880/images/36f5b35ed2ef399b76a6ced90c69e220.png" group-title="⭐ PPV Exclusivos Disney",(ONLINE) EVENTOS DISNEY+ 2 (SOLO EVENTOS)
@@ -1931,7 +1931,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/488967.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="(ONLINE) EVENTOS DISNEY+ 10 (SOLO EVENTOS - REPLAY)" tvg-logo="http://super-plus.vip:80/images/e2D1pwgrZkfffmOnD30hRNStWO7f_5dgWJyxAz9tGel4dkWbaxmjmnpgb8EB7OSvYe_o7GQhahnC1DuumkSlNi8FGe4roPchxoVnyZttMag9p5WQ9zhEmNeirXRvJFeB72QfZHWNkyg_4RWVIYkbk6LN8VwGo0xrZ57Ygf7aNVFyNm7jukJxdZFdiXL9clrQ.png" group-title="⭐ PPV Exclusivos Disney",(ONLINE) EVENTOS DISNEY+ 10 (SOLO EVENTOS - REPLAY)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/488968.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="CR | Teletica 7 " tvg-logo="http://redworld.pro:8880/images/aa7753b36872cd299835880f126002d8.png" group-title="⭐️ COSTA RICA",CR | Teletica 7
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/490038.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CR | Teletica 7 " tvg-logo="http://redworld.pro:8880/images/aa7753b36872cd299835880f126002d8.png" group-title="⭐️ COSTA RICA",CR | Teletica 7
@@ -1989,7 +1989,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/490071.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CR | ZurquTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMZPsoBxWDWYaP59aELUi9ekudNOAONyN11Q&s" group-title="⭐️ COSTA RICA",CR | ZurquTV
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/490072.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="(OFFLINE) TELEMUNDO CHICAGO" tvg-logo="http://redworld.pro:8880/images/8d8ae6d0f2024418734c1561fa469870.jpg" group-title="⭐️ Telemundo - Univision - Galavision - Unimas y más ",(OFFLINE) TELEMUNDO CHICAGO
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/490412.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="(OFFLINE) TELEMUNDO MIAMI" tvg-logo="http://redworld.pro:8880/images/8d8ae6d0f2024418734c1561fa469870.jpg" group-title="⭐️ Telemundo - Univision - Galavision - Unimas y más ",(OFFLINE) TELEMUNDO MIAMI
@@ -2041,7 +2041,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/490435.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="(OFFLINE) TELEMUNDO 48" tvg-logo="http://redworld.pro:8880/images/8d8ae6d0f2024418734c1561fa469870.jpg" group-title="⭐️ Telemundo - Univision - Galavision - Unimas y más ",(OFFLINE) TELEMUNDO 48
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/490436.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="TN NOTICIAS" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",TN NOTICIAS
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/490437.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ARG | CANAL 26 HD" tvg-logo="http://redworld.pro:8880/images/810cc28538dad9335756506f03410daa.jpg" group-title="⭐️ Argentina",ARG | CANAL 26 HD
@@ -2113,7 +2113,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/490476.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AR | Multivision" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",AR | Multivision
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/490477.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="CR | ¥!GO SPORT SD⭐" tvg-logo="http://redworld.pro:8880/images/943db2673ac22362004d0ccd79aa42ab.png" group-title="⭐️ DEPORTE COSTA RICA",CR | ¥!GO SPORT SD⭐
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/502879.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CR | 01 • TD + 1" tvg-logo="http://redworld.pro:8880/images/5e0826dbb3d1224bc40a413a29c145ab.png" group-title="⭐️ DEPORTE COSTA RICA",CR | 01 • TD + 1
@@ -2131,7 +2131,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/521905.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CR | 03 • FUTV" tvg-logo="http://redworld.pro:8880/images/5f5bb1ab2bad8bd6d3954eeda0f8d145.png" group-title="⭐️ DEPORTE COSTA RICA",CR | 03 • FUTV
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/521906.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="PY | TELEFUTURO HD*" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/Telefuturo2010.png" group-title="⭐️ Paraguay",PY | TELEFUTURO HD*
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/502897.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PY | TELEFUTURO HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/Telefuturo2010.png" group-title="⭐️ Paraguay",PY | TELEFUTURO HD
@@ -2169,7 +2169,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/502913.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="T1g0 Paraguay" tvg-logo="http://redworld.pro:8880/images/4e857dbb0536c796bf70deb3396b5908.jpeg" group-title="⭐️ Paraguay",T1g0 Paraguay
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/502914.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="VZNEZOLANA DE TELEVISION" tvg-logo="http://super-plus.vip:80/images/edcyjLVXbWGVuZHTJz4So_BwPRQO-WM-5rM8WBuzF-3xyXrFs1xze-nxpmQZW1xdGxZQBjjQGXFHABf9nXlitQ.png" group-title="⭐️ Venezuela ",VZNEZOLANA DE TELEVISION
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/505011.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Vepaco Tv" tvg-logo="http://super-plus.vip:80/images/0slmwZF-kyR7XcJAk8EcBeGDXQJFMImlL3FbBzbwEvh1QXliO-1-MS0sjjaEokbCXHCH3KN_bfGRaNxUXXold541mU49ujjRuWng4gFxWehy_8Z-EEfcLuGwrrxZebC8mC3t2hQXo1i8cOjYjR_www.png" group-title="⭐️ Venezuela ",Vepaco Tv
@@ -2225,7 +2225,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/505036.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TVS (720p)" tvg-logo="http://super-plus.vip:80/images/4ED5wTO4lvSM0T4i4gHYtYxjYvuEw_Vh0yk5RkfqdX1dukyOjjpcz2lczjsR96X4P7Tgq7ljvATs7jCbS9DuWcmBQ8upYewJTVn9rk2LrFY.png" group-title="⭐️ Venezuela ",TVS (720p)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/505037.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="CNN En Español" tvg-logo="http://redworld.pro:8880/images/0e0ab4b1c8a2fd5e40510a12eeaca2f8.png" group-title="⭐️ Noticias",CNN En Español
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/518524.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CNN MX" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Noticias",CNN MX
@@ -2245,7 +2245,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/518532.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MSNBC" tvg-logo="http://redworld.pro:8880/images/de0dc03fadc198648f0cf43af1d6ca17.png" group-title="⭐️ Noticias",MSNBC
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/518533.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="V Classic TV" tvg-logo="http://redworld.pro:8880/images/fde37b112f650b60f999ddddfd41ff9e.png" group-title="⭐️ Musica",V Classic TV
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/520915.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Solo Bailalo" tvg-logo="http://redworld.pro:8880/images/090afbcb358eeb6aa5eb8c8faa050e40.png" group-title="⭐️ Musica",Solo Bailalo
@@ -2307,7 +2307,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/520943.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MU | Mix TV" tvg-logo="http://redworld.pro:8880/images/231621167005443ec5577ce1a9f41e53.png" group-title="⭐️ Musica",MU | Mix TV
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/520944.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="TYG⚽ SP⚽RTS 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxHVJXgGpZLRA3zQOhigAyMa4810ffW9SwtA&s" group-title="⭐️ Deporte Bolivia",TYG⚽ SP⚽RTS 1
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/521029.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TYG⚽ SP⚽RTS 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxHVJXgGpZLRA3zQOhigAyMa4810ffW9SwtA&s" group-title="⭐️ Deporte Bolivia",TYG⚽ SP⚽RTS 3
@@ -2317,7 +2317,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/521031.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fútbol canal" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052025/captura_de_pantalla_2025-05-22_a_las_08.54.56.png?Lk9DzFwQLqwVC2fDXClOYwKIN5c9_Sl1&itok=fhqGLoJO" group-title="⭐️ Deporte Bolivia",Fútbol canal
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/521032.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="SV | CANAL 10" tvg-logo="http://redworld.pro:8880/images/cd6a352a8383b27243e5422bc15abc7f.png" group-title="⭐️ El Salvador ",SV | CANAL 10
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/525748.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SALVADOR  | CANAL 6 SD" tvg-logo="http://redworld.pro:8880/images/c14e5eb4e72573f6b5d3630100dfb6de.png" group-title="⭐️ El Salvador ",SALVADOR  | CANAL 6 SD
@@ -2339,7 +2339,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/525756.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SALVADOR | CANAL 2" tvg-logo="http://redworld.pro:8880/images/4a9e6d6d15039a36e74c613a041223ef.png" group-title="⭐️ El Salvador ",SALVADOR | CANAL 2
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/525757.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="SEÑAL EXCLUSIVA (1) (Recomendada)" tvg-logo="http://redworld.pro:8880/images/58b00b16946efc06c4add4cbee991ddb.png" group-title="⭐️ COPA MUNDIAL 2026 11/06 ⭐️",SEÑAL EXCLUSIVA (1) (Recomendada)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/526169.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SEÑAL EXCLUSIVA (2) (Recomendada)" tvg-logo="http://redworld.pro:8880/images/58b00b16946efc06c4add4cbee991ddb.png" group-title="⭐️ COPA MUNDIAL 2026 11/06 ⭐️",SEÑAL EXCLUSIVA (2) (Recomendada)
@@ -2347,7 +2347,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/526170.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SEÑAL EXCLUSIVA (3) (Recomendada)" tvg-logo="http://redworld.pro:8880/images/58b00b16946efc06c4add4cbee991ddb.png" group-title="⭐️ COPA MUNDIAL 2026 11/06 ⭐️",SEÑAL EXCLUSIVA (3) (Recomendada)
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/527938.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="24/7 - Merlina" tvg-logo="https://i0.wp.com/tomatazos.buscafs.com/2022/09/Merlina-T1-Poster.jpg?fit=864,1080&quality=75&strip=all" group-title="✅ 24/7 VIP",24/7 - Merlina
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/526322.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7 - Super Mario Bros 3" tvg-logo="http://redworld.pro:8880/images/a6682d7cbfa39a280646813475147d17.jpg" group-title="✅ 24/7 VIP",24/7 - Super Mario Bros 3
@@ -2861,7 +2861,7 @@ http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/526578.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7 Los jóvenes titanes" tvg-logo="http://redworld.pro:8880/images/357b528604ae6329ab73c11399c2c312.jpg" group-title="✅ 24/7 VIP",24/7 Los jóvenes titanes
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/526579.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="" tvg-name="⭐️ SEÑAL 1" tvg-logo="http://redworld.pro:8880/images/c8e7a6a4e47e499e60e09efbf6347eee.png" group-title="⭐ AMISTOSOS INTERNACIONALES ⭐",⭐️ SEÑAL 1
 http://rlatinop.com:8880/live/Leonel/QDSZYPVqyHEX/532645.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="⭐️ SEÑAL 2" tvg-logo="http://redworld.pro:8880/images/c8e7a6a4e47e499e60e09efbf6347eee.png" group-title="⭐ AMISTOSOS INTERNACIONALES ⭐",⭐️ SEÑAL 2
